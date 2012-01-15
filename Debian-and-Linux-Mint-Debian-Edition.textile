@@ -92,9 +92,7 @@ Experimental is not a standalone release. If you want to use packages from exper
   deb http://ftp.debian.org/debian/ experimental main contrib non-free
 ```
 
-bq. Users shouldn't be using packages from here, because they can be dangerous and harmful even for the most experienced people."
-
-You have been warned
+bq. Users shouldn't be using packages from here, because they can be dangerous and harmful even for the most experienced people."  You have been warned
 
 * if you like experimenting, learning and can afford a breakage now and then (with the consequent downtime it brings) sid is a great school 
 
