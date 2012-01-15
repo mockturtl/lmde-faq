@@ -1,0 +1,36 @@
+h2{color:red}. *SECTION TWO - QUESTIONS & ANSWERS*
+
+h3{color:red}. How is security handled in LMDE?
+
+* if security is THE most important value for you, then you probably shouldn't be using LMDE/debian testing/sid (stable is your answer)
+* "debian testing security team":http://secure-testing-master.debian.net/ is responsible for:
+
+bq.. The team is providing security support for Debian's testing branch by
+
+writing patches and doing "NMUs":http://wiki.debian.org/NonMaintainerUpload to unstable as necessary
+tracking the fixed packages and working with the Debian Release Managers to make sure fixes reach testing quickly
+if this process is too slow, providing fixed packages built against testing in the testing-security apt repository:
+
+```sources.list
+  deb http://security.debian.org testing/updates main contrib non-free
+  deb-src http://security.debian.org testing/updates main contrib non-free
+```
+
+However, the majority of security fixes reach testing by migration from unstable. (more about NMUs "here":http://www.debian.org/doc/manuals/developers-reference/pkgs.html#nmu and "here":http://wiki.debian.org/LowThresholdNmu).
+
+p. 
+* as you can see above only as a last resort the security fixes are pulled down though security.debian.org and only for debian main (contrib and non-free are not supported by the security team)
+
+bq. Contrib and non-free aren't official parts of the Debian Distribution and are not released, and thus not supported by the security team. Some non-free packages are distributed without source or without a license allowing the distribution of modified versions. In those cases no security fixes can be made at all. If it is possible to fix the problem, and the package maintainer or someone else provides correct updated packages, then the security team will generally process them and release an advisory.
+
+* sid has no security team:
+
+bq. Unstable is a rapidly moving target and the security team does not have the resources needed to properly support it.
+
+* "some more reading":http://www.debian.org/security/faq
+
+h3{color:red}. Can i use PPA's in LMDE?
+
+* short answer: no, it will break your debian installation;
+* long answer: it's your system, you do with it what you want, if you break it, "you keep the pieces, we laugh at you"; but you were warned: PPA's are ubuntu-specific repos and more often than not you will find hidden incompatibilities "as happens with others ubuntu libs":http://forums.linuxmint.com/viewtopic.php?f=198&t=67502&p=482881&hilit=libpixman#p482881
+* even knowing this you want/need a random PPA? fine! we expect from you to know how to manually add an entry to your sources.list.

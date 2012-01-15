@@ -1,0 +1,9 @@
+h3. mockturtl, 2012-01-14
+* converted "forum thread":http://forums.linuxmint.com/viewtopic.php?f=197&t=91405 from BBcode
+
+***
+
+h3. zerozero, 2012-01-13
+* added debian weather
+* in Q1 added links to better explain NMUs
+* added Q2

@@ -1,0 +1,178 @@
+h2{color:red}. *SECTION ONE - DEBIAN AND LINUX MINT DEBIAN EDITION*
+
+h3{color:red}. "Debian":http://www.debian.org/ has three releases at any given time:
+
+* "stable":http://www.debian.org/releases/stable/
+* "testing":http://www.debian.org/releases/testing/
+* "sid":http://www.debian.org/releases/sid/
+** "experimental":http://wiki.debian.org/DebianExperimental
+
+
+h4{color:red}. "stable":http://wiki.debian.org/DebianStable
+
+Currently debian 6.0 codenamed squeeze, released in 06/fev/2011 ("and with a new release every two years":http://www.debian.org/News/2009/20090729); because of this long release cycle the pkgs in stable can and will be quickly outdated, but stable is the *most solid OS(operating system)* you can have installed:
+
+bq. Understand that the job of Debian is, and always has been, *to produce Stable*. +The other releases are means to that end+. You may find the other releases perfectly usable for whatever use you have for them. Great. That wouldn't be much of a surprise to any longtime Debian user. Many users, including (of course) Debian Developers use them routinely.
+
+bq. _3.1.3 The stable distributions really contains outdated packages. Just look at Kde, Gnome, Xorg or even the kernel. They are very old. Why is it so?_
+
+Well, you might be correct. The age of the packages at stable depends on when the last release was made. Since there is typically over 1 year between releases you might find that stable contains old versions of packages. However, they have been tested in and out. *One can confidently say that the packages do not have any known severe bugs, security holes etc., in them. The packages in stable integrate seamlessly with other stable packages*. These characteristics are very important for production servers which have to work 24 hours a day, 7 days a week.
+
+*On the other hand, packages in testing or unstable can have hidden bugs, security holes etc., Moreover, some packages in testing and unstable might not be working as intended.* Usually people working on a single desktop prefer having the latest and most modern set of packages. Unstable is the solution for this group of people.
+
+As you can see, *stability and novelty are two opposing ends of the spectrum.* If stability is required: install stable distribution. If you want to work with the latest packages, then install unstable.
+
+bq. If security or stability are at all important for you: install stable. period. This is the most preferred way.
+
+* to solve the quick aging of stable you can use "backports":http://backports-master.debian.org/
+
+bq. Backports are recompiled packages from testing (mostly) and unstable (in a few cases only, e.g. security updates) in a stable environment so that they will run without new libraries (whenever it is possible) on a Debian stable distribution. It is recommended to select single backports which fit your needs, and not to use all available backports.
+
+* LifeInTheGrey has "here":http://community.linuxmint.com/tutorial/view/497 a very comprehensive howto to use LMDE with stable repos.
+- sources.list for a stable+backport system
+
+```sources.list
+  deb http://packages.linuxmint.com/ debian main upstream import
+  deb http://ftp.us.debian.org/debian/ squeeze main contrib non-free
+  deb http://security.debian.org/ squeeze/updates main contrib non-free
+  deb http://www.debian-multimedia.org squeeze main non-free
+  deb http://backports.debian.org/debian-backports squeeze-backports main contrib non-free
+```
+
+h4{color:red}. "testing":http://www.debian.org/devel/testing
+
+Testing (upon which LMDE is based) is where debian tests and builds the next stable release
+
+bq. The "testing" distribution is an automatically generated distribution. It is generated from the "unstable" distribution by a set of scripts which attempt to move over packages which are +reasonably likely to lack release-critical bugs.+ They do so in a way that ensures that dependencies of other packages in testing are always satisfiable.
+
+* testing is the development branch from where the next stable release will come;
+* as so, it's also known by the codename of the next stable release *wheezy* (what will become debian 7)
+* testing is not a fully "rolling release":http://en.wikipedia.org/wiki/Rolling_release -- it rolls for about one and a half year until the "deep freeze":http://www.debian.org/News/2010/20100806, 
+* this means that at a given time debian decides to freeze their development branch and for about 6 months concentrate in squashing bugs, so that the new stable release would be as solid as possible;
+* when LMDE came out (in september 2010) testing was in deepfreeze preparing debian 6, the same will happen from june/2012 until fev (more or less)/2013 when debian 7 is due
+
+
+bq. However, we had to make a decision, and have picked on June 2012 as the current proposed freeze date for the next release. [...] Note the above: we hope to FREEZE IN JUNE 2012. 
+
+"here":http://lists.debian.org/debian-devel-announce/2011/06/msg00003.html
+
+
+* testing is *not* about bleeding-edge software (the apps can be fairly updated but hardly will be the latest & greatest)
+
+
+h4{color:red}. "sid aka unstable":http://wiki.debian.org/DebianUnstable
+
+This is the true debian rolling release; sid will never be released, it will be always in permanent development, it's from there that (once certain criteria are met) the pkgs migrate to testing and then build (when the right time is due) the next stable release.
+
+* due to its unpredictable nature, there's a few good practices to keep when running a sid-based system:
+
+bq.. The most important thing is to keep in mind that you are participating in the development of Debian when you are tracking testing or unstable. This means that you should know your way around Linux, Debian and the Debian packaging system and that you should have an interest in tracking down and fixing bugs. There are a couple of things you can do in order to ease your life as a sid user such as:
+
+Always be careful when you perform updates and check if the actions proposed by the package managing tools are in line with your wishes and expectations. (i.e. make sure that you do not remove a plethora of packages you need by blindly accepting the proposed action)
+
+Install the apt-listbugs and apt-listchanges packages in order to be made aware of grave bugs or important changes when you install new packages or during an upgrade.
+
+Keep a good live CD/USB such as Debian Live around at all times so you can still work on the system even if it is not booting anymore.  Automatically create daily, weekly and monthly backups in order to ensure that corrupted data is not a problem.
+
+p. "apt-listbugs":http://packages.debian.org/sid/apt-listbugs is a tool that might make your life easier if you are running sid (it's also handy in testing of course) "youtube tutorial here":http://www.youtube.com/watch?v=uwAaELRQxeI
+
+bq. apt-listbugs is a tool which retrieves bug reports from the Debian Bug Tracking System and lists them. Especially, it is intended to be invoked before each upgrade/installation by apt in order to check whether the upgrade/installation is safe.
+
+* lmde pointing at sid should have these repos:
+
+```sources.list
+  deb http://packages.linuxmint.com/ debian main upstream import backport romeo
+  deb http://ftp.debian.org/debian unstable main contrib non-free
+  deb http://www.debian-multimedia.org sid main non-free
+```
+
+h5{color:red}. "experimental":http://wiki.debian.org/DebianExperimental#Introduction
+
+Experimental is not a standalone release. If you want to use packages from experimental you first have to install 'Sid' and then add the 'Experimental' line to /etc/apt/sources.list - then upgrade" (but with extra care, if sid *can* break, experimental *will* break for sure)
+
+```sources.list
+  deb http://ftp.debian.org/debian/ experimental main contrib non-free
+```
+
+bq. Users shouldn't be using packages from here, because they can be dangerous and harmful even for the most experienced people."
+
+You have been warned
+
+* if you like experimenting, learning and can afford a breakage now and then (with the consequent downtime it brings) sid is a great school 
+
+
+h3{color:red}. Linux Mint Debian Edition (LMDE)
+
+LMDE "was released on the 7th sept 2010":http://blog.linuxmint.com/?p=1527 at the time based off directly of debian testing;
+
+* this was/is for many users the real LMDE; the one that is closer (in direct sync) with testing.
+* when debian 6 was released and the new cycle began things became interesting and in order to cope with possible breakages "we organized this thread":http://forums.linuxmint.com/viewtopic.php?f=198&t=67502&hilit=+testing
+* if i may a personal opinion, lmde is a great linux school, the only reason i'm still using a gtk-based distro;
+* the original repos (and the ones that track directly testing) are:
+
+```sources.list
+  deb http://packages.linuxmint.com/ debian main upstream import backport romeo
+  deb http://ftp.debian.org/debian testing main contrib non-free
+  deb http://security.debian.org/ testing/updates main contrib non-free
+  deb http://www.debian-multimedia.org testing main non-free
+```
+
+h3{color:red}. "Update Packs (UP)":http://blog.linuxmint.com/?p=1781
+
+In July 2011 the Mint Team decided to introduce the notion of UP in LMDE.
+
+bq. By changing your APT sources and replacing Debian Testing with the Linux Mint Debian Latest repository, you basically point to a Debian Testing that is frozen in time and updated once a month. By the time the next batch of updates becomes available to you, the Linux Mint team has had time to adjust packages in the Linux Mint repository and to document the information you need to go through a safe and easy update.
+
+* basically the question was: the way lmde was structured until then (pointing directly at testing) was making life hard for the less experienced users, so the Mint Team decided to mirror the debian testing repos and release point-updates with "stable" and documented packs.
+* to help debugging those updates were created +incoming+ and +latest+: basically these repos are identical, but incoming is updated a few days/a week before latest to test the UP and then it will migrate from incoming to latest:
+
+bq. To facilitate this process, we’re opening another repository called “Incoming”, which is downstream from Debian Testing and upstream from “Latest”. In other words, we first update the “Incoming” repository. We test things out and we gather information from people using the “Incoming” repositories. And when we’re happy with the state of things, we point the “Latest” archive to the “Incoming” one.
+
+* latest repos:
+
+```sources.list
+  deb http://packages.linuxmint.com/ debian main upstream import
+  deb http://debian.linuxmint.com/latest testing main contrib non-free
+  deb http://debian.linuxmint.com/latest/security testing/updates main contrib non-free
+  deb http://debian.linuxmint.com/latest/multimedia testing main non-free
+```
+
+* incoming repos:
+
+```sources.list
+  deb http://packages.linuxmint.com/ debian main upstream import
+  deb http://debian.linuxmint.com/incoming testing main contrib non-free
+  deb http://debian.linuxmint.com/incoming/security testing/updates main contrib non-free
+  deb http://debian.linuxmint.com/incoming/multimedia testing main non-free
+```
+
+* "with the release of the 201109 respin":http://blog.linuxmint.com/?p=1818 UP and latest repos are the default in LMDE, anyway *before update your system with those iso's you should check "this topic and correct the sources.list according":http://forums.linuxmint.com/viewtopic.php?f=185&t=82346
+
+
+h3{color:red}. Fundamental tools to use with LMDE
+
+(especially if tracking testing or sid)
+
+h4{color:red}. Clonezilla
+
+Almost a must.  A little clumzy to first learn, but actually very easy to use after the very first time.
+
+"a nice tutorial here":http://geekyprojects.com/cloning/how-to-use-clonezilla-tutorial/
+"youtube tutorial":http://www.youtube.com/watch?v=Zz8iUzV0oMk
+
+h4{color:red}. Gparted
+
+"tutorial":http://www.dedoimedo.com/computers/gparted.html
+"youtube tutorial":http://www.youtube.com/watch?v=bb54TsYI6UA
+
+
+h4{color:red}. SMXI
+
+Especially helpful with video drivers
+
+[[http://smxi.org/site/install.htm]]
+
+
+h4{color:red}. "debian weather":http://edos.debian.net/weather/
+
+bq. The "weather" of a given Debian-based distribution is an indication of how safe it is on a given day to attempt some package installation/upgrade. A "bad day" is a day in which a sensible percentage of that distribution repository is not installable due to unsatisfiable inter-package dependencies.

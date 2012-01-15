@@ -1,0 +1,20 @@
+This is a web interface for a collection of pages (text files) in a wiki.  
+
+h2. Table of Contents
+
+# [[Debian and Linux Mint Debian Edition]]
+# [[Questions and Answers]]
+
+h2. About
+
+h3. "gollum":https://github.com/github/gollum
+
+*Gollum* combines a lightweight, git-aware webserver with a text processor to generate HTML from more lightweight, easy-to-read markup languages like "markdown":http://github.github.com/github-flavored-markdown/ and "textile":http://redcloth.org/textile.
+
+A read-only version, "smeagol":https://github.com/rubyworks/smeagol, removes the edit functionality and would be suitable for hosting.
+
+Language-specific cheat sheets are available in edit mode, via the "?" button.
+
+Gollum seems to have trouble saving markdown files.  I guess some dependencies might be out of date.
+
+Files can, of course, be edited locally by cloning the git repository.  Changes must be committed before gollum will pick them up.
