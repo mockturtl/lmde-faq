@@ -142,7 +142,7 @@ bq. To facilitate this process, we’re opening another repository called “Inc
   deb http://debian.linuxmint.com/incoming/multimedia testing main non-free
 ```
 
-* "with the release of the 201109 respin":http://blog.linuxmint.com/?p=1818 UP and latest repos are the default in LMDE, anyway *before update your system with those iso's you should check "this topic and correct the sources.list according":http://forums.linuxmint.com/viewtopic.php?f=185&t=82346
+* "with the release of the 201109 respin":http://blog.linuxmint.com/?p=1818 UP and latest repos are the default in LMDE, anyway *before update your system with those iso's you should check "this topic and correct the sources.list according":http://forums.linuxmint.com/viewtopic.php?f=185&t=82346*
 
 
 h3{color:red}. Fundamental tools to use with LMDE
