@@ -20,3 +20,11 @@ Language-specific cheat sheets are available in edit mode, via the "?" button.
 Gollum seems to have trouble saving markdown files.  I guess some dependencies might be out of date.
 
 Files can, of course, be edited locally by cloning the git repository.  Changes must be committed before gollum will pick them up.
+
+h3. "pygments":http://pygments.org/docs/lexers/
+
+Source-code highlighting.
+
+h3. "pandoc":https://github.com/jgm/pandoc/wiki/Pandoc-vs-Multimarkdown
+
+Translate one markup syntax to another.
