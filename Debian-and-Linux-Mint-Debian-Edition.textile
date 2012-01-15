@@ -52,9 +52,7 @@ bq. The "testing" distribution is an automatically generated distribution. It is
 * when LMDE came out (in september 2010) testing was in deepfreeze preparing debian 6, the same will happen from june/2012 until fev (more or less)/2013 when debian 7 is due
 
 
-bq. However, we had to make a decision, and have picked on June 2012 as the current proposed freeze date for the next release. [...] Note the above: we hope to FREEZE IN JUNE 2012. 
-
-"here":http://lists.debian.org/debian-devel-announce/2011/06/msg00003.html
+bq. However, we had to make a decision, and have picked on June 2012 as the current proposed freeze date for the next release. [...] Note the above: we hope to FREEZE IN JUNE 2012. "here":http://lists.debian.org/debian-devel-announce/2011/06/msg00003.html
 
 
 * testing is *not* about bleeding-edge software (the apps can be fairly updated but hardly will be the latest & greatest)
