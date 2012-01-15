@@ -4,11 +4,13 @@ The [LMDE FAQ](http://forums.linuxmint.com/viewtopic.php?f=197&t=91405).
 
 ## testing ##
 
+Requires a [ruby environment](http://beginrescueend.com/rvm/install/).  
+
 Run gollum locally, or [generate a local site](https://github.com/dreverri/gollum-site#readme) with 
 
-```ruby
-bundle
-bundle exec gollum-site generate
+```bash
+$ bundle
+$ bundle exec gollum-site generate
 ```
 
 ##### credits #####
