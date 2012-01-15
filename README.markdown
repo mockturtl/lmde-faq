@@ -1,6 +1,6 @@
 # lmde-faq #
 
-The [LMDE FAQ](http://forums.linuxmint.com/viewtopic.php?f=197&t=91405).
+The [LMDE FAQ](http://forums.linuxmint.com/viewtopic.php?f=197&t=91405) by zerozero.
 
 ## testing ##
 
@@ -15,4 +15,4 @@ $ bundle exec gollum-site generate
 
 ##### credits #####
 
-Special thanks to zerozero.
+Special thanks to all the forum members for contributing.
