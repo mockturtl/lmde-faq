@@ -1,5 +1,7 @@
 This is a web interface for a collection of pages (text files) in a wiki.  
 
+"Fork me on github!":https://github.com/mockturtl/lmde-faq
+
 h2. Table of Contents
 
 # [[Debian and Linux Mint Debian Edition]]
