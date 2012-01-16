@@ -2,6 +2,8 @@ source "http://rubygems.org"
 
 gem 'gollum'
 
+gem 'grit', :git => "git://github.com/mojombo/grit.git", :ref => "593f6cae46"
+
 # formats
 gem 'creole'
 gem 'redcarpet'

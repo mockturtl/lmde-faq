@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/mojombo/grit.git
+  revision: 593f6cae465aa6d4b089cede8dc0cd8c4b5fe6cc
+  ref: 593f6cae46
+  specs:
+    grit (2.4.1)
+      diff-lcs (~> 1.1)
+      mime-types (~> 1.15)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -24,9 +33,6 @@ GEM
       gollum (>= 1.2.0)
       liquid (>= 2.2.2)
       mixlib-log (>= 1.1.0)
-    grit (2.4.1)
-      diff-lcs (~> 1.1)
-      mime-types (~> 1.15)
     liquid (2.3.0)
     mime-types (1.17.2)
     mixlib-log (1.3.0)
@@ -57,5 +63,6 @@ DEPENDENCIES
   directory_watcher
   gollum
   gollum-site
+  grit!
   redcarpet
   wikicloth
