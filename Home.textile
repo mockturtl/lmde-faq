@@ -7,6 +7,10 @@ h2. Table of Contents
 # [[Debian and Linux Mint Debian Edition]]
 # [[Questions and Answers]]
 
+h3. 
+
+[[Changelog]]
+
 h2. About
 
 h3. "gollum":https://github.com/github/gollum
