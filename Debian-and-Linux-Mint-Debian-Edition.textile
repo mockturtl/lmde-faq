@@ -172,5 +172,3 @@ Especially helpful with video drivers
 h4{color:red}. "debian weather":http://edos.debian.net/weather/
 
 bq. The "weather" of a given Debian-based distribution is an indication of how safe it is on a given day to attempt some package installation/upgrade. A "bad day" is a day in which a sensible percentage of that distribution repository is not installable due to unsatisfiable inter-package dependencies.
-
-äöüß
