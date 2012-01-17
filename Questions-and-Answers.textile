@@ -34,3 +34,20 @@ h3{color:red}. Can i use PPA's in LMDE?
 * short answer: no, it will break your debian installation;
 * long answer: it's your system, you do with it what you want, if you break it, "you keep the pieces, we laugh at you"; but you were warned: PPA's are ubuntu-specific repos and more often than not you will find hidden incompatibilities "as happens with others ubuntu libs":http://forums.linuxmint.com/viewtopic.php?f=198&t=67502&p=482881&hilit=libpixman#p482881
 * even knowing this you want/need a random PPA? fine! we expect from you to know how to manually add an entry to your sources.list.
+
+h3{color:red}. Why are my applications not the latest possible version?
+
+* let's assume (for the sake of this answer) that's there's nothing wrong with your sources.list (check above to see if your repos are correct)
+* if you are using latest or incoming there's a buffer between your UP and testing "see":http://blog.linuxmint.com/?p=1781, that buffer can be longer or shorter, leading to a lag compared to testing.
+* if you are using testing, you might find out that not always you have the latest v. available, it's not surprising if you look at the requirements for the the pkgs migration from sid to testing:
+
+bq.. A package is installed into the testing dist from DebianUnstable automatically when a list of requirements is fulfilled:
+
+The package is at least 10 days old.
+The package has been built for all the architectures which the present version in testing was built for.
+Installing the package into testing will not make the distribution more uninstallable.
+The package does not introduce new release critical bugs. "here":http://wiki.debian.org/DebianTesting
+
+p. 
+* the newest pkgs arrive on sid or experimental and from there down to testing (after the high debian requirements are fulfilled)
+* but if you look at "this":http://www.debian.org/doc/manuals/maint-guide/start.en.html and "this":http://www.debian.org/doc/manuals/maint-guide/first.en.html we easily see that it takes more than being a good hacker and have a great app to have the latest&greatest available in debian's ftp's.
