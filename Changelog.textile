@@ -1,3 +1,8 @@
+h3. mockturtl, 2012-01-30
+* added "Printers":Printers
+
+***
+
 h3. zerozero, 2012-01-16
 * added info to "debian weather"
 * added Q3
