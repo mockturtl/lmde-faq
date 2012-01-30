@@ -6,6 +6,7 @@ h2. Table of Contents
 
 # [[Debian and Linux Mint Debian Edition]]
 # [[Questions and Answers]]
+# [[Printers]]
 
 h3. 
 
@@ -20,8 +21,6 @@ h3. "gollum":https://github.com/github/gollum
 A read-only version, "smeagol":https://github.com/rubyworks/smeagol, removes the edit functionality and would be suitable for hosting.
 
 Language-specific cheat sheets are available in edit mode, via the "?" button.
-
-Gollum seems to have trouble saving new files.  I guess some dependencies might be out of date.
 
 Files can, of course, be edited locally by cloning the git repository.  Changes must be committed before gollum will pick them up.
 
