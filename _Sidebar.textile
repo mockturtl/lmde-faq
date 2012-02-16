@@ -5,3 +5,5 @@ h2. Table of Contents
 # [[Printers]]
 # [[Browsers]]
 # [[Email]]
+
+[[Home]]

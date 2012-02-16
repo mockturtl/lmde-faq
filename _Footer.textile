@@ -1,1 +1,3 @@
-Foot foot.
+The "LMDE FAQ":https://github.com/mockturtl/lmde-faq by zerozero.
+
+[[voluntary.png|float|width=30px|height=30px]] Copy copy copy lorem ipsum lorem ipsum.
