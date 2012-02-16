@@ -1,3 +1,3 @@
 h2. "[[voluntary.png|width=35px|height=35px]]":http://en.wikipedia.org/wiki/Voluntaryism Voluntary License
 
-p=. This work is an expression of its authors' individual values.  Its use or adaptation by any institution funded through taxation, in whole or in part, is to be understood by such an entity as a violation of the authors' legal copyright.  All other entities are encouraged to copy, distribute and adapt the work.  Wherever an extra-legal system of dispute resolution exists, commercial use is encouraged.  
+p((((. This work is an expression of its authors' individual values.  Its use or adaptation by any institution funded through taxation, in whole or in part, is to be understood by such an entity as a violation of the authors' legal copyright.  All other entities are encouraged to copy, distribute and adapt the work.  Wherever an extra-legal system of dispute resolution exists, commercial use is encouraged.  
