@@ -1,4 +1,4 @@
-p. "[[voluntary.png|float|width=40px|height=40px]]":http://en.wikipedia.org/wiki/Voluntaryism h2.*Voluntary License*
+h2. "[[voluntary.png|float|width=40px|height=40px]]":http://en.wikipedia.org/wiki/Voluntaryism *Voluntary License*
 
 This work is an expression of its authors' individual values.  Its use or adaptation by any institution funded through taxation, in whole or in part, is to be understood by such an entity as a violation of the authors' legal copyright.  
 
