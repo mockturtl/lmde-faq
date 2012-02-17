@@ -46,7 +46,7 @@ Chromium is available in the debian repositories.
 
 Chrome creates an entry in `/etc/apt/sources.list.d/` and uses APT to keep itself updated from google's repository.
 
-## Opera ##
+## ![Opera][img-opera] Opera ##
 
 ### [Latest][opera-pts] ###
 
@@ -68,6 +68,7 @@ Opera is available in the linuxmint repositories.
 [chrome-x86-dev]: http://www.google.com/chrome/intl/en/eula_dev.html?dl=unstable_i386_deb
 [chrome-amd64-dev]: http://www.google.com/chrome/intl/en/eula_dev.html?dl=unstable_amd64_deb
 
-[img-firefox]: https://static-ssl-cdn.addons.mozilla.net/media/img/app-icons/med/firefox.png "Mozilla Firefox"
-[img-chrome]: http://www.chromium.org/_/rsrc/1302286290899/chromium-projects/chrome-32.png "Google Chrome"
-[img-chromium]: http://www.chromium.org/_/rsrc/1302286216006/config/customLogo.gif "Chromium"
+[img-firefox]: firefox.png "Mozilla Firefox"
+[img-chrome]: google-chrome.png "Google Chrome"
+[img-chromium]: chromium-browser.png "Chromium"
+[img-opera]: opera.png "Opera"
