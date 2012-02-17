@@ -7,5 +7,6 @@ h2. Contents
 # [[Email]]
 # [[Messaging]]
 # [[File sharing]]
+# [[Images]]
 
 [[Home]]
