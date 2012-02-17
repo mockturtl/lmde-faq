@@ -44,7 +44,7 @@ Chromium is available in the debian repositories.
 
 `sudo dpkg -i path/to/downloaded/file.deb`
 
-Chrome creates an entry in `/etc/apt/sources.list.d/`, using `apt` to keep itself updated from google's repository.
+Chrome creates an entry in `/etc/apt/sources.list.d/` and uses APT to keep itself updated from google's repository.
 
 ## Opera ##
 
@@ -55,6 +55,7 @@ Chrome creates an entry in `/etc/apt/sources.list.d/`, using `apt` to keep itsel
 `apt install opera`
 
 Opera is available in the linuxmint repositories.
+
 
 [firefox-x86-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-i686/en-US/
 [firefox-amd64-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-x86_64/en-US/
