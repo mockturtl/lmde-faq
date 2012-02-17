@@ -46,5 +46,6 @@ Server: `irc.spotchat.org`
 Favorite channels: `#mintcast,#linuxmint-chat,#linuxmint-help,#linuxmint-debian`
 
 [plugin-otr]: http://www.cypherpunks.ca/otr/debian-install/otr-setup.html
-[img-pidgin]: http://www.pidgin.im/shared/img/logo.pidgin.png
-[img-xchat]: http://xchat.org/img/xchatlogo2.png
+
+[img-pidgin]: pidgin.png "Pidgin"
+[img-xchat]: xchat.png "XChat"
