@@ -24,7 +24,7 @@ Firefox can update itself via the menu (_Help --> About Firefox_).
 
 #### Setup ####
 
-`sudo aptitude install chromium`
+`apt install chromium`
 
 Chromium is available in the debian repositories.
 
@@ -46,9 +46,20 @@ Chromium is available in the debian repositories.
 
 Chrome creates an entry in `/etc/apt/sources.list.d/`, using `apt` to keep itself updated from google's repository.
 
+## Opera ##
+
+### [Latest][opera-pts] ###
+
+#### Setup ####
+
+`apt install opera`
+
+Opera is available in the linuxmint repositories.
+
 [firefox-x86-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-i686/en-US/
 [firefox-amd64-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-x86_64/en-US/
 [chromium-pts]: http://packages.qa.debian.org/c/chromium-browser.html
+[opera-pts]: http://packages.linuxmint.com/list.php?release=Debian
 [chrome-landing]: http://dev.chromium.org/getting-involved/dev-channel 
 [chrome-stable]: https://www.google.com/chrome?platform=linux
 [chrome-x86-beta]: http://www.google.com/chrome/intl/en/eula_beta.html?dl=beta_i386_deb
