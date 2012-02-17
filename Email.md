@@ -27,6 +27,7 @@ Add-ons are installed through the menu (_Tools --> Add-ons_).
 * Lightning: calendar & events
 * Enigmail: PGP encryption
 
-[img-thunderbird-logo]: https://static-ssl-cdn.addons.mozilla.net/media/img/app-icons/med/thunderbird.png "Mozilla Thunderbird"
+[img-thunderbird-logo]: thunderbird.png "Mozilla Thunderbird"
+
 [thunderbird-x86-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/latest/linux-i686/en-US/
 [thunderbird-amd64-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/latest/linux-x86_64/en-US/
