@@ -7,3 +7,5 @@
 ## Graphics ##
 
 ### GIMP ###
+
+### Inkscape ###
