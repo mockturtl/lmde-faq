@@ -1,11 +1,16 @@
+h3. mockturtl, 2012-02-16
+* added [[Messaging]]
+
+***
+
 h3. mockturtl, 2012-02-13
-* added "Browsers":Browsers
-* added "Email":Email
+* added [[Browsers]]
+* added [[Email]]
 
 ***
 
 h3. mockturtl, 2012-01-30
-* added "Printers":Printers
+* added [[Printers]]
 
 ***
 
