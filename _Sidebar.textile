@@ -6,5 +6,6 @@ h2. Contents
 # [[Browsers]]
 # [[Email]]
 # [[Messaging]]
+# [[File sharing]]
 
 [[Home]]
