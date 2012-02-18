@@ -2,6 +2,8 @@
 
 Pidgin is a GTK+ interface for _libpurple_, a front-end for instant messaging services.  
 
+#### Setup ####
+
 Some services may require tweaking the default configuration (_Accounts --> Manage Accounts --> Modify_).
 
 * AIM
@@ -25,9 +27,19 @@ Some services may require tweaking the default configuration (_Accounts --> Mana
 
 ### ![Skype][img-skype] Skype ###
 
+Skype is a chat, conferencing, and VOIP client.
+
+#### Setup ####
+
+Skype is available from the linuxmint repositories.
+
 `apt install skype pidgin-skype`
 
 ### Twitter, identi.ca ###
+
+Twitter and identi.ca are microblogging services.
+
+#### Setup ####
 
 `apt install pidgin-microblog`
 
@@ -40,7 +52,9 @@ TODO: authentication error?
 ## ![XChat][img-xchat] XChat ##
 
 XChat is an IRC client.
- 
+
+#### Setup #### 
+
 _XChat --> Network list --> Linux Mint Server --> Edit_ 
 Server: `irc.spotchat.org`  
 Favorite channels: `#mintcast,#linuxmint-chat,#linuxmint-help,#linuxmint-debian`
