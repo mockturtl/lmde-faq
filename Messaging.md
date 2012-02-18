@@ -53,9 +53,9 @@ TODO: authentication error?
 
 XChat is an IRC client.
 
-#### Setup #### 
+#### Setup ####
 
-_XChat --> Network list --> Linux Mint Server --> Edit_ 
+In _XChat --> Network list --> Linux Mint Server --> Edit_:
 Server: `irc.spotchat.org`  
 Favorite channels: `#mintcast,#linuxmint-chat,#linuxmint-help,#linuxmint-debian`
 
