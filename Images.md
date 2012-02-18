@@ -1,11 +1,16 @@
 ## Photographs ##
 
-### Shotwell ###
+### ![Shotwell][img-shotwell] Shotwell ###
 
-### F-Spot ###
+### ![F-Spot][img-fspot] F-Spot ###
 
 ## Graphics ##
 
-### GIMP ###
+### ![GIMP][img-gimp] GIMP ###
 
-### Inkscape ###
+### ![Inkscape][img-inkscape] Inkscape ###
+
+[img-gimp]: gimp.png "GNU Image Manipulation Program"
+[img-inkscape]: inkscape.png "Inkscape"
+[img-fspot]: f-spot.png "F-Spot"
+[img-shotwell]: shotwell.png "Shotwell"
