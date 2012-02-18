@@ -39,9 +39,9 @@ Meiga is available in the linuxmint repositories.
 [meiga-homepage]: http://meiga.igalia.com/
 [pgl-homepage]: http://moblock-deb.sourceforge.net/
 
-[img-deluge]: deluge.png
-[img-dropbox]: dropbox.png
-[img-filezilla]: filezilla.png
-[img-meiga]: meiga.png
-[img-pgl]: pgl-gui.png
-[img-transmission]: transmission.png
+[img-deluge]: deluge.png "Deluge"
+[img-dropbox]: dropbox.png "Dropbox"
+[img-filezilla]: filezilla.png "Filezilla"
+[img-meiga]: meiga.png "Meiga"
+[img-pgl]: pgl-gui.png "PeerGuardian"
+[img-transmission]: transmission.png "Transmission"
