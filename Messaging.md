@@ -23,7 +23,7 @@ Some services may require tweaking the default configuration (_Accounts --> Mana
 
 * [Off-the-Record][plugin-otr]
 
-### Skype ###
+### ![Skype][img-skype] Skype ###
 
 `apt install skype pidgin-skype`
 
@@ -48,4 +48,5 @@ Favorite channels: `#mintcast,#linuxmint-chat,#linuxmint-help,#linuxmint-debian`
 [plugin-otr]: http://www.cypherpunks.ca/otr/debian-install/otr-setup.html
 
 [img-pidgin]: pidgin.png "Pidgin"
+[img-skype]: skype.png "Skype"
 [img-xchat]: xchat.png "XChat"
