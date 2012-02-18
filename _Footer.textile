@@ -1,3 +1,0 @@
-h2. [[voluntary.png|float|width=35px|height=35px]]  "Voluntary License":http://en.wikipedia.org/wiki/Voluntaryism
-
-This work is an expression of the authors' individual values.  Its use or adaptation by any institution funded through other means than voluntary contribution, in whole or in part, is to be understood by such entity as a violation of the authors' legal copyright.  All other entities are encouraged to copy, distribute and adapt the work.  Wherever an extra-legal system of dispute resolution exists, commercial use is encouraged.
