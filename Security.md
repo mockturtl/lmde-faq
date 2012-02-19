@@ -1,4 +1,4 @@
-## File encryption ##
+## File encryption <a id="encryption" /> ##
 
 ## ![][img-gnome-terminal] SSH ##
 
