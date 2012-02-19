@@ -8,7 +8,7 @@
 
 Download the package and extract it: `tar xjf path/to/downloaded/file.tar.bz2`.
 
-Move the extracted files to `/opt`:  (note: `/opt/firefox` is the mint package)
+Move the extracted files to **/opt** (note: **/opt/firefox** is the mint package).
 
 `sudo mv firefox /opt/firefox-moz`
 
@@ -44,7 +44,7 @@ Chromium is available in the debian repositories.
 
 `sudo dpkg -i path/to/downloaded/file.deb`
 
-Chrome creates an entry in `/etc/apt/sources.list.d/` and uses APT to keep itself updated from google's repository.
+Chrome creates an entry in **/etc/apt/sources.list.d/** and uses APT to keep itself updated from google's repository.
 
 ## ![Opera][img-opera] Opera ##
 
