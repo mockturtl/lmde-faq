@@ -1,4 +1,4 @@
-All icons courtesy of "Linux Mint":http://www.linuxmint.com and "Debian GNU/Linux":http://www.debian.org.
+All icons courtesy of "Linux Mint":http://www.linuxmint.com, "Debian GNU/Linux":http://www.debian.org, and "Ubuntu":http://www.ubuntu.com.
 
 h2. [[voluntary.png|float|width=35px|height=35px]]  "Voluntary License":http://en.wikipedia.org/wiki/Voluntaryism
 
