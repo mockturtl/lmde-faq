@@ -31,6 +31,12 @@ Meiga is available in the linuxmint repositories.
 
 ### ![Filezilla][img-filezilla] Filezilla ###
 
+## ![Network][img-network] Local network ##
+
+### Samba ###
+
+#### Setup ####
+
 ## See also ##
 * Opera browser
 * Thunderbird email
@@ -45,3 +51,4 @@ Meiga is available in the linuxmint repositories.
 [img-meiga]: meiga.png "Meiga"
 [img-pgl]: pgl-gui.png "PeerGuardian"
 [img-transmission]: transmission.png "Transmission"
+[img-network]: folder-remote.png "Network"
