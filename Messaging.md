@@ -49,9 +49,7 @@ Twitter and identi.ca are microblogging services.
 
 Enable _Tools --> Plugins --> Twitgen_
 
-Add the account (_Accounts --> Manage accounts --> Add_) and follow the instructions to authorize.  
-
-TODO: authentication error?
+Add the account (_Accounts --> Manage accounts --> Add_) and follow the instructions to authorize.
 
 ## ![XChat][img-xchat] XChat ##
 
