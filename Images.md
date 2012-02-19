@@ -12,7 +12,7 @@
 
 [community][community-picasa]
 
-## Graphics ##
+## Graphics <a id="graphics"/> ##
 
 ### ![][img-gimp] [GIMP][homepage-gimp] ###
 
