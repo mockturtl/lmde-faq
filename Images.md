@@ -8,6 +8,10 @@
 
 [community][community-fspot]
 
+### ![Picasa][img-picasa] [Picasa][homepage-picasa] ###
+
+[community][community-picasa]
+
 ## Graphics ##
 
 ### ![GIMP][img-gimp] [GIMP][homepage-gimp] ###
@@ -21,14 +25,17 @@
 [community-fspot]: http://community.linuxmint.com/software/view/f-spot
 [community-gimp]: http://community.linuxmint.com/software/view/gimp
 [community-inkscape]: http://community.linuxmint.com/software/view/inkscape
+[community-picasa]: http://community.linuxmint.com/software/view/picasa
 [community-shotwell]: http://community.linuxmint.com/software/view/shotwell
 
-[homepage-shotwell]: http://yorba.org/shotwell/
-[homepage-gimp]: http://www.gimp.org/
-[homepage-inkscape]: http://inkscape.org/
-[homepage-fspot]: http://f-spot.org/
+[homepage-fspot]: http://f-spot.org/ "F-Spot"
+[homepage-gimp]: http://www.gimp.org/ "GIMP"
+[homepage-inkscape]: http://inkscape.org/ "Inkscape"
+[homepage-picasa]: http://picasa.google.com/ "Picasa"
+[homepage-shotwell]: http://yorba.org/shotwell/ "Shotwell"
 
 [img-gimp]: gimp.png "GNU Image Manipulation Program"
 [img-inkscape]: inkscape.png "Inkscape"
 [img-fspot]: f-spot.png "F-Spot"
+[img-picasa]: picasa.png "Picasa"
 [img-shotwell]: shotwell.png "Shotwell"
