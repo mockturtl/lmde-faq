@@ -8,7 +8,9 @@
 
 [community][community-deluge]
 
-### ![][img-pgl] [PeerGuardian][homepage-pgl] ###
+###### See also ######
+
+[Peerguardian][anchor-peerguardian]
 
 ## Cloud storage ##
 
@@ -66,8 +68,9 @@ Integrates with desktop apps like Tomboy and [Banshee][anchor-banshee] for certa
 * [[Email]]
 
 
-[anchor-opera]: Browsers#wiki-opera
 [anchor-banshee]: Audio-&-Video#wiki-banshee
+[anchor-opera]: Browsers#wiki-opera
+[anchor-peerguardian]: Security#wiki-peerguardian
 
 [community-deluge]: http://community.linuxmint.com/software/view/deluge
 [community-dropbox]: http://community.linuxmint.com/software/view/dropbox
@@ -79,7 +82,6 @@ Integrates with desktop apps like Tomboy and [Banshee][anchor-banshee] for certa
 [homepage-dropbox]: https://www.dropbox.com
 [homepage-filezilla]: http://filezilla-project.org/
 [homepage-meiga]: http://meiga.igalia.com/
-[homepage-pgl]: http://moblock-deb.sourceforge.net/
 [homepage-samba]: http://www.samba.org/
 [homepage-transmission]: http://www.transmissionbt.com/
 [homepage-ubuntu-one]: https://one.ubuntu.com/
@@ -88,7 +90,6 @@ Integrates with desktop apps like Tomboy and [Banshee][anchor-banshee] for certa
 [img-dropbox]: dropbox.png "Dropbox"
 [img-filezilla]: filezilla.png "Filezilla"
 [img-meiga]: meiga.png "Meiga"
-[img-pgl]: pgl-gui.png "PeerGuardian"
 [img-transmission]: transmission.png "Transmission"
 [img-network]: folder-remote.png "Network"
 [img-ubuntu-one]: ubuntu-one.png "Ubuntu One"
