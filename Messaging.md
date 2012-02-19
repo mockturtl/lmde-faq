@@ -1,6 +1,6 @@
 ## ![Pidgin][img-pidgin] Pidgin ##
 
-Pidgin is a GTK+ interface for _libpurple_, a front-end for instant messaging services.  
+Pidgin is a GTK+ interface for **libpurple**, a front-end for instant messaging services.  
 
 #### Setup ####
 
