@@ -15,7 +15,7 @@ Cinnamon, MATE and gnome-shell users.
 
 ## Notes ##
 
-### ![][img-tomboy] [Tomboy][homepage-tomboy] ###
+### ![][img-tomboy] [Tomboy][homepage-tomboy] <a id="tomboy"/> ###
 
 [community][community-tomboy]
 
