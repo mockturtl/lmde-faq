@@ -14,8 +14,6 @@ A read-only version, "smeagol":https://github.com/rubyworks/smeagol, removes the
 
 Language-specific cheat sheets are available in edit mode, via the "?" button.
 
-Files can, of course, be edited locally by cloning the git repository.  Changes must be committed before gollum will pick them up.
-
 h3. "pygments":http://pygments.org/docs/lexers/
 
 Source-code highlighting.
