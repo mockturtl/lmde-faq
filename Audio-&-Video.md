@@ -2,14 +2,18 @@
 
 ### Podcast and mp3 library ###
 
-###### ![Banshee][img-banshee] Banshee ######
-###### ![Rhythmbox][img-rhythmbox] Rhythmbox ######
-###### ![Songbird][img-songbird] Songbird ######
+###### ![Banshee][img-banshee] [Banshee][homepage-banshee] ######
+[community][community-banshee]
+###### ![Rhythmbox][img-rhythmbox] [Rhythmbox][homepage-rhythmbox] ######
+[community][community-rhythmbox]
+###### ![Songbird][img-songbird] [Songbird][homepage-songbird] ######
+[community][community-songbird]
 ###### ![Spotify][img-spotify] [Spotify][homepage-spotify] ######
 
 ### Record, mix, and transcode audio ###
 
-###### ![Audacity][img-audacity] Audacity ######
+###### ![Audacity][img-audacity] [Audacity][homepage-audacity] ######
+[community][community-audacity]
 
 ### VOIP ###
 
@@ -25,17 +29,24 @@
 
 ### Watch movies ###
 
-###### ![VLC][img-vlc] VLC ######
+###### ![VLC][img-vlc] [VLC][homepage-vlc] ######
+
+[community][community-vlc]
 
 ### Edit and transcode video ###
 
 ###### Openshot ######
-###### ![Pitivi][img-pitivi] Pitivi ######
+
+###### ![PiTiVi][img-pitivi] [PiTiVi][homepage-pitivi] ######
+
+[community][community-pitivi]
 
 ## Burning to CD and DVD ##
 
-###### ![Brasero][img-brasero] Brasero ######
-###### ![K3b][img-k3b]![KDE][badge-kde] K3b ######
+###### ![Brasero][img-brasero] [Brasero][homepage-brasero] ######
+[community][community-brasero]
+###### ![K3b][img-k3b]![KDE][badge-kde] [K3b][homepage-k3b] ######
+[community][community-k3b]
 
 ## Screen capture, desktop recording ##
 
@@ -45,10 +56,27 @@
 
 [badge-kde]: boston.png "KDE"
 
+[community-audacity]: http://community.linuxmint.com/software/view/audacity
+[community-banshee]: http://community.linuxmint.com/software/view/banshee
+[community-brasero]: http://community.linuxmint.com/software/view/brasero
+[community-k3b]: http://community.linuxmint.com/software/view/k3b
 [community-mumble]: http://community.linuxmint.com/software/view/mumble
+[community-pitivi]: http://community.linuxmint.com/software/view/pitivi
+[community-rhythmbox]: http://community.linuxmint.com/software/view/rhythmbox
+[community-songbird]: http://community.linuxmint.com/software/view/songbird
+[community-spotify]: http://community.linuxmint.com/software/view/spotify
+[community-vlc]: http://community.linuxmint.com/software/view/vlc
 
-[homepage-mumble]: http://mumble.sourceforge.net/
-[homepage-spotify]: http://www.spotify.com/
+[homepage-audacity]: http://audacity.sourceforge.net/ "Audacity"
+[homepage-banshee]: http://banshee.fm/ "Banshee"
+[homepage-brasero]: http://projects.gnome.org/brasero/ "Brasero"
+[homepage-k3b]: http://www.k3b.org/ "K3b"
+[homepage-mumble]: http://mumble.sourceforge.net/ "Mumble"
+[homepage-pitivi]: http://www.pitivi.org/ "PiTiVi"
+[homepage-rhythmbox]: http://projects.gnome.org/rhythmbox/ "Rhythmbox"
+[homepage-songbird]: http://getsongbird.com/ "Songbird"
+[homepage-spotify]: http://www.spotify.com/ "Spotify"
+[homepage-vlc]: http://www.videolan.org/vlc/
 
 [img-audacity]: audacity.png "Audacity"
 [img-banshee]: banshee.png "Banshee"
