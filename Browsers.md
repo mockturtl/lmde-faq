@@ -6,6 +6,8 @@ Firefox is installed by default.
 
 _The Firefox builds available in the linuxmint repositories are customized.  [Custom search engines][link-search-engines] are a critical revenue stream for Linux Mint; please consider installing them._
 
+TODO: instructions for adding Mint CSE's (links are empty php files?)
+
 * [32-bit][firefox-x86-latest]
 * [64-bit][firefox-amd64-latest]
 
