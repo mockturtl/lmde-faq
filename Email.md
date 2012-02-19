@@ -27,10 +27,12 @@ Add-ons are installed through the menu. (_Tools --> Add-ons_)
  **TODO**
 
 * Lightning: calendar & events
-* Enigmail: PGP encryption
+* Enigmail: PGP encryption ([also here][anchor-encryption])
 
 [community][community-thunderbird]
 
+
+[anchor-encryption]: Security#wiki-encryption
 
 [community-thunderbird]: http://community.linuxmint.com/software/view/thunderbird
 
