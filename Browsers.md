@@ -18,7 +18,7 @@ Replace the symlink:
 
 `sudo ln -sf /opt/firefox-moz/firefox /usr/bin/firefox`
 
-Firefox can update itself via the menu (_Help --> About Firefox_).
+Firefox can update itself via the menu. (_Help --> About Firefox_)
 
 ## ![Chromium][img-chromium] Chromium ##
 
