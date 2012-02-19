@@ -5,7 +5,7 @@
 ###### ![Banshee][img-banshee] Banshee ######
 ###### ![Rhythmbox][img-rhythmbox] Rhythmbox ######
 ###### ![Songbird][img-songbird] Songbird ######
-###### ![Spotify][img-spotify] Spotify ######
+###### ![Spotify][img-spotify] [Spotify][homepage-spotify] ######
 
 ### Record, mix, and transcode audio ###
 
@@ -29,6 +29,8 @@
 ## Burning to CD and DVD ##
 
 ###### ![Brasero][img-brasero] Brasero ######
+
+[homepage-spotify]: http://www.spotify.com/
 
 [img-audacity]: audacity.png "Audacity"
 [img-banshee]: banshee.png "Banshee"
