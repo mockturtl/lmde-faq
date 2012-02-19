@@ -29,7 +29,7 @@ Dropbox is available in the linuxmint repositories.
 `apt install dropbox nautilus-dropbox`
 
 ###### Security ######
-You may wish to use GPG to [encrypt][anchor-encryption] your files.
+You may wish to [encrypt][anchor-encryption] your files.
 
 ### ![][img-meiga] [Meiga][homepage-meiga] ###
 
