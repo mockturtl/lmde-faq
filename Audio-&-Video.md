@@ -4,7 +4,7 @@
 
 ###### ![Amarok][img-amarok]![KDE][badge-kde] [Amarok][homepage-amarok] ######
 [community][community-amarok]
-###### ![Banshee][img-banshee] [Banshee][homepage-banshee] ######
+###### ![Banshee][img-banshee] [Banshee][homepage-banshee] <a id="banshee"/> ######
 [community][community-banshee]
 ###### ![Rhythmbox][img-rhythmbox] [Rhythmbox][homepage-rhythmbox] ######
 [community][community-rhythmbox]
