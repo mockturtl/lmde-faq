@@ -24,7 +24,7 @@ Firefox can update itself via the menu. (_Help --> About Firefox_)
 
 ## ![Chromium][img-chromium] [Chromium][homepage-chromium] ##
 
-### [Latest][chromium-pts] ###
+### [Latest][pts-chromium] ###
 
 #### Setup ####
 
@@ -54,7 +54,7 @@ Chrome creates an entry in **/etc/apt/sources.list.d/** and uses APT to keep its
 
 ## ![Opera][img-opera] [Opera][homepage-opera] <a id="opera"/>##
 
-### [Latest][opera-pts] ###
+### [Latest][pts-opera] ###
 
 #### Setup ####
 
@@ -67,8 +67,6 @@ Opera is available in the linuxmint repositories.
 
 [firefox-x86-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-i686/en-US/
 [firefox-amd64-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-x86_64/en-US/
-[chromium-pts]: http://packages.qa.debian.org/c/chromium-browser.html
-[opera-pts]: http://packages.linuxmint.com/list.php?release=Debian
 [chrome-landing]: http://dev.chromium.org/getting-involved/dev-channel 
 [chrome-stable]: https://www.google.com/chrome?platform=linux
 [chrome-x86-beta]: http://www.google.com/chrome/intl/en/eula_beta.html?dl=beta_i386_deb
@@ -89,3 +87,7 @@ Opera is available in the linuxmint repositories.
 [img-chrome]: google-chrome.png "Google Chrome"
 [img-chromium]: chromium-browser.png "Chromium"
 [img-opera]: opera.png "Opera"
+
+
+[pts-chromium]: http://packages.qa.debian.org/c/chromium-browser.html
+[pts-opera]: http://packages.linuxmint.com/list.php?release=Debian
