@@ -19,7 +19,7 @@
 
 ### VOIP ###
 
-###### [Mumble][homepage-mumble] ######
+###### ![Mumble][img-mumble] [Mumble][homepage-mumble] ######
 
 [community][community-mumble]
 
@@ -91,6 +91,7 @@
 [img-banshee]: banshee.png "Banshee"
 [img-brasero]: brasero.png "Brasero"
 [img-k3b]: k3b.png "K3b"
+[img-mumble]: mumble.png "Mumble"
 [img-openshot]: openshot.png "Openshot"
 [img-pitivi]: pitivi.png "Pitivi"
 [img-rhythmbox]: rhythmbox.png "Rhythmbox"
