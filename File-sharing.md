@@ -38,14 +38,13 @@ Meiga is available in the linuxmint repositories.
 #### Setup ####
 
 ## See also ##
-* [Opera browser (Unite)][anchor-opera]
-* [Thunderbird email][anchor-thunderbird]
+* [Opera Unite][anchor-opera]
+* [[Email]]
 
 [dropbox-homepage]: https://www.dropbox.com
 [meiga-homepage]: http://meiga.igalia.com/
 [pgl-homepage]: http://moblock-deb.sourceforge.net/
 [anchor-opera]: Browsers#opera
-[anchor-thunderbird]: Email#thunderbird
 
 [img-deluge]: deluge.png "Deluge"
 [img-dropbox]: dropbox.png "Dropbox"
