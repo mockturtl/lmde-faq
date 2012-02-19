@@ -25,7 +25,7 @@ Some services may require tweaking the default configuration (_Accounts --> Mana
 
 * [Off-the-Record][plugin-otr]
 
-### ![Skype][img-skype] Skype ###
+### ![Skype][img-skype] Skype <a name="skype"/> ###
 
 Skype is a chat, conferencing, and VOIP client.
 
