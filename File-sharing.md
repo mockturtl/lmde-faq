@@ -48,7 +48,7 @@ Meiga is available in the linuxmint repositories.
 [dropbox-homepage]: https://www.dropbox.com
 [meiga-homepage]: http://meiga.igalia.com/
 [pgl-homepage]: http://moblock-deb.sourceforge.net/
-[anchor-opera]: Browsers#opera
+[anchor-opera]: Browsers#wiki-opera
 
 [img-deluge]: deluge.png "Deluge"
 [img-dropbox]: dropbox.png "Dropbox"
