@@ -45,7 +45,7 @@ Meiga is available in the linuxmint repositories.
 
 Clients are available for Windows, Ubuntu, Android, iOS, and the web.  
 
-Desktop apps like Tomboy and [Banshee][anchor-banshee] integrate with the service for certain kinds of files (notes, music, contacts).
+Integrates with desktop apps like Tomboy and [Banshee][anchor-banshee] for certain kinds of files (notes, music, contacts).
 
 #### Setup ####
 
