@@ -2,24 +2,24 @@
 
 ### Podcast and mp3 library ###
 
-###### ![Amarok][img-amarok]![KDE][badge-kde] [Amarok][homepage-amarok] ######
+###### ![][img-amarok]![KDE][badge-kde] [Amarok][homepage-amarok] ######
 [community][community-amarok]
-###### ![Banshee][img-banshee] [Banshee][homepage-banshee] <a id="banshee"/> ######
+###### ![][img-banshee] [Banshee][homepage-banshee] <a id="banshee"/> ######
 [community][community-banshee]
-###### ![Rhythmbox][img-rhythmbox] [Rhythmbox][homepage-rhythmbox] ######
+###### ![][img-rhythmbox] [Rhythmbox][homepage-rhythmbox] ######
 [community][community-rhythmbox]
-###### ![Songbird][img-songbird] [Songbird][homepage-songbird] ######
+###### ![][img-songbird] [Songbird][homepage-songbird] ######
 [community][community-songbird]
-###### ![Spotify][img-spotify] [Spotify][homepage-spotify] ######
+###### ![][img-spotify] [Spotify][homepage-spotify] ######
 
 ### Record, mix, and transcode audio ###
 
-###### ![Audacity][img-audacity] [Audacity][homepage-audacity] ######
+###### ![][img-audacity] [Audacity][homepage-audacity] ######
 [community][community-audacity]
 
 ### VOIP ###
 
-###### ![Mumble][img-mumble] [Mumble][homepage-mumble] ######
+###### ![][img-mumble] [Mumble][homepage-mumble] ######
 
 [community][community-mumble]
 
@@ -31,27 +31,27 @@
 
 ### Watch movies ###
 
-###### ![VLC][img-vlc] [VLC][homepage-vlc] ######
+###### ![][img-vlc] [VLC][homepage-vlc] ######
 
 [community][community-vlc]
 
 ### Edit and transcode video ###
 
-###### ![Openshot][img-openshot] [Openshot][homepage-openshot] ######
+###### ![][img-openshot] [Openshot][homepage-openshot] ######
 
 [community][community-openshot]
 
-###### ![PiTiVi][img-pitivi] [PiTiVi][homepage-pitivi] ######
+###### ![][img-pitivi] [PiTiVi][homepage-pitivi] ######
 
 [community][community-pitivi]
 
 ## Rip, burn to CD and DVD ##
 
-###### ![Brasero][img-brasero] [Brasero][homepage-brasero] ######
+###### ![][img-brasero] [Brasero][homepage-brasero] ######
 [community][community-brasero]
-###### ![K3b][img-k3b]![KDE][badge-kde] [K3b][homepage-k3b] ######
+###### ![][img-k3b]![KDE][badge-kde] [K3b][homepage-k3b] ######
 [community][community-k3b]
-###### ![Acidrip][img-acidrip] [Acidrip][homepage-acidrip] ######
+###### ![][img-acidrip] [Acidrip][homepage-acidrip] ######
 [community][community-acidrip]
 
 ## Screen capture, desktop recording ##
