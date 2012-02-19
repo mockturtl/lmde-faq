@@ -6,7 +6,9 @@
 
 #### Setup ####
 
-Download the package and extract it: `tar xjf path/to/downloaded/file.tar.bz2`.
+Download the package and extract it.
+
+`tar xjf path/to/downloaded/file.tar.bz2`
 
 Move the extracted files to **/opt** (note: **/opt/firefox** is the mint package).
 
