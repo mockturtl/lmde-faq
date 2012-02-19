@@ -1,4 +1,4 @@
-## ![Firefox][img-firefox] [Firefox][homepage-firefox] ##
+## ![][img-firefox] [Firefox][homepage-firefox] ##
 
 ### Latest ###
 * [32-bit][firefox-x86-latest]
@@ -22,7 +22,7 @@ Firefox can update itself via the menu. (_Help --> About Firefox_)
 
 [community][community-firefox]
 
-## ![Chromium][img-chromium] [Chromium][homepage-chromium] ##
+## ![][img-chromium] [Chromium][homepage-chromium] ##
 
 ### [Latest][pts-chromium] ###
 
@@ -34,7 +34,7 @@ Chromium is available in the debian repositories.
 
 [community][community-chromium]
 
-## ![Google Chrome][img-chrome] [Google Chrome][homepage-google-chrome] ##
+## ![][img-chrome] [Google Chrome][homepage-google-chrome] ##
 
 ### [Latest][chrome-landing] ###
 
@@ -52,7 +52,7 @@ Chromium is available in the debian repositories.
 
 Chrome creates an entry in **/etc/apt/sources.list.d/** and uses APT to keep itself updated from google's repository.
 
-## ![Opera][img-opera] [Opera][homepage-opera] <a id="opera"/>##
+## ![][img-opera] [Opera][homepage-opera] <a id="opera"/>##
 
 ### [Latest][pts-opera] ###
 
