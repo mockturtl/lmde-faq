@@ -4,7 +4,7 @@ Firefox is installed by default.
 
 ### Latest ###
 
-_The Firefox builds available in the linuxmint repositories are customized.  [Custom search engines][link-search-engines] are a critical revenue stream for Linux Mint; please consider installing them._
+_The Firefox builds available in the linuxmint repositories are customized.  [Custom search engines][link-search-engines] are a critical revenue stream for Linux Mint; please consider installing them.  To see what DuckDuckGo can do for you, see the [partnership announcement][link-duckduckgo-partnership]._
 
 TODO: instructions for adding Mint CSE's (links are empty php files?)
 
@@ -96,6 +96,7 @@ Opera is available in the linuxmint repositories.
 [img-opera]: opera.png "Opera"
 
 [link-search-engines]: http://linuxmint.com/searchengines.php
+[link-duckduckgo-partnership]: http://blog.linuxmint.com/?p=1884
 
 [pts-chromium]: http://packages.qa.debian.org/c/chromium-browser.html
 [pts-opera]: http://packages.linuxmint.com/list.php?release=Debian
