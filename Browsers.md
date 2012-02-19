@@ -1,4 +1,4 @@
-## ![Firefox][img-firefox] Firefox ##
+## ![Firefox][img-firefox] [Firefox][homepage-firefox] ##
 
 ### Latest ###
 * [32-bit][firefox-x86-latest]
@@ -20,7 +20,9 @@ Replace the symlink:
 
 Firefox can update itself via the menu. (_Help --> About Firefox_)
 
-## ![Chromium][img-chromium] Chromium ##
+[community][community-firefox]
+
+## ![Chromium][img-chromium] [Chromium][homepage-chromium] ##
 
 ### [Latest][chromium-pts] ###
 
@@ -30,7 +32,9 @@ Chromium is available in the debian repositories.
 
 `apt install chromium`
 
-## ![Google Chrome][img-chrome] Google Chrome ##
+[community][community-chromium]
+
+## ![Google Chrome][img-chrome] [Google Chrome][homepage-google-chrome] ##
 
 ### [Latest][chrome-landing] ###
 
@@ -48,7 +52,7 @@ Chromium is available in the debian repositories.
 
 Chrome creates an entry in **/etc/apt/sources.list.d/** and uses APT to keep itself updated from google's repository.
 
-## ![Opera][img-opera] Opera <a id="opera"/>##
+## ![Opera][img-opera] [Opera][homepage-opera] <a id="opera"/>##
 
 ### [Latest][opera-pts] ###
 
@@ -57,6 +61,8 @@ Chrome creates an entry in **/etc/apt/sources.list.d/** and uses APT to keep its
 `apt install opera`
 
 Opera is available in the linuxmint repositories.
+
+[community][community-opera]
 
 
 [firefox-x86-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-i686/en-US/
@@ -69,6 +75,15 @@ Opera is available in the linuxmint repositories.
 [chrome-amd64-beta]: http://www.google.com/chrome/intl/en/eula_beta.html?dl=beta_amd64_deb
 [chrome-x86-dev]: http://www.google.com/chrome/intl/en/eula_dev.html?dl=unstable_i386_deb
 [chrome-amd64-dev]: http://www.google.com/chrome/intl/en/eula_dev.html?dl=unstable_amd64_deb
+
+[community-chromium]: http://community.linuxmint.com/software/view/chromium-browser
+[community-firefox]: http://community.linuxmint.com/software/view/firefox
+[community-opera]: http://community.linuxmint.com/software/view/opera
+
+[homepage-google-chrome]: https://www.google.com/chrome/
+[homepage-chromium]: http://www.chromium.org/Home
+[homepage-firefox]: http://www.mozilla.org/firefox
+[homepage-opera]: http://www.opera.com/
 
 [img-firefox]: firefox.png "Mozilla Firefox"
 [img-chrome]: google-chrome.png "Google Chrome"
