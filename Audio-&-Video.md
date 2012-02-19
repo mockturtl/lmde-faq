@@ -45,12 +45,14 @@
 
 [community][community-pitivi]
 
-## Burning to CD and DVD ##
+## Rip, burn to CD and DVD ##
 
 ###### ![Brasero][img-brasero] [Brasero][homepage-brasero] ######
 [community][community-brasero]
 ###### ![K3b][img-k3b]![KDE][badge-kde] [K3b][homepage-k3b] ######
 [community][community-k3b]
+###### ![Acidrip][img-acidrip] [Acidrip][homepage-acidrip] ######
+[community][community-acidrip]
 
 ## Screen capture, desktop recording ##
 
@@ -60,6 +62,7 @@
 
 [badge-kde]: boston.png "KDE"
 
+[community-acidrip]: http://community.linuxmint.com/software/view/acidrip
 [community-amarok]: http://community.linuxmint.com/software/view/amarok
 [community-audacity]: http://community.linuxmint.com/software/view/audacity
 [community-banshee]: http://community.linuxmint.com/software/view/banshee
@@ -73,6 +76,7 @@
 [community-spotify]: http://community.linuxmint.com/software/view/spotify
 [community-vlc]: http://community.linuxmint.com/software/view/vlc
 
+[homepage-acidrip]: http://sourceforge.net/projects/acidrip/ "Acidrip"
 [homepage-amarok]: http://amarok.kde.org/ "Amarok"
 [homepage-audacity]: http://audacity.sourceforge.net/ "Audacity"
 [homepage-banshee]: http://banshee.fm/ "Banshee"
@@ -86,6 +90,7 @@
 [homepage-spotify]: http://www.spotify.com/ "Spotify"
 [homepage-vlc]: http://www.videolan.org/vlc/ "VLC"
 
+[img-acidrip]: acidrip.png "Acidrip"
 [img-amarok]: amarok.png "Amarok"
 [img-audacity]: audacity.png "Audacity"
 [img-banshee]: banshee.png "Banshee"
