@@ -6,7 +6,9 @@ Secure shell lets you log in remotely through the terminal.  Install the server 
 
 `apt install ssh`
 
-You can use your username and password, but it's better to generate a keypair with `ssh-keygen` to identify each client computer you plan to log in with.  Each client can then provide its identity (public key) with `ssh-copy-id`.  The public keys are written to **~/.ssh/authorized_keys** on the remote system, and its identity is written to the local client's **~/.ssh/known_hosts** to prevent spoofing.
+You can use your username and password, but it's better to generate a keypair with `ssh-keygen` to identify each client computer you plan to log in with.  Protect your private key (**~/.ssh/id_rsa**).
+
+Each client can then provide its identity (public key, **~/.ssh/id_rsa.pub**) with `ssh-copy-id`.  The public keys are written to **~/.ssh/authorized_keys** on the remote system, and its identity is written to the local client's **~/.ssh/known_hosts** to prevent spoofing.
 
 Once all clients can connect, disable password login on the server via **/etc/ssh/sshd_config**.
 
@@ -17,6 +19,8 @@ ChallengeResponseAuthentication no
 PasswordAuthentication no
 UsePAM no
 ```
+
+Your public key also identifies your computer to services built on SSH, like [github][link-github-ssh] (see "Set Up SSH Keys").
 
 ## IP blacklist ##
 
@@ -44,5 +48,6 @@ You will probably find the lists too aggressive: when you seem to have network p
 [img-pgl]: pgl-gui.png "PeerGuardian"
 [img-mintnanny]: mintnanny.png "Domain Blocker"
 
+[link-github-ssh]: http://help.github.com/linux-set-up-git/
 [link-mvps]: http://winhelp2002.mvps.org/hosts.htm
 [link-mvps-hosts]: http://winhelp2002.mvps.org/hosts.txt
