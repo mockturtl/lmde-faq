@@ -1,10 +1,10 @@
 ## Torrents ##
 
-### ![Transmission][img-transmission] Transmission ###
+### ![Transmission][img-transmission] [Transmission][homepage-transmission] ###
 
 [community][community-transmission]
 
-### ![Deluge][img-deluge] Deluge ###
+### ![Deluge][img-deluge] [Deluge][homepage-deluge] ###
 
 [community][community-deluge]
 
@@ -35,17 +35,17 @@ Meiga is available in the linuxmint repositories.
 
 `apt install meiga`
 
-### ![Ubuntu One][img-ubuntu-one] Ubuntu One ###
+### ![Ubuntu One][img-ubuntu-one] [Ubuntu One][homepage-ubuntu-one] ###
 
 #### Setup ####
 
 ## FTP ##
 
-### ![Filezilla][img-filezilla] Filezilla ###
+### ![Filezilla][img-filezilla] [Filezilla][homepage-filezilla] ###
 
 ## ![Network][img-network] Local network ##
 
-### Samba ###
+### [Samba][homepage-samba] ###
 
 #### Setup ####
 
@@ -56,15 +56,19 @@ Meiga is available in the linuxmint repositories.
 
 [anchor-opera]: Browsers#wiki-opera
 
-[homepage-dropbox]: https://www.dropbox.com
-[homepage-meiga]: http://meiga.igalia.com/
-[homepage-pgl]: http://moblock-deb.sourceforge.net/
-[homepage-utorrent]: http://www.utorrent.com/
-
 [community-deluge]: http://community.linuxmint.com/software/view/deluge
 [community-dropbox]: http://community.linuxmint.com/software/view/dropbox
 [community-meiga]: http://community.linuxmint.com/software/view/meiga
 [community-transmission]: http://community.linuxmint.com/software/view/transmission
+
+[homepage-deluge]: http://deluge-torrent.org/
+[homepage-dropbox]: https://www.dropbox.com
+[homepage-filezilla]: http://filezilla-project.org/
+[homepage-meiga]: http://meiga.igalia.com/
+[homepage-pgl]: http://moblock-deb.sourceforge.net/
+[homepage-samba]: http://www.samba.org/
+[homepage-transmission]: http://www.transmissionbt.com/
+[homepage-ubuntu-one]: https://one.ubuntu.com/
 
 [img-deluge]: deluge.png "Deluge"
 [img-dropbox]: dropbox.png "Dropbox"
