@@ -43,6 +43,8 @@ Meiga is available in the linuxmint repositories.
 
 ### ![Filezilla][img-filezilla] [Filezilla][homepage-filezilla] ###
 
+[community][community-filezilla]
+
 ## ![Network][img-network] Local network ##
 
 ### [Samba][homepage-samba] ###
@@ -58,6 +60,7 @@ Meiga is available in the linuxmint repositories.
 
 [community-deluge]: http://community.linuxmint.com/software/view/deluge
 [community-dropbox]: http://community.linuxmint.com/software/view/dropbox
+[community-filezilla]: http://community.linuxmint.com/software/view/filezilla
 [community-meiga]: http://community.linuxmint.com/software/view/meiga
 [community-transmission]: http://community.linuxmint.com/software/view/transmission
 
