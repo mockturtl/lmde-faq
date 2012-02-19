@@ -1,20 +1,20 @@
 ## Torrents ##
 
-### ![Transmission][img-transmission] [Transmission][homepage-transmission] ###
+### ![][img-transmission] [Transmission][homepage-transmission] ###
 
 [community][community-transmission]
 
-### ![Deluge][img-deluge] [Deluge][homepage-deluge] ###
+### ![][img-deluge] [Deluge][homepage-deluge] ###
 
 [community][community-deluge]
 
-### ![PeerGuardian][img-pgl] [PeerGuardian][homepage-pgl] ###
+### ![][img-pgl] [PeerGuardian][homepage-pgl] ###
 
 ## Cloud storage ##
 
 Backup your files on a remote server and access them from anywhere.
 
-### ![Dropbox][img-dropbox] [Dropbox][homepage-dropbox] ###
+### ![][img-dropbox] [Dropbox][homepage-dropbox] ###
 
 Clients are available for Windows, OS X, Linux, iOS, Android, Blackberry, and the web.
 
@@ -29,7 +29,7 @@ Dropbox is available in the linuxmint repositories.
 ###### Security ######
 TODO: You may wish to use GPG to encrypt your files.
 
-### ![Meiga][img-meiga] [Meiga][homepage-meiga] ###
+### ![][img-meiga] [Meiga][homepage-meiga] ###
 
 Host your own files from your desktop.  Access or share them with a web browser.
 
@@ -41,7 +41,7 @@ Meiga is available in the linuxmint repositories.
 
 `apt install meiga`
 
-### ![Ubuntu One][img-ubuntu-one] [Ubuntu One][homepage-ubuntu-one] ###
+### ![][img-ubuntu-one] [Ubuntu One][homepage-ubuntu-one] ###
 
 Clients are available for Windows, Ubuntu, Android, iOS, and the web.  
 
@@ -51,11 +51,11 @@ Integrates with desktop apps like Tomboy and [Banshee][anchor-banshee] for certa
 
 ## FTP ##
 
-### ![Filezilla][img-filezilla] [Filezilla][homepage-filezilla] ###
+### ![][img-filezilla] [Filezilla][homepage-filezilla] ###
 
 [community][community-filezilla]
 
-## ![Network][img-network] Local network ##
+## ![][img-network] Local network ##
 
 ### [Samba][homepage-samba] ###
 
