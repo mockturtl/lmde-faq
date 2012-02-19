@@ -2,13 +2,19 @@
 
 ### ![Transmission][img-transmission] Transmission ###
 
+[community][community-transmission]
+
 ### ![Deluge][img-deluge] Deluge ###
 
-### ![PeerGuardian][img-pgl] [PeerGuardian][pgl-homepage] ###
+[community][community-deluge]
+
+### ![PeerGuardian][img-pgl] [PeerGuardian][homepage-pgl] ###
 
 ## Cloud storage ##
 
-### ![Dropbox][img-dropbox] [Dropbox][dropbox-homepage] ###
+### ![Dropbox][img-dropbox] [Dropbox][homepage-dropbox] ###
+
+[community][community-dropbox]
 
 #### Setup ####
 
@@ -19,7 +25,9 @@ Dropbox is available in the linuxmint repositories.
 ###### Security ######
 TODO: You may wish to use GPG to encrypt your files.
 
-### ![Meiga][img-meiga] [Meiga][meiga-homepage] ###
+### ![Meiga][img-meiga] [Meiga][homepage-meiga] ###
+
+[community][community-meiga]
 
 #### Setup ####
 
@@ -45,10 +53,18 @@ Meiga is available in the linuxmint repositories.
 * [Opera Unite][anchor-opera]
 * [[Email]]
 
-[dropbox-homepage]: https://www.dropbox.com
-[meiga-homepage]: http://meiga.igalia.com/
-[pgl-homepage]: http://moblock-deb.sourceforge.net/
+
 [anchor-opera]: Browsers#wiki-opera
+
+[homepage-dropbox]: https://www.dropbox.com
+[homepage-meiga]: http://meiga.igalia.com/
+[homepage-pgl]: http://moblock-deb.sourceforge.net/
+[homepage-utorrent]: http://www.utorrent.com/
+
+[community-deluge]: http://community.linuxmint.com/software/view/deluge
+[community-dropbox]: http://community.linuxmint.com/software/view/dropbox
+[community-meiga]: http://community.linuxmint.com/software/view/meiga
+[community-transmission]: http://community.linuxmint.com/software/view/transmission
 
 [img-deluge]: deluge.png "Deluge"
 [img-dropbox]: dropbox.png "Dropbox"
