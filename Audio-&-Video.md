@@ -13,7 +13,13 @@
 
 ### VOIP ###
 
-###### Mumble ######
+###### [Mumble][homepage-mumble] ######
+
+[community][community-mumble]
+
+###### See also ######
+
+[Skype][anchor-skype]
 
 ## Video ##
 
@@ -31,9 +37,14 @@
 ###### ![Brasero][img-brasero] Brasero ######
 ###### ![K3b][img-k3b]![KDE][badge-kde] K3b ######
 
-[homepage-spotify]: http://www.spotify.com/
+[anchor-skype]: Messaging#wiki-skype
 
 [badge-kde]: boston.png "KDE"
+
+[community-mumble]: http://community.linuxmint.com/software/view/mumble
+
+[homepage-mumble]: http://mumble.sourceforge.net/
+[homepage-spotify]: http://www.spotify.com/
 
 [img-audacity]: audacity.png "Audacity"
 [img-banshee]: banshee.png "Banshee"
