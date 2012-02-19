@@ -63,6 +63,9 @@ In _XChat --> Network list --> Linux Mint Server --> Edit_:
 Server: `irc.spotchat.org`  
 Favorite channels: `#mintcast,#linuxmint-chat,#linuxmint-help,#linuxmint-debian`
 
+[community][community-xchat]
+
+[community-xchat]: http://community.linuxmint.com/software/view/xchat
 [community-pidgin]: http://community.linuxmint.com/software/view/pidgin
 [community-skype]: http://community.linuxmint.com/software/view/skype
 
