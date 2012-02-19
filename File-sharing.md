@@ -27,6 +27,10 @@ Meiga is available in the linuxmint repositories.
 
 `apt install meiga`
 
+### ![Ubuntu One][img-ubuntu-one] Ubuntu One ###
+
+#### Setup ####
+
 ## FTP ##
 
 ### ![Filezilla][img-filezilla] Filezilla ###
@@ -53,3 +57,4 @@ Meiga is available in the linuxmint repositories.
 [img-pgl]: pgl-gui.png "PeerGuardian"
 [img-transmission]: transmission.png "Transmission"
 [img-network]: folder-remote.png "Network"
+[img-ubuntu-one]: ubuntu-one.png "Ubuntu One"
