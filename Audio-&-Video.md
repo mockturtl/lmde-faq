@@ -37,6 +37,10 @@
 ###### ![Brasero][img-brasero] Brasero ######
 ###### ![K3b][img-k3b]![KDE][badge-kde] K3b ######
 
+## Screen capture, desktop recording ##
+
+###### recordMyDesktop ######
+
 [anchor-skype]: Messaging#wiki-skype
 
 [badge-kde]: boston.png "KDE"
