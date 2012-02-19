@@ -35,7 +35,9 @@
 
 ### Edit and transcode video ###
 
-###### Openshot ######
+###### ![Openshot][img-openshot] [Openshot][homepage-openshot] ######
+
+[community][community-openshot]
 
 ###### ![PiTiVi][img-pitivi] [PiTiVi][homepage-pitivi] ######
 
@@ -61,6 +63,7 @@
 [community-brasero]: http://community.linuxmint.com/software/view/brasero
 [community-k3b]: http://community.linuxmint.com/software/view/k3b
 [community-mumble]: http://community.linuxmint.com/software/view/mumble
+[community-openshot]: http://community.linuxmint.com/software/view/openshot
 [community-pitivi]: http://community.linuxmint.com/software/view/pitivi
 [community-rhythmbox]: http://community.linuxmint.com/software/view/rhythmbox
 [community-songbird]: http://community.linuxmint.com/software/view/songbird
@@ -72,6 +75,7 @@
 [homepage-brasero]: http://projects.gnome.org/brasero/ "Brasero"
 [homepage-k3b]: http://www.k3b.org/ "K3b"
 [homepage-mumble]: http://mumble.sourceforge.net/ "Mumble"
+[homepage-openshot]: http://www.openshotvideo.com/
 [homepage-pitivi]: http://www.pitivi.org/ "PiTiVi"
 [homepage-rhythmbox]: http://projects.gnome.org/rhythmbox/ "Rhythmbox"
 [homepage-songbird]: http://getsongbird.com/ "Songbird"
@@ -82,6 +86,7 @@
 [img-banshee]: banshee.png "Banshee"
 [img-brasero]: brasero.png "Brasero"
 [img-k3b]: k3b.png "K3b"
+[img-openshot]: openshot.png "Openshot"
 [img-pitivi]: pitivi.png "Pitivi"
 [img-rhythmbox]: rhythmbox.png "Rhythmbox"
 [img-songbird]: songbird.png "Songbird"
