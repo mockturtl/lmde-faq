@@ -1,6 +1,11 @@
 ## ![][img-firefox] [Firefox][homepage-firefox] ##
 
+Firefox is installed by default.
+
 ### Latest ###
+
+_The Firefox builds available in the linuxmint repositories are customized.  [Custom search engines][link-search-engines] are a critical revenue stream for Linux Mint; please consider installing them._
+
 * [32-bit][firefox-x86-latest]
 * [64-bit][firefox-amd64-latest]
 
@@ -88,6 +93,7 @@ Opera is available in the linuxmint repositories.
 [img-chromium]: chromium-browser.png "Chromium"
 [img-opera]: opera.png "Opera"
 
+[link-search-engines]: http://linuxmint.com/searchengines.php
 
 [pts-chromium]: http://packages.qa.debian.org/c/chromium-browser.html
 [pts-opera]: http://packages.linuxmint.com/list.php?release=Debian
