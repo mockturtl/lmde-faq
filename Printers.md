@@ -1,4 +1,4 @@
-## ![Brother][img-printer] Brother ##
+## ![][img-printer] Brother ##
 
 ### [Printer drivers][brother-drv-lpr] ###
 
