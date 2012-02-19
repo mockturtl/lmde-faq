@@ -12,7 +12,7 @@ h3. "gollum":https://github.com/github/gollum
 
 A read-only version, "smeagol":https://github.com/rubyworks/smeagol, removes the edit functionality and would be suitable for hosting.
 
-Language-specific cheat sheets are available in edit mode, via the "?" button.
+Language-specific cheat sheets are available in edit mode, via the *?* button.
 
 h3. "pygments":http://pygments.org/docs/lexers/
 
