@@ -12,7 +12,11 @@
 
 ## Cloud storage ##
 
+Backup your files on a remote server and access them from anywhere.
+
 ### ![Dropbox][img-dropbox] [Dropbox][homepage-dropbox] ###
+
+Clients are available for Windows, OS X, Linux, iOS, Android, Blackberry, and the web.
 
 [community][community-dropbox]
 
@@ -27,6 +31,8 @@ TODO: You may wish to use GPG to encrypt your files.
 
 ### ![Meiga][img-meiga] [Meiga][homepage-meiga] ###
 
+Host your own files from your desktop.  Access or share them with a web browser.
+
 [community][community-meiga]
 
 #### Setup ####
@@ -36,6 +42,10 @@ Meiga is available in the linuxmint repositories.
 `apt install meiga`
 
 ### ![Ubuntu One][img-ubuntu-one] [Ubuntu One][homepage-ubuntu-one] ###
+
+Clients are available for Windows, Ubuntu, Android, iOS, and the web.  
+
+Desktop apps like Tomboy and [Banshee][anchor-banshee] integrate with the service for certain kinds of files (notes, music, contacts).
 
 #### Setup ####
 
@@ -57,6 +67,7 @@ Meiga is available in the linuxmint repositories.
 
 
 [anchor-opera]: Browsers#wiki-opera
+[anchor-banshee]: Audio-&-Video#wiki-banshee
 
 [community-deluge]: http://community.linuxmint.com/software/view/deluge
 [community-dropbox]: http://community.linuxmint.com/software/view/dropbox
