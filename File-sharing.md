@@ -29,7 +29,7 @@ Dropbox is available in the linuxmint repositories.
 `apt install dropbox nautilus-dropbox`
 
 ###### Security ######
-TODO: You may wish to use GPG to encrypt your files.
+You may wish to use GPG to [encrypt][anchor-encryption] your files.
 
 ### ![][img-meiga] [Meiga][homepage-meiga] ###
 
@@ -69,6 +69,7 @@ Integrates with desktop apps like [Tomboy][anchor-tomboy] and [Banshee][anchor-b
 
 
 [anchor-banshee]: Audio-&-Video#wiki-banshee
+[anchor-encryption]: Security#wiki-encryption
 [anchor-opera]: Browsers#wiki-opera
 [anchor-peerguardian]: Security#wiki-peerguardian
 [anchor-tomboy]: Office#wiki-tomboy
