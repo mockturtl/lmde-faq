@@ -26,9 +26,9 @@ Firefox can update itself via the menu (_Help --> About Firefox_).
 
 #### Setup ####
 
-`apt install chromium`
-
 Chromium is available in the debian repositories.
+
+`apt install chromium`
 
 ## ![Google Chrome][img-chrome] Google Chrome ##
 
