@@ -1,4 +1,4 @@
-## ![Thunderbird][img-thunderbird-logo] Thunderbird <a id="thunderbird" name="thunderbird"/>##
+## ![Thunderbird][img-thunderbird-logo]  [Thunderbird][homepage-thunderbird] <a id="thunderbird" name="thunderbird"/>##
 
 ### Latest ###
 * [32-bit][thunderbird-x86-latest]
@@ -28,6 +28,13 @@ Add-ons are installed through the menu. (_Tools --> Add-ons_)
 
 * Lightning: calendar & events
 * Enigmail: PGP encryption
+
+[community][community-thunderbird]
+
+
+[community-thunderbird]: http://community.linuxmint.com/software/view/thunderbird
+
+[homepage-thunderbird]: http://www.mozilla.org/thunderbird "Mozilla Thunderbird"
 
 [img-thunderbird-logo]: thunderbird.png "Mozilla Thunderbird"
 
