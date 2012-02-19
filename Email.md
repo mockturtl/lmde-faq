@@ -6,21 +6,23 @@
 
 #### Setup ####
 
-Download the package and extract it: `tar xjf path/to/downloaded/file.tar.bz2`.
+Download the package and extract it.
 
-Move the extracted files to `/opt`:  (note: `/opt/thunderbird` is the mint package)
+`tar xjf path/to/downloaded/file.tar.bz2`
 
-`sudo mv thunderbird /opt/thunderbird-moz`.
+Move the extracted files to **/opt**:  (note: **/opt/thunderbird** is the mint package)
+
+`sudo mv thunderbird /opt/thunderbird-moz`
 
 Replace the symlink:
 
 `sudo ln -sf /opt/thunderbird-moz/thunderbird /usr/bin/thunderbird`
 
-Thunderbird can update itself via the menu (_Help --> About Thunderbird_).
+Thunderbird can update itself via the menu. (_Help --> About Thunderbird_)
 
 ###### Add-ons ######
 
-Add-ons are installed through the menu (_Tools --> Add-ons_).
+Add-ons are installed through the menu. (_Tools --> Add-ons_)
 
  **TODO**
 
