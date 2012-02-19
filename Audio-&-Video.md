@@ -2,7 +2,7 @@
 
 ### Podcast and mp3 library ###
 
-###### ![][img-amarok]![KDE][badge-kde] [Amarok][homepage-amarok] ######
+###### ![][img-amarok]![KDE][emblem-kde] [Amarok][homepage-amarok] ######
 [community][community-amarok]
 ###### ![][img-banshee] [Banshee][homepage-banshee] <a id="banshee"/> ######
 [community][community-banshee]
@@ -49,7 +49,7 @@
 
 ###### ![][img-brasero] [Brasero][homepage-brasero] ######
 [community][community-brasero]
-###### ![][img-k3b]![KDE][badge-kde] [K3b][homepage-k3b] ######
+###### ![][img-k3b]![KDE][emblem-kde] [K3b][homepage-k3b] ######
 [community][community-k3b]
 ###### ![][img-acidrip] [Acidrip][homepage-acidrip] ######
 [community][community-acidrip]
@@ -60,7 +60,7 @@
 
 [anchor-skype]: Messaging#wiki-skype
 
-[badge-kde]: boston.png "KDE"
+[emblem-kde]: boston.png "KDE"
 
 [community-acidrip]: http://community.linuxmint.com/software/view/acidrip
 [community-amarok]: http://community.linuxmint.com/software/view/amarok
