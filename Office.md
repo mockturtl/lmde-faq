@@ -9,9 +9,9 @@ The default text editor depends on your desktop.
 ### gedit ###
 Cinnamon, MATE and gnome-shell users.
 
-### ![][badge-kde] kate ###
-### ![][badge-lxde] leafpad ###
-### ![][badge-xfce] mousepad ###
+### ![][emblem-kde] kate ###
+### ![][emblem-lxde] leafpad ###
+### ![][emblem-xfce] mousepad ###
 
 ## Notes ##
 
@@ -20,9 +20,9 @@ Cinnamon, MATE and gnome-shell users.
 [community][community-tomboy]
 
 
-[badge-kde]: boston.png "KDE"
-[badge-lxde]: badge-lxde.png "LXDE"
-[badge-xfce]: badge-xfce.png "XFCE"
+[emblem-kde]: boston.png "KDE"
+[emblem-lxde]: emblem-lxde.png "LXDE"
+[emblem-xfce]: emblem-xfce.png "XFCE"
 
 [community-tomboy]: http://community.linuxmint.com/software/view/tomboy
 [community-libreoffice]: http://community.linuxmint.com/software/view/libreoffice
