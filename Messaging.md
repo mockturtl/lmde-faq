@@ -25,6 +25,8 @@ Some services may require tweaking the default configuration (_Accounts --> Mana
 
 * [Off-the-Record][plugin-otr]
 
+[community][community-pidgin]
+
 ### ![Skype][img-skype] Skype <a id="skype" /> ###
 
 Skype is a chat, conferencing, and VOIP client.
@@ -34,6 +36,8 @@ Skype is a chat, conferencing, and VOIP client.
 Skype is available from the linuxmint repositories.
 
 `apt install skype pidgin-skype`
+
+[community][community-skype]
 
 ### Twitter, identi.ca ###
 
@@ -58,6 +62,9 @@ XChat is an IRC client.
 In _XChat --> Network list --> Linux Mint Server --> Edit_:
 Server: `irc.spotchat.org`  
 Favorite channels: `#mintcast,#linuxmint-chat,#linuxmint-help,#linuxmint-debian`
+
+[community-pidgin]: http://community.linuxmint.com/software/view/pidgin
+[community-skype]: http://community.linuxmint.com/software/view/skype
 
 [plugin-otr]: http://www.cypherpunks.ca/otr/debian-install/otr-setup.html
 
