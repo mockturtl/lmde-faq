@@ -10,7 +10,7 @@ To verify the installation, `dpkg -l | grep Brother`.
 
 #### Setup ####
 
-Open a web browser and visit [http://localhost:631/admin](http://localhost:631/admin).  Click "Add Printer."  Login as "root" and follow the instructions.
+Open a web browser and visit <http://localhost:631/admin>.  Click "Add Printer."  Login as "root" and follow the instructions.
 
 _Note: do not permit your browser to store your root password!_
 
