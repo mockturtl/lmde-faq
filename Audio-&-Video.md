@@ -2,6 +2,8 @@
 
 ### Podcast and mp3 library ###
 
+###### ![Amarok][img-amarok]![KDE][badge-kde] [Amarok][homepage-amarok] ######
+[community][community-amarok]
 ###### ![Banshee][img-banshee] [Banshee][homepage-banshee] ######
 [community][community-banshee]
 ###### ![Rhythmbox][img-rhythmbox] [Rhythmbox][homepage-rhythmbox] ######
@@ -58,6 +60,7 @@
 
 [badge-kde]: boston.png "KDE"
 
+[community-amarok]: http://community.linuxmint.com/software/view/amarok
 [community-audacity]: http://community.linuxmint.com/software/view/audacity
 [community-banshee]: http://community.linuxmint.com/software/view/banshee
 [community-brasero]: http://community.linuxmint.com/software/view/brasero
@@ -70,6 +73,7 @@
 [community-spotify]: http://community.linuxmint.com/software/view/spotify
 [community-vlc]: http://community.linuxmint.com/software/view/vlc
 
+[homepage-amarok]: http://amarok.kde.org/ "Amarok"
 [homepage-audacity]: http://audacity.sourceforge.net/ "Audacity"
 [homepage-banshee]: http://banshee.fm/ "Banshee"
 [homepage-brasero]: http://projects.gnome.org/brasero/ "Brasero"
@@ -80,8 +84,9 @@
 [homepage-rhythmbox]: http://projects.gnome.org/rhythmbox/ "Rhythmbox"
 [homepage-songbird]: http://getsongbird.com/ "Songbird"
 [homepage-spotify]: http://www.spotify.com/ "Spotify"
-[homepage-vlc]: http://www.videolan.org/vlc/
+[homepage-vlc]: http://www.videolan.org/vlc/ "VLC"
 
+[img-amarok]: amarok.png "Amarok"
 [img-audacity]: audacity.png "Audacity"
 [img-banshee]: banshee.png "Banshee"
 [img-brasero]: brasero.png "Brasero"
