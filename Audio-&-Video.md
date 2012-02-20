@@ -60,8 +60,6 @@
 
 [anchor-skype]: Messaging#wiki-skype
 
-[emblem-kde]: boston.png "KDE"
-
 [community-acidrip]: http://community.linuxmint.com/software/view/acidrip
 [community-amarok]: http://community.linuxmint.com/software/view/amarok
 [community-audacity]: http://community.linuxmint.com/software/view/audacity
@@ -75,6 +73,8 @@
 [community-songbird]: http://community.linuxmint.com/software/view/songbird
 [community-spotify]: http://community.linuxmint.com/software/view/spotify
 [community-vlc]: http://community.linuxmint.com/software/view/vlc
+
+[emblem-kde]: image/boston.png "KDE"
 
 [homepage-acidrip]: http://sourceforge.net/projects/acidrip/ "Acidrip"
 [homepage-amarok]: http://amarok.kde.org/ "Amarok"
