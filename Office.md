@@ -54,5 +54,5 @@ Cinnamon, MATE and gnome-shell users.
 [img-libreoffice-draw]: libreoffice-draw.png "Draw"
 [img-libreoffice-impress]: libreoffice-impress.png "Impress"
 [img-libreoffice-math]: libreoffice-math.png "Math"
-[img-libreoffice-writer]: libreoffice-writer.png "Writer"
+[img-libreoffice-writer]: images/libreoffice-writer.png "Writer"
 [img-tomboy]: tomboy.png "Tomboy"
