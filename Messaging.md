@@ -69,6 +69,6 @@ Favorite channels: `#mintcast,#linuxmint-chat,#linuxmint-help,#linuxmint-debian`
 
 [plugin-otr]: http://www.cypherpunks.ca/otr/debian-install/otr-setup.html
 
-[img-pidgin]: pidgin.png "Pidgin"
-[img-skype]: skype.png "Skype"
-[img-xchat]: xchat.png "XChat"
+[img-pidgin]: image/pidgin.png "Pidgin"
+[img-skype]: image/skype.png "Skype"
+[img-xchat]: image/xchat.png "XChat"

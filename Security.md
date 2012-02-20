@@ -65,17 +65,17 @@ You will probably find the lists too aggressive: when you seem to have network p
 
 [anchor-enigmail]: Email#wiki-enigmail
 
-[emblem-kde]: boston.png
+[emblem-kde]: image/boston.png
 
 [homepage-gnupg]: http://www.gnupg.org/
 [homepage-pgl]: http://moblock-deb.sourceforge.net/
 
-[img-gnome-terminal]: gnome-terminal.png "SSH"
-[img-gpa]: gpa.png "Gnu Privacy Assistant"
-[img-gpg]: gpg.png "GPG"
-[img-kleopatra]: kleopatra.png "Kleopatra"
-[img-pgl]: pgl-gui.png "PeerGuardian"
-[img-mintnanny]: mintnanny.png "Domain Blocker"
+[img-gnome-terminal]: image/gnome-terminal.png "SSH"
+[img-gpa]: image/gpa.png "Gnu Privacy Assistant"
+[img-gpg]: image/gpg.png "GPG"
+[img-kleopatra]: image/kleopatra.png "Kleopatra"
+[img-pgl]: image/pgl-gui.png "PeerGuardian"
+[img-mintnanny]: image/mintnanny.png "Domain Blocker"
 
 [link-github-ssh]: http://help.github.com/linux-set-up-git/
 [link-gpg-walkthrough]: http://arc.apotheon.org/cheats/gpg_quick.html

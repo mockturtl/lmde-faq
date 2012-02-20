@@ -51,4 +51,4 @@ Your scanner is now ready to use.  Test with `simple-scan`.
 [mint-forums-brother2]: http://forums.linuxmint.com/viewtopic.php?f=42&t=90808 "Linux Mint forums"
 [debian-forums-brother1]: http://www.debianuserforums.org/viewtopic.php?f=9&t=1491 "Debian forums"
 
-[img-printer]: printer.png "Printer"
+[img-printer]: image/printer.png "Printer"

@@ -90,10 +90,10 @@ Opera is available in the linuxmint repositories.
 [homepage-firefox]: http://www.mozilla.org/firefox
 [homepage-opera]: http://www.opera.com/
 
-[img-firefox]: firefox.png "Mozilla Firefox"
-[img-chrome]: google-chrome.png "Google Chrome"
-[img-chromium]: chromium-browser.png "Chromium"
-[img-opera]: opera.png "Opera"
+[img-firefox]: image/firefox.png "Mozilla Firefox"
+[img-chrome]: image/google-chrome.png "Google Chrome"
+[img-chromium]: image/chromium-browser.png "Chromium"
+[img-opera]: image/opera.png "Opera"
 
 [link-search-engines]: http://linuxmint.com/searchengines.php
 [link-duckduckgo-partnership]: http://blog.linuxmint.com/?p=1884

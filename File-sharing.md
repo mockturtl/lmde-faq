@@ -88,10 +88,10 @@ Integrates with desktop apps like [Tomboy][anchor-tomboy] and [Banshee][anchor-b
 [homepage-transmission]: http://www.transmissionbt.com/
 [homepage-ubuntu-one]: https://one.ubuntu.com/
 
-[img-deluge]: deluge.png "Deluge"
-[img-dropbox]: dropbox.png "Dropbox"
-[img-filezilla]: filezilla.png "Filezilla"
-[img-meiga]: meiga.png "Meiga"
-[img-transmission]: transmission.png "Transmission"
-[img-network]: folder-remote.png "Network"
-[img-ubuntu-one]: ubuntu-one.png "Ubuntu One"
+[img-deluge]: image/deluge.png "Deluge"
+[img-dropbox]: image/dropbox.png "Dropbox"
+[img-filezilla]: image/filezilla.png "Filezilla"
+[img-meiga]: image/meiga.png "Meiga"
+[img-network]: image/folder-remote.png "Network"
+[img-transmission]: image/transmission.png "Transmission"
+[img-ubuntu-one]: image/ubuntu-one.png "Ubuntu One"

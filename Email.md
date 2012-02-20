@@ -38,7 +38,7 @@ Add-ons are installed through the menu. (_Tools --> Add-ons_)
 
 [homepage-thunderbird]: http://www.mozilla.org/thunderbird "Mozilla Thunderbird"
 
-[img-thunderbird-logo]: thunderbird.png "Mozilla Thunderbird"
+[img-thunderbird-logo]: image/thunderbird.png "Mozilla Thunderbird"
 
 [thunderbird-x86-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/latest/linux-i686/en-US/
 [thunderbird-amd64-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/latest/linux-x86_64/en-US/
