@@ -1,26 +1,22 @@
-## ![][img-libreoffice] [LibreOffice][homepage-libreoffice] ##
+## ![][img-libreoffice] [LibreOffice][homepage-libreoffice]
 
 The office suite is composed of managers and editors for different kinds of files.
 
-### ![][img-libreoffice-writer] Writer ###
-Text documents.  (Word processor)
-
-### ![][img-libreoffice-calc] Calc ###
+### ![][img-libreoffice-writer]  **Writer**
+Text documents, word processing.
+### ![][img-libreoffice-calc]  **Calc**
 Spreadsheets.
-
-### ![][img-libreoffice-impress] Impress ###
+### ![][img-libreoffice-impress]  **Impress**
 Presentations.
-
-### ![][img-libreoffice-draw] Draw ###
+### ![][img-libreoffice-draw]  **Draw**
 Charts and slides.
+### ![][img-libreoffice-math]  **Math**
+Equations.
+### ![][img-libreoffice-base]  **Base**
+Databases.
+
 ###### See also ######
 [Image editing][anchor-graphics]
-
-### ![][img-libreoffice-math] Math ###
-Equations.
-
-### ![][img-libreoffice-base] Base ###
-Databases.
 
 [community][community-libreoffice]
 
