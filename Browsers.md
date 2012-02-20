@@ -65,9 +65,9 @@ Chrome creates an entry in **/etc/apt/sources.list.d/** and uses APT to keep its
 
 #### Setup ####
 
-`apt install opera`
-
 Opera is available in the linuxmint repositories.
+
+`apt install opera`
 
 [community][community-opera]
 
