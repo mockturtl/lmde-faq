@@ -72,7 +72,7 @@ You will probably find the lists too aggressive: when you seem to have network p
 
 [img-gnome-terminal]: image/gnome-terminal.png "SSH"
 [img-gpa]: image/gpa.png "Gnu Privacy Assistant"
-[img-gpg]: image/gpg.png "GPG"
+[img-gpg]: image/gpg.png "Gnu Privacy Guard"
 [img-kleopatra]: image/kleopatra.png "Kleopatra"
 [img-pgl]: image/pgl-gui.png "PeerGuardian"
 [img-mintnanny]: image/mintnanny.png "Domain Blocker"
