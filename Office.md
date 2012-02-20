@@ -38,9 +38,10 @@ Cinnamon, MATE and gnome-shell users.
 [community][community-tomboy]
 
 [anchor-graphics]: Images#wiki-graphics
-[emblem-kde]: boston.png "KDE"
-[emblem-lxde]: emblem-lxde.png "LXDE"
-[emblem-xfce]: emblem-xfce.png "XFCE"
+
+[emblem-kde]: image/boston.png "KDE"
+[emblem-lxde]: image/emblem-lxde.png "LXDE"
+[emblem-xfce]: image/emblem-xfce.png "XFCE"
 
 [community-tomboy]: http://community.linuxmint.com/software/view/tomboy
 [community-libreoffice]: http://community.linuxmint.com/software/view/libreoffice
