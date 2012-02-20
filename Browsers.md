@@ -59,7 +59,7 @@ Chromium is available in the debian repositories.
 
 Chrome creates an entry in **/etc/apt/sources.list.d/** and uses APT to keep itself updated from google's repository.
 
-## ![][img-opera] [Opera][homepage-opera] <a id="opera"/>##
+## ![][img-opera] [Opera][homepage-opera] <a id="opera"/> ##
 
 ### [Latest][pts-opera] ###
 
