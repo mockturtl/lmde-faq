@@ -12,15 +12,25 @@ GnuPG is [available][pts-gnupg2] in the debian repositories.  It will be install
 
 ![][img-kleopatra]![][emblem-kde] Kleopatra `apt install kleopatra`  
 
+A walkthrough is available [here][link-gpg-walkthrough].  The [Enigmail][anchor-enigmail] plugin for Thunderbird also has a nice wizard.
+
 ## ![][img-gnome-terminal] SSH
 
-Secure shell lets you log in remotely through the terminal.  Install the server to accept incoming connections.
+Secure shell lets you log in remotely through the terminal.  You can use your username and password, but it's better to generate a keypair to identify each client computer you plan to log in with.  
+
+`ssh-keygen -b 4096` 
+
+Choose a [secure passphrase][link-password-generator] different from your system password.  It can contain whitespace and punctuation.  Protect your private key (**~/.ssh/id_rsa**).
+
+Install the server on any machine which should accept incoming connections.
 
 `apt install ssh`
 
-You can use your username and password, but it's better to generate a keypair with `ssh-keygen` to identify each client computer you plan to log in with.  Protect your private key (**~/.ssh/id_rsa**).
+Each client can then provide its identity (public key, **~/.ssh/id_rsa.pub**) to the remote server.
 
-Each client can then provide its identity (public key, **~/.ssh/id_rsa.pub**) with `ssh-copy-id`.  The public keys are written to **~/.ssh/authorized_keys** on the remote system, and its identity is written to the local client's **~/.ssh/known_hosts** to prevent spoofing.
+`ssh-copy-id my-remote-hostname`
+
+These are written to **~/.ssh/authorized_keys** on the remote system, and its identity is written to the local client's **~/.ssh/known_hosts** to prevent spoofing.
 
 Once all clients can connect, disable password login on the server via **/etc/ssh/sshd_config**.
 
@@ -53,6 +63,8 @@ You will probably find the lists too aggressive: when you seem to have network p
 ## HTTPS (SSL)
 
 
+[anchor-enigmail]: Email#wiki-enigmail
+
 [emblem-kde]: boston.png
 
 [homepage-gnupg]: http://www.gnupg.org/
@@ -66,7 +78,9 @@ You will probably find the lists too aggressive: when you seem to have network p
 [img-mintnanny]: mintnanny.png "Domain Blocker"
 
 [link-github-ssh]: http://help.github.com/linux-set-up-git/
+[link-gpg-walkthrough]: http://arc.apotheon.org/cheats/gpg_quick.html
 [link-mvps]: http://winhelp2002.mvps.org/hosts.htm
 [link-mvps-hosts]: http://winhelp2002.mvps.org/hosts.txt
+[link-password-generator]: http://strongpasswordgenerator.com/
 
 [pts-gnupg2]: http://packages.qa.debian.org/g/gnupg2.html "PTS"
