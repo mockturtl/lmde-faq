@@ -62,8 +62,11 @@ You will probably find the lists too aggressive: when you seem to have network p
 
 ## HTTPS (SSL)
 
+Encrypting your internet traffic helps you maintain privacy.  Make sure your [default search engine][anchor-search-engines] uses SSL, and use [off-the-record messaging][anchor-otr-messaging].
 
+[anchor-otr-messaging]: Messaging#wiki-otr-messaging
 [anchor-enigmail]: Email#wiki-enigmail
+[anchor-search-engines]: Browsers
 
 [emblem-kde]: image/boston.png
 
