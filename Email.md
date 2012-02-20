@@ -27,7 +27,7 @@ Add-ons are installed through the menu. (_Tools --> Add-ons_)
  **TODO**
 
 * Lightning: calendar & events
-* Enigmail: PGP encryption ([also here][anchor-encryption])
+* <a id="enigmail"/>Enigmail: PGP encryption ([also here][anchor-encryption])
 
 [community][community-thunderbird]
 
