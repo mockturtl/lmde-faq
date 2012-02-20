@@ -48,11 +48,11 @@ Cinnamon, MATE and gnome-shell users.
 [homepage-libreoffice]: http://www.libreoffice.org/
 [homepage-tomboy]: http://projects.gnome.org/tomboy/
 
-[img-libreoffice]: libreoffice-main.png "LibreOffice"
-[img-libreoffice-base]: libreoffice-base.png "Base"
-[img-libreoffice-calc]: libreoffice-calc.png "Calc"
-[img-libreoffice-draw]: libreoffice-draw.png "Draw"
-[img-libreoffice-impress]: libreoffice-impress.png "Impress"
-[img-libreoffice-math]: libreoffice-math.png "Math"
-[img-libreoffice-writer]: images/libreoffice-writer.png "Writer"
-[img-tomboy]: tomboy.png "Tomboy"
+[img-libreoffice]: image/libreoffice-main.png "LibreOffice"
+[img-libreoffice-base]: image/libreoffice-base.png "Base"
+[img-libreoffice-calc]: image/libreoffice-calc.png "Calc"
+[img-libreoffice-draw]: image/libreoffice-draw.png "Draw"
+[img-libreoffice-impress]: image/libreoffice-impress.png "Impress"
+[img-libreoffice-math]: image/libreoffice-math.png "Math"
+[img-libreoffice-writer]: image/libreoffice-writer.png "Writer"
+[img-tomboy]: image/tomboy.png "Tomboy"
