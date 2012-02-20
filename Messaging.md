@@ -23,7 +23,7 @@ Some services may require tweaking the default configuration (_Accounts --> Mana
 
 ###### Plugins ######
 
-* [Off-the-Record][plugin-otr]
+* <a id="otr-messaging"/> [Off-the-Record][plugin-otr]
 
 [community][community-pidgin]
 
