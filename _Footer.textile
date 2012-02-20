@@ -1,4 +1,4 @@
-Icons courtesy of "Linux Mint":http://www.linuxmint.com, "Debian GNU/Linux":http://www.debian.org, "Ubuntu":http://www.ubuntu.com, "GNU":http://www.gnu.org/ and all corners of the web.  Send word if one of them's yours and you'd like me to stop using it.
+Icons courtesy of "Linux Mint":http://www.linuxmint.com, "Debian GNU/Linux":http://www.debian.org, "Ubuntu":http://www.ubuntu.com, "GNU":http://www.gnu.org/ and all corners of the web.  Send word if one of them is yours and you'd like me to stop using it.
 
 h2. [[voluntary.png|float|width=35px|height=35px]]  "Voluntary License":http://en.wikipedia.org/wiki/Voluntaryism
 
