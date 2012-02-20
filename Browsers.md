@@ -4,7 +4,7 @@ Firefox is installed by default.
 
 ### Latest ###
 
-_The Firefox builds available in the linuxmint repositories are customized.  [Custom search engines][link-search-engines] are a critical revenue stream for Linux Mint; please consider installing them.  To see what DuckDuckGo can do for you, see the [partnership announcement][link-duckduckgo-partnership]._
+_The Firefox builds available in the linuxmint repositories are customized.  [Custom search engines][link-search-engines] are a critical revenue stream for Linux Mint; please consider installing them.  To find out what DuckDuckGo can do for you, read the [partnership announcement][link-duckduckgo-partnership]._
 
 TODO: instructions for adding Mint CSE's (links are empty php files?)
 
