@@ -1,4 +1,4 @@
-## ![][img-thunderbird-logo]  [Thunderbird][homepage-thunderbird] <a id="thunderbird" name="thunderbird"/>##
+## ![][img-thunderbird-logo]  [Thunderbird][homepage-thunderbird] <a id="thunderbird" />##
 
 ### Latest ###
 * [32-bit][thunderbird-x86-latest]
