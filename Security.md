@@ -1,16 +1,18 @@
-## File encryption <a id="encryption" /> ##
+## File encryption <a id="encryption" />
 
-### ![][img-gpg] [GnuPG][homepage-gnupg] ###
+### ![][img-gpg] [GnuPG][homepage-gnupg]
 
-An implementation of OpenPGP ("Pretty Good Privacy").
+An implementation of OpenPGP ("Pretty Good Privacy").  Sign, verify, encrypt, and decrypt individual files and email.
 
-#### Setup ####
+#### Setup
 
-GnuPG is available in the debian repositories.
+GnuPG is [available][pts-gnupg2] in the debian repositories.  It will be installed with the graphical interface.
 
-`apt install gnupg`
+![][img-gpa] Gnu Privacy Assistant `apt install gpa`
 
-## ![][img-gnome-terminal] SSH ##
+![][img-kleopatra]![][emblem-kde] Kleopatra `apt install kleopatra`  
+
+## ![][img-gnome-terminal] SSH
 
 Secure shell lets you log in remotely through the terminal.  Install the server to accept incoming connections.
 
@@ -32,9 +34,9 @@ UsePAM no
 
 Your public key also identifies your computer to services built on SSH, like [github][link-github-ssh] (see "Set Up SSH Keys").
 
-## IP blacklist ##
+## IP blacklist
 
-### ![][img-mintnanny] /etc/hosts ###
+### ![][img-mintnanny] /etc/hosts
 
 `mintNanny` provides a graphical interface to this file.
 
@@ -42,23 +44,29 @@ The **hosts** file maps domain names to IP addresses.  Malicious websites can be
 
 Linux is not vulnerable to Windows malware, but you may still want to blacklist malicious websites.  Append [this list][link-mvps-hosts] to **/etc/hosts**.  Remove the first two entries: _localhost_ is already correctly defined for IPv4 and IPv6.
 
-### ![][img-pgl] [PeerGuardian][homepage-pgl] <a id="peerguardian"/> ###
+### ![][img-pgl] [PeerGuardian][homepage-pgl] <a id="peerguardian"/>
 
 Firewall manager.  Uses blacklists to prevent incoming and outgoing connections by IP or port number.
 
 You will probably find the lists too aggressive: when you seem to have network problems, the reason is usually that PeerGuardian has blocked some traffic you don't want it to.  This will improve over time as you customize the whitelist.  _(right-click --> Allow permanently)_
 
-## HTTPS (SSL) ##
+## HTTPS (SSL)
 
+
+[emblem-kde]: boston.png
 
 [homepage-gnupg]: http://www.gnupg.org/
 [homepage-pgl]: http://moblock-deb.sourceforge.net/
 
 [img-gnome-terminal]: gnome-terminal.png "SSH"
+[img-gpa]: gpa.png "Gnu Privacy Assistant"
 [img-gpg]: gpg.png "GPG"
+[img-kleopatra]: kleopatra.png "Kleopatra"
 [img-pgl]: pgl-gui.png "PeerGuardian"
 [img-mintnanny]: mintnanny.png "Domain Blocker"
 
 [link-github-ssh]: http://help.github.com/linux-set-up-git/
 [link-mvps]: http://winhelp2002.mvps.org/hosts.htm
 [link-mvps-hosts]: http://winhelp2002.mvps.org/hosts.txt
+
+[pts-gnupg2]: http://packages.qa.debian.org/g/gnupg2.html "PTS"
