@@ -40,7 +40,7 @@ Your public key also identifies your computer to services built on SSH, like [gi
 
 `mintNanny` provides a graphical interface to this file.
 
-The **hosts** file maps domain names to IP addresses.  Malicious websites can be redirected to the current machine, resulting in a harmless "file not found" error.  A detailed explanation is available [here][link-mvps].
+The **hosts** file maps domain names to IP addresses.  Malicious links can be redirected to the current machine, resulting in a harmless "file not found" error.  A detailed explanation is available [here][link-mvps].
 
 Linux is not vulnerable to Windows malware, but you may still want to blacklist malicious websites.  Append [this list][link-mvps-hosts] to **/etc/hosts**.  Remove the first two entries: _localhost_ is already correctly defined for IPv4 and IPv6.
 
