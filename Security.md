@@ -1,5 +1,15 @@
 ## File encryption <a id="encryption" /> ##
 
+### ![][img-gpg] [GnuPG][homepage-gnupg] ###
+
+An implementation of OpenPGP ("Pretty Good Privacy").
+
+#### Setup ####
+
+GnuPG is available in the debian repositories.
+
+`apt install gnupg`
+
 ## ![][img-gnome-terminal] SSH ##
 
 Secure shell lets you log in remotely through the terminal.  Install the server to accept incoming connections.
@@ -41,10 +51,11 @@ You will probably find the lists too aggressive: when you seem to have network p
 ## HTTPS (SSL) ##
 
 
-
+[homepage-gnupg]: http://www.gnupg.org/
 [homepage-pgl]: http://moblock-deb.sourceforge.net/
 
 [img-gnome-terminal]: gnome-terminal.png "SSH"
+[img-gpg]: gpg.png "GPG"
 [img-pgl]: pgl-gui.png "PeerGuardian"
 [img-mintnanny]: mintnanny.png "Domain Blocker"
 
