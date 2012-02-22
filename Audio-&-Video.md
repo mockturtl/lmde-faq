@@ -6,6 +6,8 @@
 [community][community-amarok]
 ###### ![][img-banshee] [Banshee][homepage-banshee] <a id="banshee"/> ######
 [community][community-banshee]
+###### ![][img-clementine] [Clementine][homepage-clementine]######
+[community][community-clementine]
 ###### ![][img-rhythmbox] [Rhythmbox][homepage-rhythmbox] ######
 [community][community-rhythmbox]
 ###### ![][img-songbird] [Songbird][homepage-songbird] ######
@@ -65,6 +67,7 @@
 [community-audacity]: http://community.linuxmint.com/software/view/audacity
 [community-banshee]: http://community.linuxmint.com/software/view/banshee
 [community-brasero]: http://community.linuxmint.com/software/view/brasero
+[community-clementine]: http://community.linuxmint.com/software/view/clementine
 [community-k3b]: http://community.linuxmint.com/software/view/k3b
 [community-mumble]: http://community.linuxmint.com/software/view/mumble
 [community-openshot]: http://community.linuxmint.com/software/view/openshot
@@ -81,6 +84,7 @@
 [homepage-audacity]: http://audacity.sourceforge.net/ "Audacity"
 [homepage-banshee]: http://banshee.fm/ "Banshee"
 [homepage-brasero]: http://projects.gnome.org/brasero/ "Brasero"
+[homepage-clementine]: http://www.clementine-player.org/
 [homepage-k3b]: http://www.k3b.org/ "K3b"
 [homepage-mumble]: http://mumble.sourceforge.net/ "Mumble"
 [homepage-openshot]: http://www.openshotvideo.com/
@@ -95,6 +99,7 @@
 [img-audacity]: image/audacity.png "Audacity"
 [img-banshee]: image/banshee.png "Banshee"
 [img-brasero]: image/brasero.png "Brasero"
+[img-clementine]: image/clementine.png "Clementine"
 [img-k3b]: image/k3b.png "K3b"
 [img-mumble]: image/mumble.png "Mumble"
 [img-openshot]: image/openshot.png "Openshot"
