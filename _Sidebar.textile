@@ -1,7 +1,5 @@
 h2. Contents
 
-# [[Debian and Linux Mint Debian Edition]]
-# [[Questions and Answers]]
 # [[Printers]]
 # [[Browsers]]
 # [[Email]]
