@@ -1,66 +1,75 @@
-## Audio  ##
+## Podcast and mp3 library
 
-### Podcast and mp3 library ###
-
-###### ![][img-amarok]![KDE][emblem-kde] [Amarok][homepage-amarok] ######
+### ![][img-amarok]![KDE][emblem-kde] [Amarok][homepage-amarok]
 [community][community-amarok]
-###### ![][img-banshee] [Banshee][homepage-banshee] <a id="banshee"/> ######
+
+### ![][img-banshee] [Banshee][homepage-banshee] <a id="banshee"/>
 [community][community-banshee]
-###### ![][img-clementine] [Clementine][homepage-clementine]######
+
+### ![][img-clementine] [Clementine][homepage-clementine]
 [community][community-clementine]
-###### ![][img-rhythmbox] [Rhythmbox][homepage-rhythmbox] ######
+
+### ![][img-rhythmbox] [Rhythmbox][homepage-rhythmbox]
 [community][community-rhythmbox]
-###### ![][img-songbird] [Songbird][homepage-songbird] ######
+
+### ![][img-songbird] [Songbird][homepage-songbird]
 [community][community-songbird]
-###### ![][img-spotify] [Spotify][homepage-spotify] ######
 
-### Record, mix, and transcode audio ###
+### ![][img-spotify] [Spotify][homepage-spotify]
 
-###### ![][img-audacity] [Audacity][homepage-audacity] ######
+## Record, mix, and transcode audio
+
+### ![][img-audacity] [Audacity][homepage-audacity]
 [community][community-audacity]
 
-### VOIP ###
+## VOIP
 
-###### ![][img-mumble] [Mumble][homepage-mumble] ######
-
+### ![][img-mumble] [Mumble][homepage-mumble]
 [community][community-mumble]
 
-###### See also ######
+### ![][img-ekiga] [Ekiga][homepage-ekiga]
+#### Setup
+ekiga is available in the debian repositories.
 
+`apt install ekiga`
+
+[community][community-ekiga]
+
+###### See also
 [Skype][anchor-skype]
 
-## Video ##
+## Watch movies
 
-### Watch movies ###
-
-###### ![][img-vlc] [VLC][homepage-vlc] ######
+### ![][img-vlc] [VLC][homepage-vlc]
 
 [community][community-vlc]
 
-### Edit and transcode video ###
+## Edit and transcode video
 
-###### ![][img-openshot] [Openshot][homepage-openshot] ######
+### ![][img-openshot] [Openshot][homepage-openshot]
 
 [community][community-openshot]
 
-###### ![][img-pitivi] [PiTiVi][homepage-pitivi] ######
+### ![][img-pitivi] [PiTiVi][homepage-pitivi]
 
 [community][community-pitivi]
 
-## Rip, burn to CD and DVD ##
+## Rip, burn to CD and DVD
 
-###### ![][img-brasero] [Brasero][homepage-brasero] ######
+### ![][img-brasero] [Brasero][homepage-brasero]
 [community][community-brasero]
-###### ![][img-k3b]![KDE][emblem-kde] [K3b][homepage-k3b] ######
+
+### ![][img-k3b]![KDE][emblem-kde] [K3b][homepage-k3b]
 [community][community-k3b]
-###### ![][img-acidrip] [Acidrip][homepage-acidrip] ######
+
+### ![][img-acidrip] [Acidrip][homepage-acidrip]
 [community][community-acidrip]
 
-## Screen capture, desktop recording ##
+## Screen capture, desktop recording
 
-### ![][img-kazam] [Kazam][homepage-kazam] ###
+### ![][img-kazam] [Kazam][homepage-kazam]
 
-#### Setup ####
+#### Setup
 
 Kazam is not currently available in the repositories.
 
@@ -76,6 +85,7 @@ Extract the archive, and run setup.
 [community-banshee]: http://community.linuxmint.com/software/view/banshee
 [community-brasero]: http://community.linuxmint.com/software/view/brasero
 [community-clementine]: http://community.linuxmint.com/software/view/clementine
+[community-ekiga]: http://community.linuxmint.com/software/view/ekiga
 [community-k3b]: http://community.linuxmint.com/software/view/k3b
 [community-mumble]: http://community.linuxmint.com/software/view/mumble
 [community-openshot]: http://community.linuxmint.com/software/view/openshot
@@ -93,6 +103,7 @@ Extract the archive, and run setup.
 [homepage-banshee]: http://banshee.fm/ "Banshee"
 [homepage-brasero]: http://projects.gnome.org/brasero/ "Brasero"
 [homepage-clementine]: http://www.clementine-player.org/
+[homepage-ekiga]: http://ekiga.org/
 [homepage-k3b]: http://www.k3b.org/ "K3b"
 [homepage-kazam]: https://launchpad.net/kazam/+download "Kazam"
 [homepage-mumble]: http://mumble.sourceforge.net/ "Mumble"
@@ -109,6 +120,7 @@ Extract the archive, and run setup.
 [img-banshee]: image/banshee.png "Banshee"
 [img-brasero]: image/brasero.png "Brasero"
 [img-clementine]: image/clementine.png "Clementine"
+[img-ekiga]: image/ekiga.png "Ekiga"
 [img-k3b]: image/k3b.png "K3b"
 [img-kazam]: image/kazam.png "Kazam"
 [img-mumble]: image/mumble.png "Mumble"
