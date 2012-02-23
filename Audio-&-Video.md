@@ -59,6 +59,7 @@
 ## Screen capture, desktop recording ##
 
 ###### recordMyDesktop ######
+###### ![][img-kazam] [Kazam][homepage-kazam] ######
 
 [anchor-skype]: Messaging#wiki-skype
 
@@ -86,6 +87,7 @@
 [homepage-brasero]: http://projects.gnome.org/brasero/ "Brasero"
 [homepage-clementine]: http://www.clementine-player.org/
 [homepage-k3b]: http://www.k3b.org/ "K3b"
+[homepage-kazam]: https://launchpad.net/kazam/+download "Kazam"
 [homepage-mumble]: http://mumble.sourceforge.net/ "Mumble"
 [homepage-openshot]: http://www.openshotvideo.com/
 [homepage-pitivi]: http://www.pitivi.org/ "PiTiVi"
@@ -101,6 +103,7 @@
 [img-brasero]: image/brasero.png "Brasero"
 [img-clementine]: image/clementine.png "Clementine"
 [img-k3b]: image/k3b.png "K3b"
+[img-kazam]: image/kazam.png "Kazam"
 [img-mumble]: image/mumble.png "Mumble"
 [img-openshot]: image/openshot.png "Openshot"
 [img-pitivi]: image/pitivi.png "Pitivi"
