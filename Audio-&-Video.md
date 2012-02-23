@@ -65,6 +65,7 @@
 Kazam is not currently available in the repositories.
 
 Extract the archive, and run setup.
+
 `sudo python setup.py install`
 
 [anchor-skype]: Messaging#wiki-skype
