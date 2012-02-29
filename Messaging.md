@@ -4,7 +4,9 @@ Pidgin is a GTK+ interface for **libpurple**, a front-end for instant messaging 
 
 #### Setup ####
 
-Some services may require tweaking the default configuration (_Accounts --> Manage Accounts --> Modify_).
+Some services may require tweaking the default configuration.
+
+_Accounts --> Manage Accounts --> Modify_
 
 * AIM
     * Server: `login.messaging.aol.com`,  Port: `5190`
@@ -23,7 +25,9 @@ Some services may require tweaking the default configuration (_Accounts --> Mana
 
 ###### Plugins ######
 
-* <a id="otr-messaging"/> [Off-the-Record][plugin-otr]
+* <a id="otr-messaging"/> 
+[Off-the-Record][plugin-otr]  
+`apt install pidgin-otr`
 
 [community][community-pidgin]
 
