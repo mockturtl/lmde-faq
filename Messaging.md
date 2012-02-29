@@ -43,7 +43,7 @@ Skype is available from the linuxmint repositories.
 
 [community][community-skype]
 
-### Twitter, identi.ca ###
+### ![][img-twitter] Twitter, identi.ca ###
 
 Twitter and identi.ca are microblogging services.
 
@@ -75,4 +75,5 @@ Favorite channels: `#mintcast,#linuxmint-chat,#linuxmint-help,#linuxmint-debian`
 
 [img-pidgin]: image/pidgin.png "Pidgin"
 [img-skype]: image/skype.png "Skype"
+[img-twitter]: image/twitter.png "Twitter"
 [img-xchat]: image/xchat.png "XChat"
