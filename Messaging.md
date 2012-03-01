@@ -1,12 +1,12 @@
-## ![Pidgin][img-pidgin] Pidgin ##
+## ![Pidgin][img-pidgin] Pidgin
 
 Pidgin is a GTK+ interface for **libpurple**, a front-end for instant messaging services.  
 
-#### Setup ####
+#### Setup
 
 Some services may require tweaking the default configuration.
 
-_Accounts --> Manage Accounts --> Modify_
+_Accounts -> Manage Accounts -> Modify_
 
 * AIM
     * Server: `login.messaging.aol.com`,  Port: `5190`
@@ -23,7 +23,7 @@ _Accounts --> Manage Accounts --> Modify_
     * See below
 * Yahoo
 
-###### Plugins ######
+###### Plugins
 
 * <a id="otr-messaging"/> 
 [Off-the-Record][plugin-otr]  
@@ -31,11 +31,11 @@ _Accounts --> Manage Accounts --> Modify_
 
 [community][community-pidgin]
 
-### ![Skype][img-skype] Skype <a id="skype" /> ###
+### ![Skype][img-skype] Skype <a id="skype" />
 
 Skype is a chat, conferencing, and VOIP client.
 
-#### Setup ####
+#### Setup
 
 Skype is available from the linuxmint repositories.
 
@@ -43,25 +43,26 @@ Skype is available from the linuxmint repositories.
 
 [community][community-skype]
 
-### ![][img-twitter] Twitter, identi.ca ###
+### ![][img-twitter] Twitter, identi.ca
 
 Twitter and identi.ca are microblogging services.
 
-#### Setup ####
+#### Setup
 
 `apt install pidgin-microblog`
 
-Enable _Tools --> Plugins --> Twitgen_
+Enable _Tools -> Plugins -> Twitgen_.
 
-Add the account (_Accounts --> Manage accounts --> Add_) and follow the instructions to authorize.
+Add the account (_Accounts -> Manage accounts -> Add_) and follow the instructions to authorize.
 
-## ![XChat][img-xchat] XChat ##
+## ![XChat][img-xchat] XChat
 
 XChat is an IRC client.
 
-#### Setup ####
+#### Setup
 
-In _XChat --> Network list --> Linux Mint Server --> Edit_:
+In _XChat -> Network list -> Linux Mint Server -> Edit_:
+
 Server: `irc.spotchat.org`  
 Favorite channels: `#mintcast,#linuxmint-chat,#linuxmint-help,#linuxmint-debian`
 

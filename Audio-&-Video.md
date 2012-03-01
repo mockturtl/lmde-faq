@@ -22,18 +22,36 @@
 ### ![][img-audacity] [Audacity][homepage-audacity]
 [community][community-audacity]
 
-## VOIP
+## VOIP, conferencing, and webcam
 
 ### ![][img-mumble] [Mumble][homepage-mumble]
 [community][community-mumble]
 
 ### ![][img-ekiga] [Ekiga][homepage-ekiga]
 #### Setup
-ekiga is available in the debian repositories.
+Ekiga is available in the debian repositories.
 
 `apt install ekiga`
 
 [community][community-ekiga]
+
+### ![][img-cheese] [Cheese][homepage-cheese]
+#### Setup
+Cheese is available in the debian repositories.
+
+`apt install cheese`
+
+[community][community-cheese]
+
+### ![][img-guvcview] [GUVCView][homepage-guvcview]
+
+#### Setup
+
+GTK+ UVC Viewer is available in the debian repositories.
+
+`apt install guvcview`
+
+[community][community-guvcview]
 
 ###### See also
 [Skype][anchor-skype]
@@ -84,8 +102,10 @@ Extract the archive, and run setup.
 [community-audacity]: http://community.linuxmint.com/software/view/audacity
 [community-banshee]: http://community.linuxmint.com/software/view/banshee
 [community-brasero]: http://community.linuxmint.com/software/view/brasero
+[community-cheese]: http://community.linuxmint.com/software/view/cheese
 [community-clementine]: http://community.linuxmint.com/software/view/clementine
 [community-ekiga]: http://community.linuxmint.com/software/view/ekiga
+[community-guvcview]: http://community.linuxmint.com/software/view/guvcview
 [community-k3b]: http://community.linuxmint.com/software/view/k3b
 [community-mumble]: http://community.linuxmint.com/software/view/mumble
 [community-openshot]: http://community.linuxmint.com/software/view/openshot
@@ -102,12 +122,14 @@ Extract the archive, and run setup.
 [homepage-audacity]: http://audacity.sourceforge.net/ "Audacity"
 [homepage-banshee]: http://banshee.fm/ "Banshee"
 [homepage-brasero]: http://projects.gnome.org/brasero/ "Brasero"
-[homepage-clementine]: http://www.clementine-player.org/
-[homepage-ekiga]: http://ekiga.org/
+[homepage-cheese]: http://projects.gnome.org/cheese/ "Cheese"
+[homepage-clementine]: http://www.clementine-player.org/ "Clementine"
+[homepage-ekiga]: http://ekiga.org/ "Ekiga"
+[homepage-guvcview]: http://guvcview.sourceforge.net/ "GTK+ UVC Viewer"
 [homepage-k3b]: http://www.k3b.org/ "K3b"
 [homepage-kazam]: https://launchpad.net/kazam/+download "Kazam"
 [homepage-mumble]: http://mumble.sourceforge.net/ "Mumble"
-[homepage-openshot]: http://www.openshotvideo.com/
+[homepage-openshot]: http://www.openshotvideo.com/ "Openshot"
 [homepage-pitivi]: http://www.pitivi.org/ "PiTiVi"
 [homepage-rhythmbox]: http://projects.gnome.org/rhythmbox/ "Rhythmbox"
 [homepage-songbird]: http://getsongbird.com/ "Songbird"
@@ -119,8 +141,10 @@ Extract the archive, and run setup.
 [img-audacity]: image/audacity.png "Audacity"
 [img-banshee]: image/banshee.png "Banshee"
 [img-brasero]: image/brasero.png "Brasero"
+[img-cheese]: image/cheese.png "Cheese"
 [img-clementine]: image/clementine.png "Clementine"
 [img-ekiga]: image/ekiga.png "Ekiga"
+[img-guvcview]: image/guvcview.png "GTK+ UVC Viewer"
 [img-k3b]: image/k3b.png "K3b"
 [img-kazam]: image/kazam.png "Kazam"
 [img-mumble]: image/mumble.png "Mumble"

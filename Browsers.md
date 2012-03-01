@@ -4,12 +4,16 @@ Firefox is installed by default.
 
 ### Latest ###
 
-_The Firefox builds available in the linuxmint repositories are customized.  [Custom search engines][link-search-engines] are a critical revenue stream for Linux Mint; please consider installing them.  To find out what DuckDuckGo can do for you, read the [partnership announcement][link-duckduckgo-partnership]._
+_The Firefox builds available in the linuxmint repositories are customized.  [Custom search engines][link-search-engines] are a critical revenue stream for Linux Mint; please consider installing them.  To see why you might want to use DuckDuckGo, read the [partnership announcement][link-duckduckgo-partnership]._
 
 TODO: instructions for adding Mint CSE's (links are empty php files?)
 
-* [32-bit][firefox-x86-latest]
-* [64-bit][firefox-amd64-latest]
+* [32-bit][link-firefox-x86-latest]
+* [64-bit][link-firefox-amd64-latest]
+* Beta (these links will go out of date quickly; compare to the highest [version number][link-firefox-releases] available) 
+    * [32-bit][link-firefox-x86-beta]
+    * [64-bit][link-firefox-x86-beta]
+* [Aurora (alpha)][link-firefox-aurora]
 
 #### Setup ####
 
@@ -17,7 +21,7 @@ Download the package and extract it.
 
 `tar xjf path/to/downloaded/file.tar.bz2`
 
-Move the extracted files to **/opt** (note: **/opt/firefox** is the mint package).
+Move the extracted files to **/opt/** (note: **/opt/firefox/** is the mint package).
 
 `sudo mv firefox /opt/firefox-moz`
 
@@ -25,7 +29,7 @@ Replace the symlink:
 
 `sudo ln -sf /opt/firefox-moz/firefox /usr/bin/firefox`
 
-Firefox can update itself via the menu. (_Help --> About Firefox_)
+Firefox can update itself via the menu. (_Help -> About Firefox_)
 
 [community][community-firefox]
 
@@ -43,15 +47,15 @@ Chromium is available in the debian repositories.
 
 ## ![][img-chrome] [Google Chrome][homepage-google-chrome] ##
 
-### [Latest][chrome-landing] ###
+### [Latest][link-chrome-landing] ###
 
-* [stable][chrome-stable]
+* [stable][link-chrome-stable]
 * beta
-    * [32-bit][chrome-x86-beta]
-    * [64-bit][chrome-amd64-beta]
+    * [32-bit][link-chrome-x86-beta]
+    * [64-bit][link-chrome-amd64-beta]
 * dev
-    * [32-bit][chrome-x86-dev]
-    * [64-bit][chrome-amd64-dev]
+    * [32-bit][link-chrome-x86-dev]
+    * [64-bit][link-chrome-amd64-dev]
 
 #### Setup ####
 
@@ -72,14 +76,19 @@ Opera is available in the linuxmint repositories.
 [community][community-opera]
 
 
-[firefox-x86-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-i686/en-US/
-[firefox-amd64-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-x86_64/en-US/
-[chrome-landing]: http://dev.chromium.org/getting-involved/dev-channel 
-[chrome-stable]: https://www.google.com/chrome?platform=linux
-[chrome-x86-beta]: http://www.google.com/chrome/intl/en/eula_beta.html?dl=beta_i386_deb
-[chrome-amd64-beta]: http://www.google.com/chrome/intl/en/eula_beta.html?dl=beta_amd64_deb
-[chrome-x86-dev]: http://www.google.com/chrome/intl/en/eula_dev.html?dl=unstable_i386_deb
-[chrome-amd64-dev]: http://www.google.com/chrome/intl/en/eula_dev.html?dl=unstable_amd64_deb
+
+[link-chrome-landing]: http://dev.chromium.org/getting-involved/dev-channel "Chromium project"
+[link-chrome-stable]: https://www.google.com/chrome?platform=linux "Google Chrome"
+[link-chrome-x86-beta]: http://www.google.com/chrome/intl/en/eula_beta.html?dl=beta_i386_deb "Google Chrome beta"
+[link-chrome-amd64-beta]: http://www.google.com/chrome/intl/en/eula_beta.html?dl=beta_amd64_deb "Google Chrome beta"
+[link-chrome-x86-dev]: http://www.google.com/chrome/intl/en/eula_dev.html?dl=unstable_i386_deb "Google Chrome dev"
+[link-chrome-amd64-dev]: http://www.google.com/chrome/intl/en/eula_dev.html?dl=unstable_amd64_deb "Google Chrome dev"
+[link-firefox-x86-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-i686/en-US/ "Mozilla Firefox"
+[link-firefox-amd64-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-x86_64/en-US/ "Mozilla Firefox"
+[link-firefox-x86-beta]: ftp://ftp.mozilla.org/pub/firefox/releases/11.0b5/linux-i686/en-US/ "Firefox beta"
+[link-firefox-amd64-beta]: ftp://ftp.mozilla.org/pub/firefox/releases/11.0b5/linux-x86_64/en-US/ "Firefox beta"
+[link-firefox-aurora]: http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla-aurora/ "Firefox Aurora"
+[link-firefox-releases]: ftp://ftp.mozilla.org/pub/firefox/releases/
 
 [community-chromium]: http://community.linuxmint.com/software/view/chromium-browser
 [community-firefox]: http://community.linuxmint.com/software/view/firefox

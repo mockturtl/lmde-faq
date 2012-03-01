@@ -1,69 +1,84 @@
-## Torrents ##
+## Torrents
 
-### ![][img-transmission] [Transmission][homepage-transmission] ###
+### ![][img-transmission] [Transmission][homepage-transmission]
 
 [community][community-transmission]
 
-### ![][img-deluge] [Deluge][homepage-deluge] ###
+### ![][img-deluge] [Deluge][homepage-deluge]
 
 [community][community-deluge]
 
-###### See also ######
+### ![][img-tribler] [Tribler][homepage-tribler]
+
+##### Setup
+
+Tribler is available from the source repositories.  You may need to configure [Python][anchor-python] and [Subversion][anchor-subversion].
+
+````sh
+apt install swig python-apsw python-m2crypto python-wxglade  # dependencies
+svn co http://svn.tribler.org/abc/branches/release-5.5.x/  # subversion
+cd release-5.5.x/
+PYTHONPATH=$PYTHONPATH:. && export PYTHONPATH  # see Tribler/readme.txt
+python Tribler/Main/tribler.py
+````
+
+###### See also
 
 [Peerguardian][anchor-peerguardian]
 
-## Cloud storage ##
+## Cloud storage
 
 Backup your files on a remote server and access them from anywhere.
 
-### ![][img-dropbox] [Dropbox][homepage-dropbox] ###
+### ![][img-dropbox] [Dropbox][homepage-dropbox]
 
 Clients are available for Windows, OS X, Linux, iOS, Android, Blackberry, and the web.
 
 [community][community-dropbox]
 
-#### Setup ####
+#### Setup
 
 Dropbox is available in the linuxmint repositories.
 
 `apt install dropbox nautilus-dropbox`
 
-###### Security ######
+###### Security
+
 You may wish to [encrypt][anchor-encryption] your files.
 
-### ![][img-meiga] [Meiga][homepage-meiga] ###
+### ![][img-meiga] [Meiga][homepage-meiga]
 
 Host your own files from your desktop.  Access or share them with a web browser.
 
 [community][community-meiga]
 
-#### Setup ####
+#### Setup
 
 Meiga is available in the linuxmint repositories.
 
 `apt install meiga`
 
-### ![][img-ubuntu-one] [Ubuntu One][homepage-ubuntu-one] ###
+### ![][img-ubuntu-one] [Ubuntu One][homepage-ubuntu-one]
 
 Clients are available for Windows, Ubuntu, Android, iOS, and the web.  
 
 Integrates with desktop apps like [Tomboy][anchor-tomboy] and [Banshee][anchor-banshee] for certain kinds of files (notes, music, contacts).
 
-#### Setup ####
+#### Setup
 
-## FTP ##
+## FTP
 
-### ![][img-filezilla] [Filezilla][homepage-filezilla] ###
+### ![][img-filezilla] [Filezilla][homepage-filezilla]
 
 [community][community-filezilla]
 
-## ![][img-network] Local network ##
+## ![][img-network] Local network
 
-### [Samba][homepage-samba] ###
+### [Samba][homepage-samba]
 
-#### Setup ####
+#### Setup
 
-## See also ##
+## See also
 * [Opera Unite][anchor-opera]
 * [[Email]]
 
@@ -72,6 +87,8 @@ Integrates with desktop apps like [Tomboy][anchor-tomboy] and [Banshee][anchor-b
 [anchor-encryption]: Security#wiki-encryption
 [anchor-opera]: Browsers#wiki-opera
 [anchor-peerguardian]: Security#wiki-peerguardian
+[anchor-python]: Programming#wiki-python
+[anchor-subversion]: Programming#wiki-subversion
 [anchor-tomboy]: Office#wiki-tomboy
 
 [community-deluge]: http://community.linuxmint.com/software/view/deluge
@@ -86,6 +103,7 @@ Integrates with desktop apps like [Tomboy][anchor-tomboy] and [Banshee][anchor-b
 [homepage-meiga]: http://meiga.igalia.com/
 [homepage-samba]: http://www.samba.org/
 [homepage-transmission]: http://www.transmissionbt.com/
+[homepage-tribler]: http://www.tribler.org/
 [homepage-ubuntu-one]: https://one.ubuntu.com/
 
 [img-deluge]: image/deluge.png "Deluge"
@@ -94,4 +112,5 @@ Integrates with desktop apps like [Tomboy][anchor-tomboy] and [Banshee][anchor-b
 [img-meiga]: image/meiga.png "Meiga"
 [img-network]: image/folder-remote.png "Network"
 [img-transmission]: image/transmission.png "Transmission"
+[img-tribler]: image/tribler.png "Tribler"
 [img-ubuntu-one]: image/ubuntu-one.png "Ubuntu One"

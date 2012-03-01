@@ -4,7 +4,7 @@
 
 Download the LPR driver and cupswrapper driver .deb files for your model.  Install them.
 
-_Note for 64-bit systems:_ use `apt-get install ia32-libs`, and `dkpg -i --force-all driver.deb` for 32-bit compatibility.
+_Note for 64-bit systems:_ use `apt install ia32-libs`, and `dkpg -i --force-all driver.deb` for 32-bit compatibility.
 
 To verify the installation, `dpkg -l | grep Brother`.
 
