@@ -1,5 +1,7 @@
 h2. Contents
 
+[[Home]]
+
 # [[Printers]]
 # [[Browsers]]
 # [[Email]]
@@ -9,5 +11,4 @@ h2. Contents
 # [[Audio & Video]]
 # [[Office]]
 # [[Security]]
-
-[[Home]]
+# [[Programming]]
