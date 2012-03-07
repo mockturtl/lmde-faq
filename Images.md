@@ -1,24 +1,25 @@
-## Photographs ##
+## Photographs
 
-### ![][img-shotwell] [Shotwell][homepage-shotwell] ###
+### ![][img-shotwell] [Shotwell][homepage-shotwell]
 
 [community][community-shotwell]
 
-### ![][img-fspot] [F-Spot][homepage-fspot] ###
+### ![][img-fspot] [F-Spot][homepage-fspot]
 
 [community][community-fspot]
 
-### ![][img-picasa] [Picasa][homepage-picasa] ###
+### ![][img-picasa] [Picasa][homepage-picasa]
 
 [community][community-picasa]
 
-## Graphics <a id="graphics"/> ##
+<a id="graphics"/>
+## Graphics
 
-### ![][img-gimp] [GIMP][homepage-gimp] ###
+### ![][img-gimp] [GIMP][homepage-gimp]
 
 [community][community-gimp]
 
-### ![][img-inkscape] [Inkscape][homepage-inkscape] ###
+### ![][img-inkscape] [Inkscape][homepage-inkscape]
 
 [community][community-inkscape]
 

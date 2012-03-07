@@ -1,8 +1,8 @@
-## ![][img-firefox] [Firefox][homepage-firefox] ##
+## ![][img-firefox] [Firefox][homepage-firefox]
 
 Firefox is installed by default.
 
-### Latest ###
+### Latest
 
 _The Firefox builds available in the linuxmint repositories are customized.  [Custom search engines][link-search-engines] are a critical revenue stream for Linux Mint; please consider installing them.  To see why you might want to use DuckDuckGo, read the [partnership announcement][link-duckduckgo-partnership]._
 
@@ -15,7 +15,7 @@ TODO: instructions for adding Mint CSE's (links are empty php files?)
     * [64-bit][link-firefox-x86-beta]
 * [Aurora (alpha)][link-firefox-aurora]
 
-#### Setup ####
+#### Setup
 
 Download the package and extract it.
 
@@ -33,11 +33,11 @@ Firefox can update itself via the menu. (_Help -> About Firefox_)
 
 [community][community-firefox]
 
-## ![][img-chromium] [Chromium][homepage-chromium] ##
+## ![][img-chromium] [Chromium][homepage-chromium]
 
-### [Latest][pts-chromium] ###
+### [Latest][pts-chromium]
 
-#### Setup ####
+#### Setup
 
 Chromium is available in the debian repositories.
 
@@ -45,9 +45,9 @@ Chromium is available in the debian repositories.
 
 [community][community-chromium]
 
-## ![][img-chrome] [Google Chrome][homepage-google-chrome] ##
+## ![][img-chrome] [Google Chrome][homepage-google-chrome]
 
-### [Latest][link-chrome-landing] ###
+### [Latest][link-chrome-landing]
 
 * [stable][link-chrome-stable]
 * beta
@@ -57,17 +57,18 @@ Chromium is available in the debian repositories.
     * [32-bit][link-chrome-x86-dev]
     * [64-bit][link-chrome-amd64-dev]
 
-#### Setup ####
+#### Setup
 
 `sudo dpkg -i path/to/downloaded/file.deb`
 
-Chrome creates an entry in **/etc/apt/sources.list.d/** and uses APT to keep itself updated from google's repository.
+Chrome creates an entry for google's repository in **/etc/apt/sources.list.d/**.
 
-## ![][img-opera] [Opera][homepage-opera] <a id="opera"/> ##
+<a id="opera"/>
+## ![][img-opera] [Opera][homepage-opera]
 
-### [Latest][pts-opera] ###
+### [Latest][pts-opera]
 
-#### Setup ####
+#### Setup
 
 Opera is available in the linuxmint repositories.
 

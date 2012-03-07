@@ -2,9 +2,17 @@
 
 ### ![][img-transmission] [Transmission][homepage-transmission]
 
+Transmission is installed by default.
+
 [community][community-transmission]
 
 ### ![][img-deluge] [Deluge][homepage-deluge]
+
+#### Setup
+
+Deluge is available in the debian repositories.
+
+`apt install deluge`
 
 [community][community-deluge]
 
@@ -58,13 +66,12 @@ Meiga is available in the linuxmint repositories.
 
 `apt install meiga`
 
+<a id="ubuntu-one" />
 ### ![][img-ubuntu-one] [Ubuntu One][homepage-ubuntu-one]
 
 Clients are available for Windows, Ubuntu, Android, iOS, and the web.  
 
 Integrates with desktop apps like [Tomboy][anchor-tomboy] and [Banshee][anchor-banshee] for certain kinds of files (notes, music, contacts).
-
-#### Setup
 
 ## FTP
 

@@ -1,4 +1,5 @@
-## File encryption <a id="encryption" />
+<a id="encryption" />
+## File encryption
 
 ### ![][img-gpg] [GnuPG][homepage-gnupg]
 
@@ -54,7 +55,8 @@ The **hosts** file maps domain names to IP addresses.  Links can be redirected t
 
 Linux is not vulnerable to Windows malware, but you may still want to blacklist malicious websites.  Append [this list][link-mvps-hosts] to **/etc/hosts**.  Remove the first two entries: _localhost_ is already correctly defined for IPv4 and IPv6.
 
-### ![][img-pgl] [PeerGuardian][homepage-pgl] <a id="peerguardian"/>
+<a id="peerguardian"/>
+### ![][img-pgl] [PeerGuardian][homepage-pgl] 
 
 Firewall manager.  Uses blacklists to prevent incoming and outgoing connections by IP or port number.
 

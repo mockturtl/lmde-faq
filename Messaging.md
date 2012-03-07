@@ -25,13 +25,16 @@ _Accounts -> Manage Accounts -> Modify_
 
 ###### Plugins
 
-* <a id="otr-messaging"/> 
-[Off-the-Record][plugin-otr]  
+<a id="otr-messaging"/>
+
+* [Off-the-Record][plugin-otr]  
+
 `apt install pidgin-otr`
 
 [community][community-pidgin]
 
-### ![Skype][img-skype] Skype <a id="skype" />
+<a id="skype" />
+### ![Skype][img-skype] Skype 
 
 Skype is a chat, conferencing, and VOIP client.
 
@@ -42,6 +45,9 @@ Skype is available from the linuxmint repositories.
 `apt install skype pidgin-skype`
 
 [community][community-skype]
+
+###### See also
+[VOIP, conferencing, and webcam][anchor-voip]
 
 ### ![][img-twitter] Twitter, identi.ca
 
@@ -67,6 +73,8 @@ Server: `irc.spotchat.org`
 Favorite channels: `#mintcast,#linuxmint-chat,#linuxmint-help,#linuxmint-debian`
 
 [community][community-xchat]
+
+[anchor-voip]: Audio-&-Video#wiki-voip
 
 [community-xchat]: http://community.linuxmint.com/software/view/xchat
 [community-pidgin]: http://community.linuxmint.com/software/view/pidgin

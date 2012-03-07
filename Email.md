@@ -1,8 +1,13 @@
-## ![][img-thunderbird-logo]  [Thunderbird][homepage-thunderbird] <a id="thunderbird"/>
+<a id="thunderbird"/>
+## ![][img-thunderbird-logo]  [Thunderbird][homepage-thunderbird] 
 
 ### Latest
-* [32-bit][thunderbird-x86-latest]
-* [64-bit][thunderbird-amd64-latest]
+* [32-bit][link-thunderbird-x86-latest]
+* [64-bit][link-thunderbird-amd64-latest]
+* Beta (these links will go out of date quickly; compare to the highest [version number][link-thunderbird-nightly] available)
+    * [32-bit][link-thunderbird-x86-beta]
+    * [64-bit][link-thunderbird-amd64-beta] 
+* [Earlybird][link-thunderbird-alpha] (alpha)
 
 #### Setup
 
@@ -27,7 +32,8 @@ Add-ons are installed through the menu. (_Tools -> Add-ons_)
  **TODO**
 
 * Lightning: calendar & events
-* <a id="enigmail"/>Enigmail: PGP encryption ([also here][anchor-encryption])
+<a id="enigmail"/>
+* Enigmail: PGP encryption ([also here][anchor-encryption])
 
 [community][community-thunderbird]
 
@@ -40,5 +46,9 @@ Add-ons are installed through the menu. (_Tools -> Add-ons_)
 
 [img-thunderbird-logo]: image/thunderbird.png "Mozilla Thunderbird"
 
-[thunderbird-x86-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/latest/linux-i686/en-US/
-[thunderbird-amd64-latest]: ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/latest/linux-x86_64/en-US/
+[link-thunderbird-alpha]: http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-earlybird/
+[link-thunderbird-x86-beta]: http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/11.0b5-candidates/build1/linux-i686/en-US/
+[link-thunderbird-amd64-beta]: http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/11.0b5-candidates/build1/linux-x86_64/en-US/
+[link-thunderbird-x86-latest]: http://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/latest/linux-i686/en-US/
+[link-thunderbird-amd64-latest]: http://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/latest/linux-x86_64/en-US/
+[link-thunderbird-nightly]: http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/

@@ -3,7 +3,8 @@
 ### ![][img-amarok]![KDE][emblem-kde] [Amarok][homepage-amarok]
 [community][community-amarok]
 
-### ![][img-banshee] [Banshee][homepage-banshee] <a id="banshee"/>
+<a id="banshee"/>
+### ![][img-banshee] [Banshee][homepage-banshee] 
 [community][community-banshee]
 
 ### ![][img-clementine] [Clementine][homepage-clementine]
@@ -22,7 +23,8 @@
 ### ![][img-audacity] [Audacity][homepage-audacity]
 [community][community-audacity]
 
-## VOIP, conferencing, and webcam
+<a id="voip" />
+## VOIP, conferencing, and webcam 
 
 ### ![][img-mumble] [Mumble][homepage-mumble]
 [community][community-mumble]
