@@ -1,3 +1,12 @@
+[Torrents][anchor-torrents] | [Cloud storage][anchor-cloud-storage] | [FTP][anchor-ftp] | [Local network][anchor-local-network] | [See also][anchor-see-also]
+[anchor-cloud-storage]: #wiki-cloud-storage
+[anchor-ftp]: #wiki-ftp
+[anchor-local-network]: #wiki-local-network
+[anchor-see-also]: #wiki-see-also
+[anchor-torrents]: #wiki-torrents
+
+
+<a id="torrents"/>
 ## Torrents
 
 ### ![][img-transmission] [Transmission][homepage-transmission]
@@ -34,6 +43,7 @@ python Tribler/Main/tribler.py
 
 [Peerguardian][anchor-peerguardian]
 
+<a id="cloud-storage"/>
 ## Cloud storage
 
 Backup your files on a remote server and access them from anywhere.
@@ -73,18 +83,21 @@ Clients are available for Windows, Ubuntu, Android, iOS, and the web.
 
 Integrates with desktop apps like [Tomboy][anchor-tomboy] and [Banshee][anchor-banshee] for certain kinds of files (notes, music, contacts).
 
+<a id="ftp"/>
 ## FTP
 
 ### ![][img-filezilla] [Filezilla][homepage-filezilla]
 
 [community][community-filezilla]
 
+<a id="local-network"/>
 ## ![][img-network] Local network
 
 ### [Samba][homepage-samba]
 
 #### Setup
 
+<a id="see-also"/>
 ## See also
 * [Opera Unite][anchor-opera]
 * [[Email]]

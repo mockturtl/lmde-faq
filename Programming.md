@@ -1,3 +1,12 @@
+[IDE][anchor-ide] | [Virtualization][anchor-virtualization] | [Languages][anchor-languages] | [Source control][anchor-source-control]
+
+[anchor-ide]: #wiki-ide
+[anchor-languages]: #wiki-languages
+[anchor-virtualization]: #wiki-virtualization
+[anchor-source-control]: #wiki-source-control
+
+
+<a id="ide"/>
 ## IDE
 
 ### ![][img-geany] [Geany][homepage-geany]
@@ -59,6 +68,7 @@ set background=dark     # bright colors for a black terminal background
 
 [community][community-vim]
 
+<a id="virtualization"/>  
 ## Virtualization
 
 ### ![][img-virtualbox] [Virtualbox][homepage-virtualbox]
@@ -71,6 +81,7 @@ set background=dark     # bright colors for a black terminal background
 
 ##### Setup
 
+<a id="languages" />
 ## Languanges
 
 <a id="java" />
@@ -123,6 +134,7 @@ After installation, your `~/.bashrc` should include the following line:
 
 * [Rails][link-rails], a framework for web applications
 
+<a id="source-control"/>
 ## Version / Revision / Source control
 
 ### ![][img-git] [Git][homepage-git]
@@ -201,7 +213,7 @@ Subversion is available in the debian repositories.
 
 `apt install subversion`
 
-[anchor-java]: Programming#wiki-java
+[anchor-java]: #wiki-java
 
 [community-geany]: http://community.linuxmint.com/software/view/geany
 [community-idea]: http://community.linuxmint.com/software/view/idea-ic

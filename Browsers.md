@@ -1,3 +1,12 @@
+[Firefox][anchor-firefox] | [Chromium][anchor-chromium] | [Google Chrome][anchor-google-chrome] | [Opera][anchor-opera]
+
+[anchor-chromium]: #wiki-chromium
+[anchor-firefox]: #wiki-firefox
+[anchor-google-chrome]: #wiki-google-chrome
+[anchor-opera]: #wiki-opera
+
+
+<a id="Firefox"/>
 ## ![][img-firefox] [Firefox][homepage-firefox]
 
 Firefox is installed by default.
@@ -33,6 +42,7 @@ Firefox can update itself via the menu. (_Help -> About Firefox_)
 
 [community][community-firefox]
 
+<a id="Chromium"/>
 ## ![][img-chromium] [Chromium][homepage-chromium]
 
 ### [Latest][pts-chromium]
@@ -45,6 +55,7 @@ Chromium is available in the debian repositories.
 
 [community][community-chromium]
 
+<a id="google-chrome"/>
 ## ![][img-chrome] [Google Chrome][homepage-google-chrome]
 
 ### [Latest][link-chrome-landing]
