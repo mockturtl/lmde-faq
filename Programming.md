@@ -131,6 +131,8 @@ To learn how git works, watch Scott Chacon's [talk][link-schacon-git-talk] from 
 
 For tutorials, see [github bootcamp][link-github-help], [gitcasts][link-gitcasts], [Carl Worth's tour][link-cworth-tour], and [git ready][link-git-ready].  Mind best practices for [commits][link-git-commit-messages], [branching][link-git-branching], [rebasing][link-git-rebasing], and [tagging][link-git-tags].
 
+
+
 Free repository hosting and project management are available from [github][link-github] and [bitbucket][link-bitbucket].
 
 ##### Setup
@@ -160,6 +162,36 @@ Download the [tab completion][link-git-completion] script to your home directory
 
 ````sh
 source ~/git-completion.bash  # Git tab completion
+````
+
+###### [Syntax note][link-git-revisions]
+The parent-selection operator `^` _(caret)_ defaults to `^1`, and is omitted in the ordinary case a commit has only one parent.  The history operator `~` _(tilde)_ is read "first parent," or "grassy knoll," and acts like a power function: `A~~~` or `A~3` describes the (leftmost) great-grandparent of `A`.  
+
+The ordering of a commit's parents is taken from the arguments to `merge`.  View them with `show`.  
+
+Operators compose left-to-right by walking the tree.
+
+````text
+G   H   I   J
+ \ /     \ /
+  D   E   F
+   \  |  / \
+    \ | /   |
+     \|/    |
+      B     C
+       \   /
+        \ /
+         A
+A =      = A^0
+B = A^   = A^1     = A~1
+C = A^2  = A^2
+D = A^^  = A^1^1   = A~2
+E = B^2  = A^^2
+F = B^3  = A^^3
+G = A^^^ = A^1^1^1 = A~3
+H = D^2  = B^^2    = A^^^2  = A~2^2
+I = F^   = B^3^    = A^^3^
+J = F^2  = B^3^2   = A^^3^2
 ````
 
 <a id="subversion" />
@@ -209,6 +241,7 @@ Subversion is available in the debian repositories.
 [link-git-completion]: https://raw.github.com/git/git/master/contrib/completion/git-completion.bash
 [link-git-ready]: http://gitready.com/
 [link-git-rebasing]: http://reinh.com/blog/2009/03/02/a-git-workflow-for-agile-teams.html
+[link-git-revisions]: http://schacon.github.com/git/git-rev-parse.html#_specifying_revisions
 [link-git-tags]: http://gitref.org/branching/#tag
 [link-gitcasts]: http://gitcasts.com/
 [link-github]: https://github.com
