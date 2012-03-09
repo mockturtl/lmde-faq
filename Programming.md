@@ -165,9 +165,12 @@ The config file is `~/.gitconfig`.
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	ci = commit
 	br = branch
+	ri = rebase -i
 [color]
 	status = auto
 	branch = auto
+[rebase]
+	autosquash = true
 ````
 
 Download the [tab completion][link-git-completion] script to your home directory, and add this line to `~/.bashrc`:

@@ -22,7 +22,7 @@ TODO: instructions for adding Mint CSE's (links are empty php files?)
 * Beta (these links will go out of date quickly; compare to the highest [version number][link-firefox-releases] available) 
     * [32-bit][link-firefox-x86-beta]
     * [64-bit][link-firefox-x86-beta]
-* [Aurora (alpha)][link-firefox-aurora]
+* [Aurora][link-firefox-aurora] (alpha)
 
 #### Setup
 

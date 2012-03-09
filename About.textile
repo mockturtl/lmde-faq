@@ -1,8 +1,9 @@
-h2. About
+h2. "gollum":https://github.com/github/gollum
 
-h3. "gollum":https://github.com/github/gollum
+Combines a git-aware web server with a text processor to generate HTML from lightweight, legible markup syntax like "markdown":http://github.github.com/github-flavored-markdown/,  "textile":http://redcloth.org/textile, and "MediaWiki":http://www.mediawiki.org/wiki/Help:Formatting.
 
-*Gollum* combines a git-aware webserver with a text processor to generate HTML from more lightweight, easy-to-read markup languages like "markdown":http://github.github.com/github-flavored-markdown/ and "textile":http://redcloth.org/textile.
+If you make a series of related edits, use commit messages of the form @fixup! previous message goes here@.  
+This lets @rebase --autosquash@ keep the history clean.  It's especially handy to flatten minor changes.
 
 A read-only version, "smeagol":https://github.com/rubyworks/smeagol, removes the edit functionality and is suitable for public hosting.
 
