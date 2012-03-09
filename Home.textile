@@ -1,23 +1,12 @@
-This is a web interface for a collection of pages (text files) in a wiki.  
+h2. "The Green Spiral 'Cyclopedia":http://linuxmint.com/  
 
-"Fork me on github!":https://github.com/mockturtl/lmde-faq
+[[image/debian_Mint_120.png|float|align=right]] This is a wiki for Linux Mint Debian (LMDE(Linux Mint Debian Edition)). 
 
-[[Changelog]]
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). 
 
-h2. About
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). 
 
-h3. "gollum":https://github.com/github/gollum
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). 
 
-*Gollum* combines a git-aware webserver with a text processor to generate HTML from more lightweight, easy-to-read markup languages like "markdown":http://github.github.com/github-flavored-markdown/ and "textile":http://redcloth.org/textile.
 
-A read-only version, "smeagol":https://github.com/rubyworks/smeagol, removes the edit functionality and would be suitable for hosting.
-
-Language-specific cheat sheets are available in edit mode, via the *?* button.
-
-h3. "pygments":http://pygments.org/docs/lexers/
-
-Source-code highlighting.
-
-h3. "pandoc":https://github.com/jgm/pandoc/wiki/Pandoc-vs-Multimarkdown
-
-Translate one markup syntax to another.
+h6. "Source":https://github.com/mockturtl/lmde-faq | [[About]] | [[Changelog]]

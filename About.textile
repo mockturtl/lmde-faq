@@ -1,0 +1,17 @@
+h2. About
+
+h3. "gollum":https://github.com/github/gollum
+
+*Gollum* combines a git-aware webserver with a text processor to generate HTML from more lightweight, easy-to-read markup languages like "markdown":http://github.github.com/github-flavored-markdown/ and "textile":http://redcloth.org/textile.
+
+A read-only version, "smeagol":https://github.com/rubyworks/smeagol, removes the edit functionality and is suitable for public hosting.
+
+Language-specific cheat sheets are available in edit mode, via the *?* button.
+
+h3. "pygments":http://pygments.org/docs/lexers/
+
+Source-code highlighting.
+
+h3. "pandoc":https://github.com/jgm/pandoc/wiki/Pandoc-vs-Multimarkdown
+
+Translate one markup syntax to another.
