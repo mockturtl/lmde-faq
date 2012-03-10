@@ -153,7 +153,7 @@ Git is available in the debian repositories.
 
 `apt install git`
 
-The config file is `~/.gitconfig`.
+Set options and aliases with `git config --global` (for all projects), or edit `~/.gitconfig` directly.
 
 ````text
 [user]
@@ -165,7 +165,8 @@ The config file is `~/.gitconfig`.
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	ci = commit
 	br = branch
-	ri = rebase -i
+	ri = rebase --interactive
+	av = add --verbose
 [color]
 	status = auto
 	branch = auto
