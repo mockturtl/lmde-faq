@@ -15,6 +15,7 @@ GnuPG is [available][pts-gnupg2] in the debian repositories.  It will be install
 
 A walkthrough is available [here][link-gpg-walkthrough].  The [Enigmail][anchor-enigmail] plugin for Thunderbird also has a nice wizard.
 
+<a id="ssh"/>
 ## ![][img-gnome-terminal] SSH
 
 Secure shell lets you log in remotely through the terminal.  You can use your username and password, but it's better to generate a keypair to identify each client computer you plan to log in with.  
