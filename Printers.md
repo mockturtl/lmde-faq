@@ -2,6 +2,8 @@
 
 ### [Printer drivers][brother-drv-lpr] ###
 
+![][emblem-warn] **This software is not from a trusted repository.  Use it at your own risk.**
+
 Download the LPR driver and cupswrapper driver .deb files for your model.  Install them.
 
 _Note for 64-bit systems:_ use `apt install ia32-libs`, and `dkpg -i --force-all driver.deb` for 32-bit compatibility.
@@ -46,6 +48,7 @@ Your scanner is now ready to use.  Test with `simple-scan`.
 #### References ####
 [ref1][mint-forums-brother1], [ref2][mint-forums-brother2], [ref3][debian-forums-brother1]
 
+[emblem-warn]: image/emblem-warn.png "Warning!"
 
 [mint-forums-brother1]: http://forums.linuxmint.com/viewtopic.php?f=51&t=80363 "Linux Mint forums"
 [mint-forums-brother2]: http://forums.linuxmint.com/viewtopic.php?f=42&t=90808 "Linux Mint forums"

@@ -26,6 +26,8 @@ TODO: instructions for adding Mint CSE's (links are empty php files?)
 
 #### Setup
 
+![][emblem-warn] **This software is not from a trusted repository.  Use it at your own risk.**
+
 Download the package and extract it.
 
 `tar xjf path/to/downloaded/file.tar.bz2`
@@ -68,6 +70,8 @@ Chromium is available in the debian repositories.
 
 #### Setup
 
+![][emblem-warn] **This software is not from a trusted repository.  Use it at your own risk.**
+
 `sudo dpkg -i path/to/downloaded/file.deb`
 
 Chrome creates an entry for google's repository in **/etc/apt/sources.list.d/**.
@@ -83,7 +87,7 @@ Opera is available in the linuxmint repositories.
 
 [community][community-opera]
 
-
+[emblem-warn]: image/emblem-warn.png "Warning!"
 
 [link-chrome-landing]: http://dev.chromium.org/getting-involved/dev-channel "Chromium project"
 [link-chrome-stable]: https://www.google.com/chrome?platform=linux "Google Chrome"

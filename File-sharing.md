@@ -31,6 +31,8 @@ Deluge is available in the debian repositories.
 
 Tribler is available from the source repositories.  You may need to configure [Python][anchor-python] and [Subversion][anchor-subversion].
 
+![][emblem-warn] **This software is not from a trusted repository.  Use it at your own risk.**
+
 ````sh
 apt install swig python-apsw python-m2crypto python-wxglade  # dependencies
 svn co http://svn.tribler.org/abc/branches/release-5.5.x/  # subversion
@@ -116,6 +118,8 @@ Integrates with desktop apps like [Tomboy][anchor-tomboy] and [Banshee][anchor-b
 [community-filezilla]: http://community.linuxmint.com/software/view/filezilla
 [community-meiga]: http://community.linuxmint.com/software/view/meiga
 [community-transmission]: http://community.linuxmint.com/software/view/transmission
+
+[emblem-warn]: image/emblem-warn.png "Warning!"
 
 [homepage-deluge]: http://deluge-torrent.org/
 [homepage-dropbox]: https://www.dropbox.com

@@ -167,7 +167,9 @@ chmod 764 foo  # rwxrw-r--
 ### grep
 
 ###### See also
-[ack][link-ack]
+
+* [ack][link-ack]  
+    * `apt install ack-grep`
 
 ### sed
 

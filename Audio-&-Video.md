@@ -24,7 +24,9 @@ Amarok is available in the debian repositories.
 
 <a id="banshee"/>
 ### ![][img-banshee] [Banshee][homepage-banshee]  
+
 Banshee is installed by default.  
+
 [community][community-banshee]
 
 ### ![][img-clementine] [Clementine][homepage-clementine]  
@@ -183,7 +185,9 @@ Acidrip is available from the project homepage.
 
 #### Setup
 
-Kazam is not currently available in the repositories.
+Kazam is available from the project homepage.
+
+![][emblem-warn] **This software is not from a trusted repository.  Use it at your own risk.**
 
 Extract the archive, and run setup.
 

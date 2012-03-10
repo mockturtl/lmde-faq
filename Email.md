@@ -11,6 +11,8 @@
 
 #### Setup
 
+![][emblem-warn] **This software is not from a trusted repository.  Use it at your own risk.**
+
 Download the package and extract it.
 
 `tar xjf path/to/downloaded/file.tar.bz2`
@@ -41,6 +43,8 @@ Add-ons are installed through the menu. (_Tools -> Add-ons_)
 [anchor-encryption]: Security#wiki-encryption
 
 [community-thunderbird]: http://community.linuxmint.com/software/view/thunderbird
+
+[emblem-warn]: image/emblem-warn.png "Warning!"
 
 [homepage-thunderbird]: http://www.mozilla.org/thunderbird "Mozilla Thunderbird"
 

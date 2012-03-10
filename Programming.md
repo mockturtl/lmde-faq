@@ -26,6 +26,8 @@ Geany is available in the debian repositories.
 
 [Download][link-idea] the Community Edition.  Unpack the source and link the executable in your PATH.
 
+![][emblem-warn] **This software is not from a trusted repository.  Use it at your own risk.**
+
 ````sh
 sudo tar xvzf path/to/downloaded/file.tar.gz /opt/
 sudo ln -s /opt/idea-IC-x.y/bin/idea.sh /usr/local/bin
@@ -124,6 +126,8 @@ Ruby modules are called **gems**.  The Ruby package manager is **rubygems**.  De
 ##### Setup
 
 Ruby is available in the debian repositories, but use [RVM][link-rvm] instead.  The language evolves quickly, and programs may depend on a particular [interpreter][link-ruby-interpreters] version.
+
+![][emblem-warn] **This software is not from a trusted repository.  Use it at your own risk.**
 
 After installation, your `~/.bashrc` should include the following line:
 
@@ -255,6 +259,8 @@ SQLite is available in the debian repositories.
 [community-netbeans]: http://community.linuxmint.com/software/view/netbeans
 [community-vim]: http://community.linuxmint.com/software/view/vim
 [community-virtualbox]: http://community.linuxmint.com/software/view/virtualbox-4.1
+
+[emblem-warn]: image/emblem-warn.png "Warning!"
 
 [homepage-geany]: http://www.geany.org/
 [homepage-git]: http://git-scm.com/
