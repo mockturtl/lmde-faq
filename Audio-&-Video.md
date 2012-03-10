@@ -12,40 +12,76 @@
 ## Podcast and mp3 library
 
 ### ![][img-amarok]![KDE][emblem-kde] [Amarok][homepage-amarok]
+#### Setup  
+
+Amarok is available in the debian repositories.  
+
+`apt install amarok`  
+
 [community][community-amarok]
 
+
+
 <a id="banshee"/>
-### ![][img-banshee] [Banshee][homepage-banshee] 
+### ![][img-banshee] [Banshee][homepage-banshee]  
+Banshee is installed by default.  
 [community][community-banshee]
 
-### ![][img-clementine] [Clementine][homepage-clementine]
+### ![][img-clementine] [Clementine][homepage-clementine]  
+#### Setup  
+
+Clementine is available in the debian repositories.  
+
+`apt install clementine`  
+
 [community][community-clementine]
 
-### ![][img-rhythmbox] [Rhythmbox][homepage-rhythmbox]
+### ![][img-rhythmbox] [Rhythmbox][homepage-rhythmbox]  
+
+Rhythmbox is installed by default.  
+
 [community][community-rhythmbox]
 
-### ![][img-songbird] [Songbird][homepage-songbird]
-[community][community-songbird]
+### ![][img-songbird] [Songbird][homepage-songbird]  
 
-### ![][img-spotify] [Spotify][homepage-spotify]
+#### Setup  
+
+Songbird is available in the debian repositories.  
+
+`apt install songbird`  
+
+[community][community-songbird]
 
 
 <a id="record-audio"/>
 ## Record, mix, and transcode audio
 
 ### ![][img-audacity] [Audacity][homepage-audacity]
+
+#### Setup  
+Audacity is available in the debian repositories.  
+
+`apt install audacity`  
+
 [community][community-audacity]
 
 ### ![][img-gnome-sound-recorder] [Sound Recorder][homepage-gnome-sound-recorder]
-
+Sound Recorder is part of `gnome-media`, and installed by default.  
 
 <a id="voip" />
 ## VOIP, conferencing, and webcam 
 
 ### ![][img-mumble] [Mumble][homepage-mumble]
+
+#### Setup  
+Mumble is available in the debian repositories.  
+
+`apt install mumble`  
+
 [community][community-mumble]
 
 ### ![][img-ekiga] [Ekiga][homepage-ekiga]
+
 #### Setup
 Ekiga is available in the debian repositories.
 
@@ -80,9 +116,13 @@ GTK+ UVC Viewer is available in the debian repositories.
 
 ### ![][img-vlc] [VLC][homepage-vlc]
 
+VLC is installed by default.
+
 [community][community-vlc]
 
 ### ![][img-totem] [Totem][homepage-totem]
+
+Totem is installed by default.
 
 [community][community-totem]
 
@@ -91,10 +131,21 @@ GTK+ UVC Viewer is available in the debian repositories.
 ## Edit and transcode video
 
 ### ![][img-openshot] [Openshot][homepage-openshot]
+#### Setup
+
+Openshot is available in the debian repositories.
+
+`apt install openshot`
 
 [community][community-openshot]
 
 ### ![][img-pitivi] [PiTiVi][homepage-pitivi]
+
+#### Setup
+
+PiTiVi is available in the debian repositories.
+
+`apt install pitivi`
 
 [community][community-pitivi]
 
@@ -103,12 +154,25 @@ GTK+ UVC Viewer is available in the debian repositories.
 ## Rip, burn to CD and DVD
 
 ### ![][img-brasero] [Brasero][homepage-brasero]
+
+Brasero is installed by default.
+
 [community][community-brasero]
 
 ### ![][img-k3b]![KDE][emblem-kde] [K3b][homepage-k3b]
+
+K3b is installed by default with KDE.
+
 [community][community-k3b]
 
 ### ![][img-acidrip] [Acidrip][homepage-acidrip]
+
+#### Setup
+
+Acidrip is available from the project homepage.
+
+![][emblem-warn] **This software is not from a trusted repository.  Use it at your own risk.**
+
 [community][community-acidrip]
 
 
@@ -148,6 +212,7 @@ Extract the archive, and run setup.
 [community-vlc]: http://community.linuxmint.com/software/view/vlc
 
 [emblem-kde]: image/boston.png "KDE"
+[emblem-warn]: image/emblem-warn.png "Warning!"
 
 [homepage-acidrip]: http://sourceforge.net/projects/acidrip/ "Acidrip"
 [homepage-amarok]: http://amarok.kde.org/ "Amarok"
@@ -166,7 +231,6 @@ Extract the archive, and run setup.
 [homepage-pitivi]: http://www.pitivi.org/ "PiTiVi"
 [homepage-rhythmbox]: http://projects.gnome.org/rhythmbox/ "Rhythmbox"
 [homepage-songbird]: http://getsongbird.com/ "Songbird"
-[homepage-spotify]: http://www.spotify.com/ "Spotify"
 [homepage-totem]: http://projects.gnome.org/totem/
 [homepage-vlc]: http://www.videolan.org/vlc/ "VLC"
 
@@ -187,6 +251,5 @@ Extract the archive, and run setup.
 [img-pitivi]: image/pitivi.png "Pitivi"
 [img-rhythmbox]: image/rhythmbox.png "Rhythmbox"
 [img-songbird]: image/songbird.png "Songbird"
-[img-spotify]: image/spotify.png "Spotify"
 [img-totem]: image/totem.png "Totem"
 [img-vlc]: image/vlc.png "VLC"
