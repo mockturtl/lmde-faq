@@ -2,13 +2,30 @@
 
 ### ![][img-shotwell] [Shotwell][homepage-shotwell]
 
+#### Setup
+
+Shotwell is available from the debian repositories.
+
+`apt install shotwell`
+
 [community][community-shotwell]
 
 ### ![][img-fspot] [F-Spot][homepage-fspot]
 
+#### Setup
+
+F-Spot is available from the debian repositories.
+
+`apt install f-spot`
+
 [community][community-fspot]
 
 ### ![][img-picasa] [Picasa][homepage-picasa]
+#### Setup
+
+Picasa is available from the debian repositories.
+
+`apt install picasa`
 
 [community][community-picasa]
 
@@ -17,9 +34,19 @@
 
 ### ![][img-gimp] [GIMP][homepage-gimp]
 
+#### Setup
+
+GIMP is installed by default.
+
 [community][community-gimp]
 
 ### ![][img-inkscape] [Inkscape][homepage-inkscape]
+
+#### Setup
+
+Inkscape is available from the debian repositories.
+
+`apt install inkscape`
 
 [community][community-inkscape]
 
