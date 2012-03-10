@@ -85,7 +85,7 @@ When you have questions about a command, use `man commandname` to read its docum
 * `df -h`: show **d**isk space available on the **f**ilesystem (file sizes converted to **h**uman-readable format)
 * `du -hcs`: show **d**isk space **u**sed by a directory (**s**ummarized; file sizes converted to **h**uman-readable format)
 * `chmod`: **ch**ange **mod**e ([permissions][anchor-filesystem-permissions]) of a file
-* `chown`: **ch**ange [user and group][anchor-users-and-groups] **own**ership of a file
+* `chown user:group`: **ch**ange [user and group][anchor-users-and-groups] **own**ership of a file
 * `chgrp`: **ch**ange **gr**ou**p** ownership of a file
 
 <a id="filesystem-permissions"/>
