@@ -1,3 +1,14 @@
+[mp3][anchor-podcast-mp3] | [Record audio][anchor-record-audio] | [VOIP][anchor-voip] | [Watch movies][anchor-watch-movies] | [Edit video][anchor-edit-video] | [Burn CD][anchor-burn-cd] | [Screen capture][anchor-screen-capture]
+
+[anchor-podcast-mp3]: #wiki-podcast-mp3
+[anchor-record-audio]: #wiki-record-audio
+[anchor-voip]: #wiki-voip
+[anchor-watch-movies]: #wiki-watch-movies
+[anchor-edit-video]: #wiki-edit-video
+[anchor-burn-cd]: #wiki-burn-cd
+[anchor-screen-capture]: #wiki-screen-capture
+
+<a id="podcast-mp3"/>
 ## Podcast and mp3 library
 
 ### ![][img-amarok]![KDE][emblem-kde] [Amarok][homepage-amarok]
@@ -18,10 +29,15 @@
 
 ### ![][img-spotify] [Spotify][homepage-spotify]
 
+
+<a id="record-audio"/>
 ## Record, mix, and transcode audio
 
 ### ![][img-audacity] [Audacity][homepage-audacity]
 [community][community-audacity]
+
+### ![][img-gnome-sound-recorder] [Sound Recorder][homepage-gnome-sound-recorder]
+
 
 <a id="voip" />
 ## VOIP, conferencing, and webcam 
@@ -58,12 +74,20 @@ GTK+ UVC Viewer is available in the debian repositories.
 ###### See also
 [Skype][anchor-skype]
 
+
+<a id="watch-movies"/>
 ## Watch movies
 
 ### ![][img-vlc] [VLC][homepage-vlc]
 
 [community][community-vlc]
 
+### ![][img-totem] [Totem][homepage-totem]
+
+[community][community-totem]
+
+
+<a id="edit-video"/>
 ## Edit and transcode video
 
 ### ![][img-openshot] [Openshot][homepage-openshot]
@@ -74,6 +98,8 @@ GTK+ UVC Viewer is available in the debian repositories.
 
 [community][community-pitivi]
 
+
+<a id="burn-cd"/>
 ## Rip, burn to CD and DVD
 
 ### ![][img-brasero] [Brasero][homepage-brasero]
@@ -85,6 +111,8 @@ GTK+ UVC Viewer is available in the debian repositories.
 ### ![][img-acidrip] [Acidrip][homepage-acidrip]
 [community][community-acidrip]
 
+
+<a id="screen-capture"/>
 ## Screen capture, desktop recording
 
 ### ![][img-kazam] [Kazam][homepage-kazam]
@@ -96,6 +124,7 @@ Kazam is not currently available in the repositories.
 Extract the archive, and run setup.
 
 `sudo python setup.py install`
+
 
 [anchor-skype]: Messaging#wiki-skype
 
@@ -115,6 +144,7 @@ Extract the archive, and run setup.
 [community-rhythmbox]: http://community.linuxmint.com/software/view/rhythmbox
 [community-songbird]: http://community.linuxmint.com/software/view/songbird
 [community-spotify]: http://community.linuxmint.com/software/view/spotify
+[community-totem]: http://community.linuxmint.com/software/view/totem
 [community-vlc]: http://community.linuxmint.com/software/view/vlc
 
 [emblem-kde]: image/boston.png "KDE"
@@ -127,6 +157,7 @@ Extract the archive, and run setup.
 [homepage-cheese]: http://projects.gnome.org/cheese/ "Cheese"
 [homepage-clementine]: http://www.clementine-player.org/ "Clementine"
 [homepage-ekiga]: http://ekiga.org/ "Ekiga"
+[homepage-gnome-sound-recorder]: http://library.gnome.org/users/gnome-sound-recorder/ "GNOME Sound Recorder"
 [homepage-guvcview]: http://guvcview.sourceforge.net/ "GTK+ UVC Viewer"
 [homepage-k3b]: http://www.k3b.org/ "K3b"
 [homepage-kazam]: https://launchpad.net/kazam/+download "Kazam"
@@ -136,6 +167,7 @@ Extract the archive, and run setup.
 [homepage-rhythmbox]: http://projects.gnome.org/rhythmbox/ "Rhythmbox"
 [homepage-songbird]: http://getsongbird.com/ "Songbird"
 [homepage-spotify]: http://www.spotify.com/ "Spotify"
+[homepage-totem]: http://projects.gnome.org/totem/
 [homepage-vlc]: http://www.videolan.org/vlc/ "VLC"
 
 [img-acidrip]: image/acidrip.png "Acidrip"
@@ -146,6 +178,7 @@ Extract the archive, and run setup.
 [img-cheese]: image/cheese.png "Cheese"
 [img-clementine]: image/clementine.png "Clementine"
 [img-ekiga]: image/ekiga.png "Ekiga"
+[img-gnome-sound-recorder]: image/gnome-sound-recorder.png "GNOME Sound Recorder"
 [img-guvcview]: image/guvcview.png "GTK+ UVC Viewer"
 [img-k3b]: image/k3b.png "K3b"
 [img-kazam]: image/kazam.png "Kazam"
@@ -155,4 +188,5 @@ Extract the archive, and run setup.
 [img-rhythmbox]: image/rhythmbox.png "Rhythmbox"
 [img-songbird]: image/songbird.png "Songbird"
 [img-spotify]: image/spotify.png "Spotify"
+[img-totem]: image/totem.png "Totem"
 [img-vlc]: image/vlc.png "VLC"

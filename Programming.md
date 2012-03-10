@@ -1,5 +1,6 @@
-[IDE][anchor-ide] | [Virtualization][anchor-virtualization] | [Languages][anchor-languages] | [Source control][anchor-source-control]
+[IDE][anchor-ide] | [Virtualization][anchor-virtualization] | [Languages][anchor-languages] | [Source control][anchor-source-control] | [Databases][anchor-databases]
 
+[anchor-databases]: #wiki-databases
 [anchor-ide]: #wiki-ide
 [anchor-languages]: #wiki-languages
 [anchor-virtualization]: #wiki-virtualization
@@ -181,7 +182,7 @@ source ~/git-completion.bash  # Git tab completion
 ````
 
 ###### [Syntax note][link-git-revisions]
-The parent-selection operator `^` _(caret)_ defaults to `^1`, and is omitted in the ordinary case a commit has only one parent.  The history operator `~` _(tilde)_ is read "first parent," or "grassy knoll," and acts like a power function: `A~~~` or `A~3` describes the (leftmost) great-grandparent of `A`.  
+There are two commit history operators: the which-parent selector `^` _(caret)_ defaults to `^1`, and is omitted in the ordinary case a commit has only one parent.  The go-back operator `~` _(tilde)_ is read "first parent," or "grassy knoll," and acts like a power function: `A~~~` or `A~3` describes the (leftmost) great-grandparent of `A`.  
 
 The ordering of a commit's parents is taken from the arguments to `merge`.  View them with `show`.  
 
@@ -219,6 +220,36 @@ Subversion is available in the debian repositories.
 
 [anchor-java]: #wiki-java
 
+
+<a id="databases"/>
+## Databases
+
+### ![][img-mysql] [MySQL][homepage-mysql]
+
+#### Setup
+
+MySQL is available in the debian repositories.
+
+`apt install mysql-server`
+
+### ![][img-postgresql] [PostgreSQL][homepage-postgresql]
+
+#### Setup
+
+PostgreSQL is available in the debian repositories.
+
+`apt install postgresql`
+
+### ![][img-sqlite] [SQLite][homepage-sqlite]
+
+#### Setup
+
+SQLite is available in the debian repositories.
+
+`apt install sqlite3`
+
+
+
 [community-geany]: http://community.linuxmint.com/software/view/geany
 [community-idea]: http://community.linuxmint.com/software/view/idea-ic
 [community-netbeans]: http://community.linuxmint.com/software/view/netbeans
@@ -229,9 +260,12 @@ Subversion is available in the debian repositories.
 [homepage-git]: http://git-scm.com/
 [homepage-idea]: http://www.jetbrains.org/
 [homepage-java]: http://docs.oracle.com/javase/tutorial/
+[homepage-mysql]: http://www.mysql.com/
 [homepage-netbeans]: http://www.netbeans.org/
+[homepage-postgresql]: http://www.postgresql.org/
 [homepage-python]: http://docs.python.org/tutorial/
 [homepage-ruby]: http://www.ruby-lang.org/en/documentation/quickstart/
+[homepage-sqlite]: http://www.sqlite.org/
 [homepage-subversion]: http://subversion.apache.org/
 [homepage-vim]: http://www.vim.org/
 [homepage-virtualbox]: https://www.virtualbox.org/
@@ -241,9 +275,12 @@ Subversion is available in the debian repositories.
 [img-git]: image/git.png "Git"
 [img-idea]: image/idea.png "IDEA"
 [img-java]: image/java.png "Java"
+[img-mysql]: image/mysql.png "MySQL"
 [img-netbeans]: image/netbeans.png "Netbeans"
+[img-postgresql]: image/postgresql.png "PostgreSQL"
 [img-python]: image/python.png "Python"
 [img-ruby]: image/ruby.png "Ruby"
+[img-sqlite]: image/sqlite.png "SQLite"
 [img-subversion]: image/subversion.png "Subversion"
 [img-vim]: image/vim.png "Vim"
 [img-virtualbox]: image/virtualbox.png "Virtualbox"
