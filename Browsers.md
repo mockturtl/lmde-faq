@@ -45,8 +45,6 @@ Firefox can update itself via the menu. (_Help -> About Firefox_)
 <a id="Chromium"/>
 ## ![][img-chromium] [Chromium][homepage-chromium]
 
-### [Latest][pts-chromium]
-
 #### Setup
 
 Chromium is available in the debian repositories.
@@ -76,8 +74,6 @@ Chrome creates an entry for google's repository in **/etc/apt/sources.list.d/**.
 
 <a id="opera"/>
 ## ![][img-opera] [Opera][homepage-opera]
-
-### [Latest][pts-opera]
 
 #### Setup
 
@@ -118,6 +114,3 @@ Opera is available in the linuxmint repositories.
 
 [link-search-engines]: http://linuxmint.com/searchengines.php
 [link-duckduckgo-partnership]: http://blog.linuxmint.com/?p=1884
-
-[pts-chromium]: http://packages.qa.debian.org/c/chromium-browser.html
-[pts-opera]: http://packages.linuxmint.com/list.php?release=Debian
