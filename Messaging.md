@@ -1,6 +1,6 @@
 ## ![][img-pidgin] [Pidgin][homepage-pidgin]
 
-Pidgin is a GTK+ interface for **libpurple**, a front-end for instant messaging services.  
+GTK+ interface for **libpurple**, a front-end for instant messaging services.  
 
 #### Setup
 
@@ -9,13 +9,13 @@ Pidgin is installed by default.  Some services may require tweaking the default 
 _Accounts -> Manage Accounts -> Modify_
 
 * AIM
-    * Server: `login.messaging.aol.com`,  Port: `5190`
+    * **Server**: `login.messaging.aol.com`,  **Port**: `5190`
 * Facebook
 * identi.ca
     * See below
 * ICQ
 * Google Talk
-    * Connection security: `Use old-style SSL`,  Port: `443`,  Server: `talk.google.com`
+    * **Connection security**: `Use old-style SSL`,  **Port**: `443`,  **Server**: `talk.google.com`
 * MSN
 * Skype
     * See below
@@ -28,15 +28,14 @@ _Accounts -> Manage Accounts -> Modify_
 <a id="otr-messaging"/>
 
 * [Off-the-Record][link-plugin-otr]  
-
-`apt install pidgin-otr`
+    * `apt install pidgin-otr`
 
 [community][community-pidgin]
 
 <a id="skype" />
 ### ![Skype][img-skype] Skype 
 
-Skype is a chat, conferencing, and VOIP client.
+Chat, conferencing, and VOIP client.
 
 #### Setup
 
@@ -51,7 +50,7 @@ Skype is available from the linuxmint repositories.
 
 ### ![][img-twitter] Twitter, identi.ca
 
-Twitter and identi.ca are microblogging services.
+Microblogging services.
 
 #### Setup
 
@@ -80,8 +79,10 @@ IRC client.
 XChat is installed by default.
 
 _XChat -> Network list -> Linux Mint Server -> Edit_:  
-Server: `irc.spotchat.org/6667`
-Favorite channels: `#mintcast,#linuxmint-chat,#linuxmint-help,#linuxmint-debian`
+
+**Server**: `irc.spotchat.org/6667`
+
+**Favorite channels**: `#mintcast,#linuxmint-chat,#linuxmint-help,#linuxmint-debian`
 
 [community][community-xchat]
 
