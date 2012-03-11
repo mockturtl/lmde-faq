@@ -1,6 +1,7 @@
-[Terminal][anchor-terminal] | [Tools][anchor-tools] | [Network][anchor-network]
+[Terminal][anchor-terminal] | [Updates][anchor-updates] | [Tools][anchor-tools] | [Network][anchor-network]
 
 [anchor-terminal]: #wiki-terminal
+[anchor-updates]: #wiki-updates
 [anchor-tools]: #wiki-tools
 [anchor-network]: #wiki-network
 
@@ -161,6 +162,60 @@ chmod 764 foo  # rwxrw-r--
 * `cat /etc/passwd`: show all users
 * `cat /etc/group`: show all groups
 
+<a id="updates"/>
+## ![][img-updates] Updates
+
+### Repositories
+
+Adapted from the [LMDE FAQ][link-lmde-faq].
+
+TODO
+
+### ![][img-mint-update] Update Manager
+
+Graphical front-end for `apt`.  An icon in the system tray notifies you when updates are available.  
+
+[community][community-mintupdate]
+
+###### apt
+
+Wrapper script for `apt-get`, `aptitude`, `apt-cache` and `dpkg`, providing cleaner syntax.  See `/usr/local/bin/apt` for details.
+
+* `apt policy` prints the installed and available versions of a package
+* `apt show` prints available package details
+* `apt search` finds a matching package by name
+* `apt build` compiles a source package to a `.deb` file
+* `apt update`, `apt upgrade`, `apt dist-upgrade`: see below
+
+### ![][img-synaptic] [Synaptic][homepage-synaptic]
+
+Graphical interface for APT.  See below.
+
+[community][community-synaptic]
+
+### apt-get, aptitude
+
+Command-line interfaces for debian's Advanced Packaging Tool (APT), which manages package installation by retrieving dependencies and resolving conflicts.
+
+* `apt-get update` or `aptitude update` refreshes the list of available packages
+
+If newer packages are available:
+
+* `apt-get upgrade` installs available packages that do not require other packages to be added or removed from the system
+* `aptitude safe-upgrade` installs available packages that do not require other packages be removed from the system, and adds new packages as necessary
+* `apt-get dist-upgrade` or `aptitude full-upgrade` installs all available packages, prompting for confirmation if packages will be removed
+
+With large updates, you may find `aptitude` too slow.
+
+###### gdebi
+
+Graphical installer for `.deb` files.
+
+###### dkpg
+
+Command-line tool for installing `.deb` files.
+
+
 <a id="tools"/>
 ## ![][img-tools] Tools
 
@@ -189,11 +244,19 @@ Configure [SSH][anchor-ssh].
 [anchor-ssh]: Security#wiki-ssh
 [anchor-users-and-groups]: #wiki-users-and-groups
 
+[community-mintupdate]: http://community.linuxmint.com/software/view/mintupdate
+[community-synaptic]: http://community.linuxmint.com/software/view/synaptic
+
+[homepage-synaptic]: http://www.nongnu.org/synaptic/
+
+[img-mint-update]: image/mint-update.png "mintUpdate"
+[img-network]: image/folder-remote.png "Network"
+[img-synaptic]: image/synaptic.png "Synaptic"
 [img-terminal]: image/gnome-terminal.png "Terminal"
 [img-tools]: image/gconfeditor.png "Tools"
-[img-network]: image/folder-remote.png "Network"
+[img-updates]: image/system-software-update.png "Updates"
+
 
 [link-ack]: http://betterthangrep.com/
-[link-epiphyte-corp]: http://www.euskalnet.net/larraorma/crypto/slide28.html
 [link-five-minute-essential-shell-tutorial]: http://community.linuxmint.com/tutorial/view/100
-[link-in-the-beginning]: http://en.wikipedia.org/wiki/In_the_Beginning..._Was_the_Command_Line
+[link-lmde-faq]: http://forums.linuxmint.com/viewtopic.php?f=197&t=91405#p525343
