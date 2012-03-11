@@ -45,8 +45,9 @@ Short options can be combined: `-abc`.
 For some commands, options take arguments: `-i inputfile` or `--input inputfile` or `--prefix=/home/username`.
 
 ###### Tab completion
-When you press the tab key, the shell tries to guess how to complete the statement you're typing.  In case of ambiguity, pressing the tab key twice shows all possible completions.
+When you press the `tab` key, the shell tries to guess how to complete the statement you're typing.  In case of ambiguity, pressing the `tab` key twice shows all possible completions.
 
+###### Basic commands
 * `ls`: list contents of the current directory
     * `ls -alh`: **l**ong (detailed) list of **a**ll (including hidden) contents; file sizes converted to **h**uman-readable format
 * `pwd`: **p**rint **w**orking (current) **d**irectory
@@ -61,20 +62,33 @@ When you press the tab key, the shell tries to guess how to complete the stateme
     * `rm -r`: delete **r**ecursively (all contents of a directory)
 * `touch`: create an empty file
     * if file exists, update its timestamp
+* `df -h`: show **d**isk space available on the **f**ilesystem (file sizes converted to **h**uman-readable format)
+* `du -hcs`: show **d**isk space **u**sed by a directory (**s**ummarized; file sizes converted to **h**uman-readable format)
 
-### Text commands
+###### Text commands
 
-* `cat`: print (con**cat**enate) contents to the screen
+* `echo`: print a string to the screen, followed by newline character `\n`
+* `cat`: print (con**cat**enate) file contents to the screen
 * `more`: read contents page by page
     * `spacebar` forward, `q` to quit
 * `less`: read contents page by page
     * `spacebar` forward, `b` backward, `q` to quit
 * `man`: read instructions (**man**ual)
+* `wc`: **w**ord **c**ount; print number of newlines, words, bytes, and characters
+* `tr '[a-z]' '[A-Z]'`: **tr**anslate a string to upper case
 
 ###### Manpages and help
-When you have questions about a command, use `man commandname` to read its documentation.  Some commands use `commandname -h` or `commandname --help`.
+When you have questions about a command, use `man commandname` to read its documentation.  Some commands use `commandname --help` or `commandname -h`.
 
-### System commands
+### Advanced commands
+* `find`: recursively search in a directory
+    * `find path/to/directory -name filename`: recursively search a directory for a file
+    * _the options for `find` have one hyphen `-`_
+* `chmod`: **ch**ange **mod**e ([permissions][anchor-filesystem-permissions]) of a file
+* `chown user:group`: **ch**ange [user and group][anchor-users-and-groups] **own**ership of a file
+* `chgrp`: **ch**ange **gr**ou**p** ownership of a file
+
+###### System
 
 * `ps`: list programs running (**p**rocess **s**tatus)
     * `ps aux`: list **a**ll programs running, with details
@@ -82,14 +96,22 @@ When you have questions about a command, use `man commandname` to read its docum
 * `kill`: end a program, by its process id (**pid**)
 * `which`: locate a command
 * `whereis`: locate a command, and related files
-* `find`: recursively search files in a directory
-    * `find path/to/directory -name filename`: recursively search a directory for a file
-    * _the options for `find` have one hyphen `-`_
-* `df -h`: show **d**isk space available on the **f**ilesystem (file sizes converted to **h**uman-readable format)
-* `du -hcs`: show **d**isk space **u**sed by a directory (**s**ummarized; file sizes converted to **h**uman-readable format)
-* `chmod`: **ch**ange **mod**e ([permissions][anchor-filesystem-permissions]) of a file
-* `chown user:group`: **ch**ange [user and group][anchor-users-and-groups] **own**ership of a file
-* `chgrp`: **ch**ange **gr**ou**p** ownership of a file
+
+###### Compression  
+
+Zip, gzip and bzip2 are compression formats.  
+
+* `unzip path/to/file.zip` extract the zip archive to the current directory
+* `zip output file1 file2 ...` create an archive named `output.zip`
+
+Historically, cassette tapes were used for backups.  Hyphens `-` are optional for `tar` options.  
+
+* `tar`: **t**ape **ar**chive
+    * `tar xvzf path/to/downloaded/file.tar.gz` e**x**tract the g**z**ipped **f**ile to the current directory with **v**erbose output
+    * `tar xjf path/to/downloaded/file.tar.bz2` e**x**tract the bzipped **f**ile to the current directory
+        * _why `j` for bzip2 compression? `b` is for block size_
+   * `tar czf output.tar.gz directory/` **c**reate and g**z**ip an archive named `output.tar.gz` from `directory/`
+
 
 <a id="filesystem-permissions"/>
 ## File permissions
@@ -150,7 +172,7 @@ ls -l foo  # -rwxr-xr-x username groupname  (755)
 Or use octal:
 
 ````sh
-chmod 764 foo  # rwxrw-r--
+chmod 764 foo  # -rwxrw-r--
 ````
 
 
@@ -189,7 +211,7 @@ Wrapper script for `apt-get`, `aptitude`, `apt-cache` and `dpkg`, providing clea
 _Tab completion does not work with the `apt` script._
 
 * `apt policy` prints the installed and available versions of a package
-* `apt show` prints available package details
+* `apt show` prints package details
 * `apt search` finds a matching package by name
 * `apt build` compiles a source package to a `.deb` file
 * `apt update`, `apt upgrade`, `apt dist-upgrade`: see below
@@ -228,14 +250,87 @@ Command-line tool for installing `.deb` files.
 <a id="tools"/>
 ## ![][img-tools] Tools
 
+### Pipes 
+
+Use `|`  _(pipe)_ to pass the output of `command1` to the input of `command2`.
+
+###### example
+
+Count the words in _hello world_:
+
+````sh
+echo -n 'hello world' | wc  # 0 newlines      2 words      11 bytes
+````
+
 ### grep
 
-###### See also
+TODO
+
+###### examples
+
+````sh
+ps aux | grep firefox  # is firefox running?
+````
+
+###### see also
 
 * [ack][link-ack]  
     * `apt install ack-grep`
 
 ### sed
+
+TODO
+
+### [Redirection][link-redirection]
+
+Typing on the keyboard writes to a _filestream_ called `stdin` (**st**an**d**ard **in**put), `0<`.
+
+Printing to the display is called `stdout` (**out**put), `1>`.
+
+Any **err**or messages are sent to a separate stream called `stderr`, `2>`.
+
+###### output
+
+* `command > file` _redirects_ `stdout`: output is logged to `file` instead of printed to the display
+    * `>` is short for `1>`
+    * if `file` exists, it is **overwritten**
+
+The error stream is still printed to the screen.  To log errors also,  
+
+* `command &> file`
+    * short for `command > file 2>&1` 
+        * _`stderr` is redirected to `stdout`, which you sent to `file`_
+
+A variation:  
+
+* `command >> file` redirects `stdout`
+    * if `file` exists, output is **appended**
+
+As above, `command &>> file` appends output and errors.
+
+###### input
+
+* `command < file` redirects `stdin`: input is taken from `file` instead of the keyboard
+    * `<` is short for `0<`
+    * `command < input.text > output.log` takes input from the first file and writes output to the second file
+
+###### example 
+
+Display file contents in upper case.
+
+````sh
+echo 'one two three' 1> numbers
+cat numbers  # one two three
+tr '[a-z]' '[A-Z]' 0< numbers  # ONE TWO THREE
+````
+
+###### Here documents
+
+* `command <<HERE` reads input line by line, terminating when it finds `HERE`
+    * `<<-HERE` with a hyphen `-` discards tabs
+    * _the delimiter `HERE` can be any word: `EOF`, `END`, ..._
+
+
 
 <a id="network"/>
 ## ![][img-network] Network
@@ -248,8 +343,15 @@ Configure [SSH][anchor-ssh].
 * `scp`
 * `rsync`
 
+* `nc`
+* `wget`
+* `curl`
+* `sudo pip install -U httpie` ([homepage][link-httpie])
+    * [setup python][anchor-python]
 
 
+
+[anchor-python]: Programming#wiki-python
 [anchor-ssh]: Security#wiki-ssh
 
 
@@ -268,4 +370,6 @@ Configure [SSH][anchor-ssh].
 
 [link-ack]: http://betterthangrep.com/
 [link-five-minute-essential-shell-tutorial]: http://community.linuxmint.com/tutorial/view/100
+[link-httpie]: https://github.com/jkbr/httpie
 [link-lmde-faq]: http://forums.linuxmint.com/viewtopic.php?f=197&t=91405#p525343
+[link-redirection]: http://www.gnu.org/software/bash/manual/bashref.html#Redirections

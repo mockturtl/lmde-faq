@@ -24,9 +24,9 @@ Geany is available in the debian repositories.
 
 ##### Setup
 
-[Download][link-idea] the Community Edition.  Unpack the source and link the executable in your PATH.
-
 ![][emblem-warn] **This software is not from a trusted repository.  Use it at your own risk.**
+
+[Download][link-idea] the Community Edition.  Unpack the source and link the executable in your PATH.
 
 ````sh
 sudo tar xvzf path/to/downloaded/file.tar.gz /opt/
@@ -119,6 +119,7 @@ Python is installed by default.  The Python package manager is **pip**.
 
 * [Django][link-django], a framework for web applications
 
+<a id="ruby"/>
 ### ![][img-ruby] [Ruby][homepage-ruby]
 
 Ruby modules are called **gems**.  The Ruby package manager is **rubygems**.  Dependencies for a particular app are listed in its `Gemfile`, installed with **bundler**, and executed with **rake**.
@@ -222,7 +223,7 @@ Subversion is available in the debian repositories.
 
 `apt install subversion`
 
-[anchor-java]: #wiki-java
+
 
 
 <a id="databases"/>
@@ -253,6 +254,8 @@ SQLite is available in the debian repositories.
 `apt install sqlite3`
 
 
+[anchor-java]: #wiki-java
+[anchor-python]: #wiki-python
 
 [community-geany]: http://community.linuxmint.com/software/view/geany
 [community-idea]: http://community.linuxmint.com/software/view/idea-ic

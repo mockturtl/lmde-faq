@@ -3,7 +3,7 @@
 
 ### ![][img-gpg] [GnuPG][homepage-gnupg]
 
-An implementation of OpenPGP ("Pretty Good Privacy").  Sign, verify, encrypt, and decrypt individual files and email.
+OpenPGP ("Pretty Good Privacy") implementation.  Sign, verify, encrypt, and decrypt individual files and email.
 
 #### Setup
 
@@ -61,7 +61,7 @@ Linux is not vulnerable to Windows malware, but you may still want to blacklist 
 
 Firewall manager.  Uses blacklists to prevent incoming and outgoing connections by IP or port number.
 
-You will probably find the lists too aggressive: when you seem to have network problems, the reason is usually that PeerGuardian has blocked some traffic you don't want it to.  This will improve over time as you customize the whitelist.  _(right-click --> Allow permanently)_
+You will probably find the lists too aggressive: when you seem to have network problems, the reason is usually that PeerGuardian has blocked some traffic you don't want it to.  This will improve over time as you customize the whitelist.  _(right-click -> Allow permanently)_
 
 ## HTTPS (SSL)
 
