@@ -1,9 +1,11 @@
-[Terminal][anchor-terminal] | [Updates][anchor-updates] | [Tools][anchor-tools] | [Network][anchor-network]
+[Terminal][anchor-terminal] | [File permissions][anchor-filesystem-permissions] | [Users and groups][anchor-users-and-groups] | [Updates][anchor-updates] | [Tools][anchor-tools] | [Network][anchor-network]
 
-[anchor-terminal]: #wiki-terminal
-[anchor-updates]: #wiki-updates
-[anchor-tools]: #wiki-tools
+[anchor-filesystem-permissions]: #wiki-filesystem-permissions
 [anchor-network]: #wiki-network
+[anchor-terminal]: #wiki-terminal
+[anchor-tools]: #wiki-tools
+[anchor-updates]: #wiki-updates
+[anchor-users-and-groups]: #wiki-users-and-groups
 
 <a id="terminal"/>
 ## ![][img-terminal] Terminal
@@ -90,13 +92,14 @@ When you have questions about a command, use `man commandname` to read its docum
 * `chgrp`: **ch**ange **gr**ou**p** ownership of a file
 
 <a id="filesystem-permissions"/>
-### Filesystem permissions
+## File permissions
 
-See also [users and groups][anchor-users-and-groups].  
+###### See also 
+* [Users and groups][anchor-users-and-groups]  
 
 ###### User classes: ugo
 
-* **u**ser: user who owns of the file
+* **u**ser: user who owns the file
 * **g**roup: group of users who may need the file
 * **o**ther: any user  
 
@@ -155,7 +158,9 @@ chmod 764 foo  # rwxrw-r--
 
 
 <a id="users-and-groups"/>
-### Users and groups
+## Users and groups
+
+### User commands
 
 * `whoami`: print my username
 * `id`: show my user information and group memberships
@@ -181,6 +186,8 @@ Graphical front-end for `apt`.  An icon in the system tray notifies you when upd
 
 Wrapper script for `apt-get`, `aptitude`, `apt-cache` and `dpkg`, providing cleaner syntax.  See `/usr/local/bin/apt` for details.
 
+_Tab completion does not work with the `apt` script._
+
 * `apt policy` prints the installed and available versions of a package
 * `apt show` prints available package details
 * `apt search` finds a matching package by name
@@ -199,13 +206,15 @@ Command-line interfaces for debian's Advanced Packaging Tool (APT), which manage
 
 * `apt-get update` or `aptitude update` refreshes the list of available packages
 
-If newer packages are available:
+If newer packages are available,  
 
 * `apt-get upgrade` installs available packages that do not require other packages to be added or removed from the system
-* `aptitude safe-upgrade` installs available packages that do not require other packages be removed from the system, and adds new packages as necessary
-* `apt-get dist-upgrade` or `aptitude full-upgrade` installs all available packages, prompting for confirmation if packages will be removed
+* `aptitude safe-upgrade` installs available packages that do not require other packages be removed from the system
+    * adds new packages as necessary
+* `apt-get dist-upgrade` or `aptitude full-upgrade` installs all available packages
+    * prompts for confirmation if packages will be removed
 
-With large updates, you may find `aptitude` too slow.
+_With large updates, you may find `aptitude` too slow._
 
 ###### gdebi
 
@@ -240,9 +249,9 @@ Configure [SSH][anchor-ssh].
 * `rsync`
 
 
-[anchor-filesystem-permissions]: #wiki-filesystem-permissions
+
 [anchor-ssh]: Security#wiki-ssh
-[anchor-users-and-groups]: #wiki-users-and-groups
+
 
 [community-mintupdate]: http://community.linuxmint.com/software/view/mintupdate
 [community-synaptic]: http://community.linuxmint.com/software/view/synaptic

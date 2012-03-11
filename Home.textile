@@ -12,6 +12,6 @@ h3. Frequently Asked Questions
 
 # *Why do some pages say this?* !image/emblem-warn.png(Warning)! _"This software is not from a trusted repository.  Use it at your own risk."_
 
-bq. You can reasonably expect popular open source and free software not to be malicious.  But this is no guarantee of security, stability, or compatibility with the rest of the operating system.  If possible, ask for the program to be maintained in the repositories, or a newer release to be selected.
+bq. You can reasonably expect popular open source and free software not to be malicious.  This does not guarantee security, stability, or compatibility with the rest of the operating system.  Ask the maintainers of your distribution to consider adding this program, or packaging a newer version.
 
 h6. "Source":https://github.com/mockturtl/lmde-faq | [[About]] | [[Changelog]]
