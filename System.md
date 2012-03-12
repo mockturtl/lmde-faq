@@ -65,10 +65,22 @@ When you press the `tab` key, the shell tries to guess how to complete the state
 * `df -h`: show **d**isk space available on the **f**ilesystem (file sizes converted to **h**uman-readable format)
 * `du -hcs`: show **d**isk space **u**sed by a directory (**s**ummarized; file sizes converted to **h**uman-readable format)
 
+###### Program execution
+
+* `ctrl+c`: abort the program
+* `ctrl+d`: send `EOF` to a program waiting on input
+* `ctrl+z`: send a program to the background, to provide input elsewhere
+    * `fg` to resume the program
+    * `commandname &` starts a program in the background
+
 ###### Text commands
 
 * `echo`: print a string to the screen, followed by newline character `\n`
 * `cat`: print (con**cat**enate) file contents to the screen
+* `head -n`: print the first lines of a file to the screen
+* `tail -n`: print the last lines of a file to the screen
+    * `tail -f logfile`: stream `logfile` to the screen as it is written (**f**ollow the tail)
+    * _use `ctrl+c` to abort_
 * `more`: read contents page by page
     * `spacebar` forward, `q` to quit
 * `less`: read contents page by page
@@ -104,7 +116,7 @@ Zip, gzip and bzip2 are compression formats.
 * `unzip path/to/file.zip` extract the zip archive to the current directory
 * `zip output file1 file2 ...` create an archive named `output.zip`
 
-Historically, cassette tapes were used for backups.  Hyphens `-` are optional for `tar` options.  
+Historically, cassette tapes were used for backups.  _Hyphens `-` are optional for `tar` options._  
 
 * `tar`: **t**ape **ar**chive
     * `tar xvzf path/to/downloaded/file.tar.gz` e**x**tract the g**z**ipped **f**ile to the current directory with **v**erbose output
