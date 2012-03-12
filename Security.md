@@ -9,16 +9,24 @@ OpenPGP ("Pretty Good Privacy") implementation.  Sign, verify, encrypt, and decr
 
 GnuPG is [available][pts-gnupg2] in the debian repositories.  It will be installed with the graphical interface.
 
-![][img-gpa] Gnu Privacy Assistant `apt install gpa`
+###### ![][img-gpa] Gnu Privacy Assistant 
 
-![][img-kleopatra]![][emblem-kde] Kleopatra `apt install kleopatra`  
+`apt install gpa`
+
+###### ![][img-kleopatra]![][emblem-kde] Kleopatra 
+
+`apt install kleopatra`  
 
 A walkthrough is available [here][link-gpg-walkthrough].  The [Enigmail][anchor-enigmail] plugin for Thunderbird also has a nice wizard.
 
 <a id="ssh"/>
-## ![][img-gnome-terminal] SSH
+## ![][img-gnome-terminal] SSH _(Secure Shell)_
 
-Secure shell lets you log in remotely through the terminal.  You can use your username and password, but it's better to generate a keypair to identify each client computer you plan to log in with.  
+Remote login through the terminal.  
+
+#### Setup
+
+You can use your username and password, but it's better to generate a keypair to identify each client computer you plan to log in with.  
 
 `ssh-keygen -b 4096` 
 
@@ -28,7 +36,7 @@ Install the server on any machine which should accept incoming connections.
 
 `apt install ssh`
 
-Each client can then provide its identity (public key, **~/.ssh/id_rsa.pub**) to the remote server.
+Each client can then provide its identity (_public key_, **~/.ssh/id_rsa.pub**) to the remote server.
 
 `ssh-copy-id my-remote-hostname`
 
@@ -48,11 +56,15 @@ Your public key also identifies your computer to services built on SSH, like [gi
 
 ## IP blacklist
 
-### ![][img-mintnanny] /etc/hosts
+### ![][img-mintnanny] /etc/hosts _(hosts file)_
+
+Maps domain names to IP addresses.  
+
+Links can be redirected to the machine's own address, resulting in a harmless "file not found" error.  A detailed explanation is available [here][link-mvps].
 
 `mintNanny` provides a graphical interface to this file.
 
-The **hosts** file maps domain names to IP addresses.  Links can be redirected to the machine's own address, resulting in a harmless "file not found" error.  A detailed explanation is available [here][link-mvps].
+#### Setup
 
 Linux is not vulnerable to Windows malware, but you may still want to blacklist malicious websites.  Append [this list][link-mvps-hosts] to **/etc/hosts**.  Remove the first two entries: _localhost_ is already correctly defined for IPv4 and IPv6.
 
@@ -63,6 +75,12 @@ Firewall manager.  Uses blacklists to prevent incoming and outgoing connections 
 
 You will probably find the lists too aggressive: when you seem to have network problems, the reason is usually that PeerGuardian has blocked some traffic you don't want it to.  This will improve over time as you customize the whitelist.  _(right-click -> Allow permanently)_
 
+#### Setup
+
+![][emblem-warn] **This software is not from a trusted repository.  Use it at your own risk.**
+
+PeerGuardian is available from the project homepage.
+
 ## HTTPS (SSL)
 
 Encrypting your internet traffic helps you maintain privacy.  Make sure your [default search engine][anchor-search-engines] uses SSL, and use [off-the-record messaging][anchor-otr-messaging].
@@ -72,6 +90,7 @@ Encrypting your internet traffic helps you maintain privacy.  Make sure your [de
 [anchor-search-engines]: Browsers
 
 [emblem-kde]: image/boston.png
+[emblem-warn]: image/emblem-warn.png
 
 [homepage-gnupg]: http://www.gnupg.org/
 [homepage-pgl]: http://moblock-deb.sourceforge.net/
