@@ -1,3 +1,9 @@
+[Photographs][anchor-photographs] | [Graphics][anchor-graphics]
+
+[anchor-photographs]: #wiki-photographs
+[anchor-graphics]: #wiki-graphics
+
+<a id="photographs"/>
 ## Photographs
 
 ### ![][img-shotwell] [Shotwell][homepage-shotwell]
