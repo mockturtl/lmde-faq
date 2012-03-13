@@ -64,6 +64,7 @@ When you press the `tab` key, the shell tries to guess how to complete the state
     * if file exists, update its timestamp
 * `df -h`: show **d**isk space available on the **f**ilesystem (file sizes converted to **h**uman-readable format)
 * `du -hcs`: show **d**isk space **u**sed by a directory (**s**ummarized; file sizes converted to **h**uman-readable format)
+* `uptime`: display system statistics since last reboot
 
 ###### Program execution
 
@@ -104,7 +105,7 @@ When you have questions about a command, use `man commandname` to read its docum
 
 * `ps`: list programs running (**p**rocess **s**tatus)
     * `ps aux`: list **a**ll programs running, with details
-    * _the options for `ps` have no hyphen `-`_
+    * _some options for `ps` have no hyphen `-`_
 * `kill`: end a program, by its process id (**pid**)
 * `which`: locate a command
 * `whereis`: locate a command, and related files
@@ -274,9 +275,12 @@ Count the words in _hello world_:
 echo -n 'hello world' | wc  # 0 newlines      2 words      11 bytes
 ````
 
-### grep
+### [grep][link-grep] _(global regex print)_
 
-TODO
+Powerful text search.
+
+* `grep -nr expression directory/`: **r**ecursively search for any line containing `expression`, printing line **n**umbers
+    * `expression` can be a string, or a pattern _([regular expression][link-regex])_
 
 ###### examples
 
@@ -286,12 +290,28 @@ ps aux | grep firefox  # is firefox running?
 
 ###### see also
 
-* [ack][link-ack]  
-    * `apt install ack-grep`
+[ack][link-ack] is configured for source code directories, with whitelist filtering.  See `--help-types`.
+ 
+`apt install ack-grep`
 
-### sed
+The config file is `~/.ackrc`.  To search [this repository][anchor-source], add the lines below.
 
-TODO
+````sh
+--type-add=svg=.svg  # scalable vector graphics
+--type-add=markup=.md,.markdown,.mkdn,.textile,.rst  # rich text formats
+--nosvg  # disable SVG to avoid false positives with numeric strings
+````
+
+### [sed][link-sed]  _(**s**tream **ed**itor)_
+
+Powerful find and replace. 
+
+* `sed -i 's/exp1/exp2/g' file1 file2 ...`: reading each `file`, line by line, 
+    * `exp1, exp2` are [regular expressions][link-regex]
+    * **s**ubstitute `exp2` for `exp1`
+    * **g**lobally (otherwise, only the first match)
+    * `-i`: edit **i**n-place, rather than printing the output
+
 
 ### [Redirection][link-redirection]
 
@@ -349,21 +369,46 @@ tr '[a-z]' '[A-Z]' 0< numbers  # ONE TWO THREE
 
 ### Network commands
 
-Configure [SSH][anchor-ssh].
+Configure [SSH][anchor-ssh].  You should have an account on each computer.
 
-* `ssh`
-* `scp`
-* `rsync`
+* `ssh hostname`: **s**ecure login in a remote terminal _(**sh**ell)_
+
+###### copying files
+
+* `scp`: transfer files over the network _(**s**ecure **c**o**p**y)_
+    * encrypted `rcp` _(**r**emote **c**o**p**y)_
+    * `scp hostname1:/path/to/file hostname2:/path/to/destination`
+    * copies `file` from one computer to another
+    * local filesystem is used if either `hostname:` is omitted
+        * `scp -r hostname:~/blog/drafts .`: copy the `drafts` directory and its contents (**r**ecursively) to the current directory
+* `rsync`: backup (**r**emotely **sync**hronize) a directory
+    * local filesystem is used if either `hostname:` is omitted
+        * `rsync -a ~/Pictures /media/mountname`: backup `Pictures` to another hard drive
+        * in **a**rchive mode _(**r**ecursive, copy sym**l**inks, preserving **p**ermissions, **t**imestamp, **o**wner and **g**roup)_
+        * ignore warnings if `mountname` is an NTFS partition (no file permissions, etc.)
+
+Between computers:
+
+* `rsync -av hostname1:/path/to/source hostname2:/path/to/destination`
+    * if folder does not exist, copy it
+        * otherwise, update contents of `destination`
+    * with **v**erbose output
+    * if `source/` has a trailing slash, its _contents_ are placed into `destination`
+    
+###### tcp / ip  
+
+**I**nternet **P**rotocol finds a [route][link-ccna-ip] to deliver messages.  **T**ransmission **C**ontrol **P**rotocol guarantees their integrity.
 
 * `nc`
 * `wget`
 * `curl`
-* `sudo pip install -U httpie` ([homepage][link-httpie])
-    * [setup python][anchor-python]
+* [httpie][link-httpie]
+    * `sudo pip install -U httpie`  ([setup python][anchor-python])
 
 
 
 [anchor-python]: Programming#wiki-python
+[anchor-source]: Home#wiki-source
 [anchor-ssh]: Security#wiki-ssh
 
 
@@ -381,7 +426,11 @@ Configure [SSH][anchor-ssh].
 
 
 [link-ack]: http://betterthangrep.com/
+[link-ccna-ip]: http://www.youtube.com/watch?v=UXN5XrmsaV8
 [link-five-minute-essential-shell-tutorial]: http://community.linuxmint.com/tutorial/view/100
+[link-grep]: http://en.wikipedia.org/wiki/Grep
+[link-sed]: http://www.grymoire.com/Unix/Sed.html
 [link-httpie]: https://github.com/jkbr/httpie
 [link-lmde-faq]: http://forums.linuxmint.com/viewtopic.php?f=197&t=91405#p525343
 [link-redirection]: http://www.gnu.org/software/bash/manual/bashref.html#Redirections
+[link-regex]: http://www.zytrax.com/tech/web/regex.htm
