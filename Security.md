@@ -95,7 +95,7 @@ PeerGuardian is available from the project homepage.
 
 Encrypting your internet traffic helps you maintain privacy.  
 
-Your browser uses SSL _(Secure Sockets Layer)_ certificates from a trusted authority to verify a website's identity when you connect, and ensure messages you send and receive cannot be read by third parties.
+Your browser uses SSL _(Secure Sockets Layer)_ [certificates][link-certificate-authority] from a trusted authority to verify a website's identity when you connect, and ensure messages you send and receive cannot be read by third parties.
 
 Make sure your [default search engine][anchor-search-engines] uses SSL, and use [off-the-record messaging][anchor-otr-messaging].
 
@@ -122,7 +122,8 @@ Make sure your [default search engine][anchor-search-engines] uses SSL, and use 
 [link-mvps]: http://winhelp2002.mvps.org/hosts.htm
 [link-mvps-hosts]: http://winhelp2002.mvps.org/hosts.txt
 [link-password-generator]: http://strongpasswordgenerator.com/
-[link-tls]: http://en.wikipedia.org/wiki/Transport_Layer_Security
+[link-tls]: https://secure.wikimedia.org/wikipedia/en/wiki/Transport_Layer_Security
+[link-certificate-authority]: https://secure.wikimedia.org/wikipedia/en/wiki/CAcert.org
 [link-whatismyip]: http://www.whatismyip.com/
 
 [pts-gnupg2]: http://packages.qa.debian.org/g/gnupg2.html "PTS"
