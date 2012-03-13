@@ -1,6 +1,11 @@
-## ![][img-printer] Brother ##
+[Brother][anchor-brother]
 
-### [Printer drivers][brother-drv-lpr] ###
+[anchor-brother]: #wiki-brother
+
+<a id="brother"/>
+## ![][img-printer] Brother
+
+### [Printer drivers][brother-drv-lpr]
 
 ![][emblem-warn] **This software is not from a trusted repository.  Use it at your own risk.**
 
@@ -10,7 +15,7 @@ _Note for 64-bit systems:_ use `apt install ia32-libs`, and `dkpg -i --force-all
 
 To verify the installation, `dpkg -l | grep Brother`.
 
-#### Setup ####
+#### Setup
 
 Open a web browser and visit <http://localhost:631/admin>.  Click "Add Printer."  Login as "root" and follow the instructions.
 
@@ -20,13 +25,13 @@ Print a test page, if you like, from the "Maintenance" dropdown.
 
 The printer will now be available on your desktop.  Make it your default and test with `system-config-printer`.
 
-### [Scanner drivers][brother-drv-scan] ###
+### [Scanner drivers][brother-drv-scan]
 
 Download the brscan .deb file for your model and architecture and install it.
 
 To verify the installation, `dpkg -l | grep Brother`.
 
-#### Setup ####
+#### Setup
 
 Scroll through the printer's panel menu for Network --> IP to obtain the IP address.
 
@@ -45,7 +50,7 @@ Your scanner is now ready to use.  Test with `simple-scan`.
 [brother-drv-scan]: http://welcome.solutions.brother.com/bsc/public_s/id/linux/en/download_scn.html
 [brother-faq-scan]: http://welcome.solutions.brother.com/bsc/public_s/id/linux/en/instruction_scn1c.html
 
-#### References ####
+#### References
 [ref1][mint-forums-brother1], [ref2][mint-forums-brother2], [ref3][debian-forums-brother1]
 
 [emblem-warn]: image/emblem-warn.png "Warning!"
