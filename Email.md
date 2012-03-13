@@ -1,3 +1,8 @@
+[Thunderbird][anchor-thunderbird]
+
+[anchor-thunderbird]: #wiki-thunderbird
+
+
 <a id="thunderbird"/>
 ## ![][img-thunderbird-logo]  [Thunderbird][homepage-thunderbird] 
 
