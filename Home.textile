@@ -1,8 +1,12 @@
 h2. "The Green Spiral 'Cyclopedia":http://linuxmint.com/  
 
-[[image/debian_Mint_120.png|float|align=right]] This is a wiki for Linux Mint Debian (LMDE(Linux Mint Debian Edition)).  I hope it will be useful for users of the Debian project and its derivatives, especially new and prospective users of GNU/Linux operating systems.
+[[image/debian_Mint_120.png|float|align=right]] This is a wiki for Linux Mint Debian (LMDE(Linux Mint Debian Edition)).
+
+h3. The GNU/Linux operating system
 
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). 
+
+h3. Debian
 
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). 
 
@@ -12,6 +16,8 @@ h3. Frequently Asked Questions
 
 # *Why do some pages say this?* !image/emblem-warn.png(Warning)! _"This software is not from a trusted repository.  Use it at your own risk."_
 
-bq. You can reasonably expect popular open source and free software not to be malicious.  This does not guarantee security, stability, or compatibility with the rest of the operating system.  Ask the maintainers of your distribution to consider adding this program, or packaging a newer version.
+bq. You can reasonably expect popular open source and free software not to be malicious.  This does not guarantee security, stability, or compatibility with the rest of the operating system.  The software may be "DFSG(Debian Free Software Guidelines)":http://www.debian.org/doc/debian-policy/ch-archive.html#s-dfsg incompatible, that is, neither free nor open source.  Ask the maintainers of your distribution to consider adding this program, or packaging a newer version.
+
+<a id="source"/>
 
 h6. "Source":https://github.com/mockturtl/lmde-faq | [[About]] | [[Changelog]]
