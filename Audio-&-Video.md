@@ -1,4 +1,4 @@
-[mp3][anchor-podcast-mp3] | [Record audio][anchor-record-audio] | [VOIP][anchor-voip] | [Watch movies][anchor-watch-movies] | [Edit video][anchor-edit-video] | [Burn CD][anchor-burn-cd] | [Screen capture][anchor-screen-capture]
+[Music][anchor-podcast-mp3] | [Record audio][anchor-record-audio] | [VOIP][anchor-voip] | [Watch movies][anchor-watch-movies] | [Edit video][anchor-edit-video] | [Burn CD][anchor-burn-cd] | [Screen capture][anchor-screen-capture]
 
 [anchor-podcast-mp3]: #wiki-podcast-mp3
 [anchor-record-audio]: #wiki-record-audio
@@ -30,6 +30,9 @@ Banshee is installed by default.
 [community][community-banshee]
 
 ### ![][img-clementine] [Clementine][homepage-clementine]  
+
+Integrates with Grooveshark, Jamendo, and streaming internet radio.
+
 #### Setup  
 
 Clementine is available in the debian repositories.  
@@ -37,6 +40,17 @@ Clementine is available in the debian repositories.
 `apt install clementine`  
 
 [community][community-clementine]
+
+
+### ![][img-musique] [Musique][homepage-musique]
+
+Pulls artist biography, album cover, and song lyrics from [last.fm][link-last-fm].
+
+#### Setup
+
+Musique is available in the debian repositories.
+
+`apt install musique`
 
 ### ![][img-rhythmbox] [Rhythmbox][homepage-rhythmbox]  
 
@@ -53,6 +67,7 @@ Songbird is available in the debian repositories.
 `apt install songbird`  
 
 [community][community-songbird]
+
 
 
 <a id="record-audio"/>
@@ -128,6 +143,17 @@ Totem is installed by default.
 
 [community][community-totem]
 
+### ![][img-minitube] [Minitube][homepage-minitube]
+
+Desktop YouTube player.
+
+#### Setup
+
+Minitube is available in the debian repositories.
+
+`apt install minitube`
+
+[community][community-minitube]
 
 <a id="edit-video"/>
 ## Edit and transcode video
@@ -206,6 +232,7 @@ Extract the archive, and run setup.
 [community-ekiga]: http://community.linuxmint.com/software/view/ekiga
 [community-guvcview]: http://community.linuxmint.com/software/view/guvcview
 [community-k3b]: http://community.linuxmint.com/software/view/k3b
+[community-minitube]: http://community.linuxmint.com/software/view/minitube
 [community-mumble]: http://community.linuxmint.com/software/view/mumble
 [community-openshot]: http://community.linuxmint.com/software/view/openshot
 [community-pitivi]: http://community.linuxmint.com/software/view/pitivi
@@ -230,7 +257,9 @@ Extract the archive, and run setup.
 [homepage-guvcview]: http://guvcview.sourceforge.net/ "GTK+ UVC Viewer"
 [homepage-k3b]: http://www.k3b.org/ "K3b"
 [homepage-kazam]: https://launchpad.net/kazam/+download "Kazam"
+[homepage-minitube]: http://flavio.tordini.org/minitube
 [homepage-mumble]: http://mumble.sourceforge.net/ "Mumble"
+[homepage-musique]: http://flavio.tordini.org/musique "Musique"
 [homepage-openshot]: http://www.openshotvideo.com/ "Openshot"
 [homepage-pitivi]: http://www.pitivi.org/ "PiTiVi"
 [homepage-rhythmbox]: http://projects.gnome.org/rhythmbox/ "Rhythmbox"
@@ -250,10 +279,14 @@ Extract the archive, and run setup.
 [img-guvcview]: image/guvcview.png "GTK+ UVC Viewer"
 [img-k3b]: image/k3b.png "K3b"
 [img-kazam]: image/kazam.png "Kazam"
+[img-minitube]: image/minitube.png "Minitube"
 [img-mumble]: image/mumble.png "Mumble"
+[img-musique]: image/musique.png "Musique"
 [img-openshot]: image/openshot.png "Openshot"
 [img-pitivi]: image/pitivi.png "Pitivi"
 [img-rhythmbox]: image/rhythmbox.png "Rhythmbox"
 [img-songbird]: image/songbird.png "Songbird"
 [img-totem]: image/totem.png "Totem"
 [img-vlc]: image/vlc.png "VLC"
+
+[link-last-fm]: http://www.last.fm/ "last.fm"
