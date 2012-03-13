@@ -1,3 +1,10 @@
+[LibreOffice][anchor-libreoffice] | [Text][anchor-text-editor] | [Notes][anchor-notes]  
+
+[anchor-libreoffice]: #wiki-libreoffice
+[anchor-text-editor]: #wiki-text-editor
+[anchor-notes]: #wiki-notes
+
+<a id="libreoffice"/>
 ## ![][img-libreoffice] [LibreOffice][homepage-libreoffice]
 
 The office suite consists of editors for different kinds of files.
@@ -23,6 +30,7 @@ The default text editor depends on your desktop.
 
 Cinnamon and gnome-shell use **gedit**.  Use ![][emblem-mate] **pluma** in MATE, ![][emblem-kde] **kate** in KDE, ![][emblem-lxde] **leafpad** in LXDE, and ![][emblem-xfce] **mousepad** in XFCE.
 
+<a id="notes"/>
 ## Notes
 
 <a id="tomboy"/>
