@@ -1,3 +1,11 @@
+[File encryption][anchor-encryption] | [SSH][anchor-ssh] | [IP blacklist][anchor-ip-blacklist] | [https://][anchor-https]
+
+[anchor-encryption]: #wiki-encryption
+[anchor-ssh]: #wiki-ssh
+[anchor-ip-blacklist]: #wiki-ip-blacklist
+[anchor-https]: #wiki-https
+
+
 <a id="encryption" />
 ## File encryption
 
@@ -54,11 +62,12 @@ UsePAM no
 
 Your public key also identifies your computer to services built on SSH, like [github][link-github-ssh] (see "Set Up SSH Keys").
 
+<a id="ip-blacklist"/>
 ## IP blacklist
 
 ### ![][img-mintnanny] /etc/hosts _(hosts file)_
 
-Maps domain names to IP addresses.  
+Maps domain names _(website.com)_ to [IP addresses][link-whatismyip].
 
 Links can be redirected to the machine's own address, resulting in a harmless "file not found" error.  A detailed explanation is available [here][link-mvps].
 
@@ -81,9 +90,14 @@ You will probably find the lists too aggressive: when you seem to have network p
 
 PeerGuardian is available from the project homepage.
 
-## HTTPS (SSL)
+<a id="https"/>
+## ![][img-ssl] [https://][link-tls]
 
-Encrypting your internet traffic helps you maintain privacy.  Make sure your [default search engine][anchor-search-engines] uses SSL, and use [off-the-record messaging][anchor-otr-messaging].
+Encrypting your internet traffic helps you maintain privacy.  
+
+Your browser uses SSL _(Secure Sockets Layer)_ certificates from a trusted authority to verify a website's identity when you connect, and ensure messages you send and receive cannot be read by third parties.
+
+Make sure your [default search engine][anchor-search-engines] uses SSL, and use [off-the-record messaging][anchor-otr-messaging].
 
 [anchor-otr-messaging]: Messaging#wiki-otr-messaging
 [anchor-enigmail]: Email#wiki-enigmail
@@ -101,11 +115,14 @@ Encrypting your internet traffic helps you maintain privacy.  Make sure your [de
 [img-kleopatra]: image/kleopatra.png "Kleopatra"
 [img-pgl]: image/pgl-gui.png "PeerGuardian"
 [img-mintnanny]: image/mintnanny.png "Domain Blocker"
+[img-ssl]: image/ssl.png "SSL / TLS"
 
 [link-github-ssh]: http://help.github.com/linux-set-up-git/
 [link-gpg-walkthrough]: http://arc.apotheon.org/cheats/gpg_quick.html
 [link-mvps]: http://winhelp2002.mvps.org/hosts.htm
 [link-mvps-hosts]: http://winhelp2002.mvps.org/hosts.txt
 [link-password-generator]: http://strongpasswordgenerator.com/
+[link-tls]: http://en.wikipedia.org/wiki/Transport_Layer_Security
+[link-whatismyip]: http://www.whatismyip.com/
 
 [pts-gnupg2]: http://packages.qa.debian.org/g/gnupg2.html "PTS"
