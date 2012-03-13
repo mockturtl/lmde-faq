@@ -1,4 +1,12 @@
-## ![][img-pidgin] [Pidgin][homepage-pidgin]
+[Instant messaging][anchor-instant-messaging] | [IRC][anchor-irc]
+
+[anchor-instant-messaging]: #wiki-instant-messaging
+[anchor-irc]: #wiki-irc
+
+<a id="instant-messaging"/>
+## Instant messaging
+
+### ![][img-pidgin] [Pidgin][homepage-pidgin]
 
 GTK+ interface for **libpurple**, a front-end for instant messaging services.  
 
@@ -60,7 +68,7 @@ Enable _Tools -> Plugins -> Twitgen_.
 
 Add the account (_Accounts -> Manage accounts -> Add_) and follow the instructions to authorize.
 
-## ![][img-empathy] [Empathy][homepage-empathy]
+### ![][img-empathy] [Empathy][homepage-empathy]
 
 GNOME messaging client built on the **Telepathy** framework.
 
@@ -70,13 +78,14 @@ Empathy is available from the debian repositories.
 
 `apt install empathy`
 
-## ![][img-xchat] [XChat][homepage-xchat]
+<a id="irc"/>
+## IRC _(Internet Relay Chat)_
 
-IRC client.
-
-#### Setup
+### ![][img-xchat] [XChat][homepage-xchat]
 
 XChat is installed by default.
+
+#### Setup
 
 _XChat -> Network list -> Linux Mint Server -> Edit_:  
 
