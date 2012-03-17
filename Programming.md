@@ -8,7 +8,7 @@
 
 
 <a id="ide"/>
-## IDE
+## IDE _(Integrated Development Environment)_
 
 ### ![][img-geany] [Geany][homepage-geany]
 
@@ -26,7 +26,7 @@ Geany is available in the debian repositories.
 
 ![][emblem-warn] **This software is not from a trusted repository.  Use it at your own risk.**
 
-[Download][link-idea] the Community Edition.  Unpack the source and link the executable in your PATH.
+[Download][link-idea] the Community Edition.  Unpack the source and symlink the executable.
 
 ````sh
 sudo tar xvzf path/to/downloaded/file.tar.gz /opt/
@@ -70,6 +70,10 @@ set background=dark     # bright colors for a black terminal background
 * [snipMate][link-snipmate]: tab-completed snippets
 
 [community][community-vim]
+
+###### See also
+
+* [gmate][link-gmate]
 
 <a id="virtualization"/>  
 ## Virtualization
@@ -122,7 +126,7 @@ Python is installed by default.  The Python package manager is **pip**.
 <a id="ruby"/>
 ### ![][img-ruby] [Ruby][homepage-ruby]
 
-Ruby modules are called **gems**.  The Ruby package manager is **rubygems**.  Dependencies for a particular app are listed in its `Gemfile`, installed with **bundler**, and executed with **rake**.
+Ruby modules are called **gems**.  The Ruby package manager is [**rubygems**][link-rubygems].  
 
 ##### Setup
 
@@ -308,10 +312,12 @@ SQLite is available in the debian repositories.
 [link-gitcasts]: http://gitcasts.com/
 [link-github]: https://github.com
 [link-github-help]: http://help.github.com/
+[link-gmate]: https://github.com/gmate/gmate
 [link-idea]: http://www.jetbrains.com/idea/download/index.html
 [link-play]: http://www.playframework.org/
 [link-rails]: http://rubyonrails.org/
 [link-ruby-interpreters]: https://rvm.beginrescueend.com/rubies/installing/
+[link-rubygems]: http://rubygems.org/
 [link-rvm]: http://beginrescueend.com/rvm/install/ "Ruby enVironment Manager"
 [link-schacon-git-talk]: https://encrypted.google.com/search?q=scott+chacon+git+talk
 [link-snipmate]: http://www.vim.org/scripts/script.php?script_id=2540
