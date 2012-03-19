@@ -26,9 +26,8 @@ The office suite consists of editors for different kinds of files.
 <a id="text-editor" />
 ## ![][img-text] Text 
 
-The default text editor depends on your desktop.  
+The default text editor depends on your [desktop][anchor-desktop].
 
-Cinnamon and gnome-shell use **gedit**.  Use ![][emblem-mate] **pluma** in MATE, ![][emblem-kde] **kate** in KDE, ![][emblem-lxde] **leafpad** in LXDE, and ![][emblem-xfce] **mousepad** in XFCE.
 
 <a id="notes"/>
 ## Notes
@@ -53,6 +52,7 @@ _Edit -> Preferences -> Synchronization_
 
 [community][community-tomboy]
 
+[anchor-desktop]: Desktop
 [anchor-graphics]: Images#wiki-graphics
 [anchor-ubuntu-one]: File-sharing#wiki-ubuntu-one
 
