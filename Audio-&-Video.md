@@ -69,7 +69,6 @@ Songbird is available in the debian repositories.
 [community][community-songbird]
 
 
-
 <a id="record-audio"/>
 ## Record, mix, and transcode audio
 
@@ -84,6 +83,18 @@ Audacity is available in the debian repositories.
 
 ### ![][img-gnome-sound-recorder] [Sound Recorder][homepage-gnome-sound-recorder]
 Sound Recorder is part of `gnome-media`, and installed by default.  
+
+### ![][img-timidity] [TiMidity++][homepage-timidity]
+
+MIDI sequencer.
+
+#### Setup
+
+`apt install timidity`
+
+Run `timidity -ia` for a graphical interface.
+
+[community][community-timidity]
 
 <a id="voip" />
 ## VOIP, conferencing, and webcam 
@@ -239,6 +250,7 @@ Extract the archive, and run setup.
 [community-rhythmbox]: http://community.linuxmint.com/software/view/rhythmbox
 [community-songbird]: http://community.linuxmint.com/software/view/songbird
 [community-spotify]: http://community.linuxmint.com/software/view/spotify
+[community-timidity]: http://community.linuxmint.com/software/view/timidity
 [community-totem]: http://community.linuxmint.com/software/view/totem
 [community-vlc]: http://community.linuxmint.com/software/view/vlc
 
@@ -264,6 +276,7 @@ Extract the archive, and run setup.
 [homepage-pitivi]: http://www.pitivi.org/ "PiTiVi"
 [homepage-rhythmbox]: http://projects.gnome.org/rhythmbox/ "Rhythmbox"
 [homepage-songbird]: http://getsongbird.com/ "Songbird"
+[homepage-timidity]: http://timidity.sourceforge.net/ "TiMidity"
 [homepage-totem]: http://projects.gnome.org/totem/
 [homepage-vlc]: http://www.videolan.org/vlc/ "VLC"
 
@@ -286,6 +299,7 @@ Extract the archive, and run setup.
 [img-pitivi]: image/pitivi.png "Pitivi"
 [img-rhythmbox]: image/rhythmbox.png "Rhythmbox"
 [img-songbird]: image/songbird.png "Songbird"
+[img-timidity]: image/soundcard.png "TiMidity"
 [img-totem]: image/totem.png "Totem"
 [img-vlc]: image/vlc.png "VLC"
 
