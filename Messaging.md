@@ -47,7 +47,7 @@ Chat, conferencing, and VOIP client.
 
 #### Setup
 
-Skype is available from the linuxmint repositories.
+Skype is available in the linuxmint repositories.
 
 `apt install skype pidgin-skype`
 
@@ -74,9 +74,11 @@ GNOME messaging client built on the **Telepathy** framework.
 
 #### Setup
 
-Empathy is available from the debian repositories.
+Empathy is available in the debian repositories.
 
 `apt install empathy`
+
+[community][community-empathy]
 
 <a id="irc"/>
 ## IRC _(Internet Relay Chat)_
@@ -97,11 +99,10 @@ _XChat -> Network list -> Linux Mint Server -> Edit_:
 
 [anchor-voip]: Audio-&-Video#wiki-voip
 
-[community-xchat]: http://community.linuxmint.com/software/view/xchat
+[community-empathy]: http://community.linuxmint.com/software/view/empathy
 [community-pidgin]: http://community.linuxmint.com/software/view/pidgin
 [community-skype]: http://community.linuxmint.com/software/view/skype
-
-[link-plugin-otr]: http://www.cypherpunks.ca/otr/debian-install/otr-setup.html
+[community-xchat]: http://community.linuxmint.com/software/view/xchat
 
 [homepage-empathy]: http://live.gnome.org/Empathy
 [homepage-pidgin]: http://www.pidgin.im/
@@ -112,3 +113,5 @@ _XChat -> Network list -> Linux Mint Server -> Edit_:
 [img-skype]: image/skype.png "Skype"
 [img-twitter]: image/twitter.png "Twitter"
 [img-xchat]: image/xchat.png "XChat"
+
+[link-plugin-otr]: http://www.cypherpunks.ca/otr/debian-install/otr-setup.html
