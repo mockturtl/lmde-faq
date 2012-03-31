@@ -10,7 +10,7 @@
 
 #### Setup
 
-Shotwell is available from the debian repositories.
+Shotwell is available in the debian repositories.
 
 `apt install shotwell`
 
@@ -20,7 +20,7 @@ Shotwell is available from the debian repositories.
 
 #### Setup
 
-F-Spot is available from the debian repositories.
+F-Spot is available in the debian repositories.
 
 `apt install f-spot`
 
@@ -29,7 +29,7 @@ F-Spot is available from the debian repositories.
 ### ![][img-picasa] [Picasa][homepage-picasa]
 #### Setup
 
-Picasa is available from the debian repositories.
+Picasa is available in the debian repositories.
 
 `apt install picasa`
 
@@ -50,7 +50,7 @@ GIMP is installed by default.
 
 #### Setup
 
-Inkscape is available from the debian repositories.
+Inkscape is available in the debian repositories.
 
 `apt install inkscape`
 
