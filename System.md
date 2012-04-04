@@ -25,13 +25,13 @@ Neal Stephenson, _Cryptonomicon_. 1999.
 
 * Your home directory is `~`, short for `/home/username/`
 * The current directory is `.`
-    * paths are relative to the current directory: `some/nested/folder/` is `./some/nested/folder/`
+    * paths are **relative** to the current directory: `some/nested/folder/` is `./some/nested/folder/`
 * a filename with a trailing slash is a `directory/`
     * it is not required
     * some commands behave differently when you use `directory` and `directory/`
 * The current directory's parent is `..`
 * The top directory is `/` _(filesystem root)_
-    * a path with a leading slash is relative to the filesystem root: `/home/username/some/nested/folder/somefile`
+    * a path with a leading slash is **absolute** (i.e., relative to the filesystem root): `/home/username/some/nested/folder/somefile`
 * Hidden files and directories begin with a dot: `.filename`
 
 <a id="filesystem-commands"/>
@@ -78,20 +78,19 @@ When you press the `tab` key, the shell tries to guess how to complete the state
 
 * `echo`: print a string to the screen, followed by newline character `\n`
 * `cat`: print (con**cat**enate) file contents to the screen
-* `head -n`: print the first lines of a file to the screen
-* `tail -n`: print the last lines of a file to the screen
+* `head -n 1`: print the first line of a file to the screen
+* `tail -n 5`: print the last 5 lines of a file to the screen
     * `tail -f logfile`: stream `logfile` to the screen as it is written (**f**ollow the tail)
     * _use `ctrl+c` to abort_
 * `more`: read contents page by page
     * `spacebar` forward, `q` to quit
 * `less`: read contents page by page
     * `spacebar` forward, `b` backward, `q` to quit
-* `man`: read instructions (**man**ual)
 * `wc`: **w**ord **c**ount; print number of newlines, words, bytes, and characters
 * `tr '[a-z]' '[A-Z]'`: **tr**anslate a string to upper case
 
 ###### Manpages and help
-When you have questions about a command, use `man commandname` to read its documentation.  Some commands use `commandname --help` or `commandname -h`.
+When you have questions about a command, use `man commandname` to read its documentation  (**man**ual).  Some commands use `commandname --help` or `commandname -h`.
 
 ### Advanced commands
 * `find`: recursively search in a directory
@@ -359,10 +358,16 @@ tr '[a-z]' '[A-Z]' 0< numbers  # ONE TWO THREE
 ###### Here documents
 
 * `command <<HERE` reads input line by line, terminating when it finds `HERE`
-    * `<<-HERE` with a hyphen `-` discards tabs
+    * `<<-HERE` with a hyphen `-` discards indentation
     * _the delimiter `HERE` can be any word: `EOF`, `END`, ..._
 
-
+````sh
+tr '[a-z]' '[A-Z]' <<stop
+> first
+> second
+> third
+> stop  # FIRST SECOND THIRD
+````
 
 <a id="network"/>
 ## ![][img-network] Network
@@ -385,7 +390,7 @@ Configure [SSH][anchor-ssh].  You should have an account on each computer.
     * local filesystem is used if either `hostname:` is omitted
         * `rsync -a ~/Pictures /media/mountname`: backup `Pictures` to another hard drive
         * in **a**rchive mode _(**r**ecursive, copy sym**l**inks, preserving **p**ermissions, **t**imestamp, **o**wner and **g**roup)_
-        * ignore warnings if `mountname` is an NTFS partition (no file permissions, etc.)
+        * _ignore warnings if `mountname` is an NTFS partition (no notion of file permissions, etc.)_
 
 Between computers:
 
@@ -404,7 +409,7 @@ Between computers:
 * `curl`
 * [httpie][link-httpie]
     * `sudo pip install -U httpie`  ([setup python][anchor-python])
-
+* `whois`
 
 
 [anchor-python]: Programming#wiki-python
