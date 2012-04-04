@@ -149,7 +149,9 @@ After installation, your `~/.bashrc` should include the following line:
 
 ### ![][img-git] [Git][homepage-git]
 
-To learn how git works, watch Scott Chacon's [talk][link-schacon-git-talk] from RailsConf 2008.  If you're familiar with version control systems, see [Why Git is Better than X][link-whygitisbetterthanx].
+If you're familiar with version control systems, see [Why Git is Better than X][link-whygitisbetterthanx].  Otherwise, you may find Tom Preston-Werner's [Git Parable][link-git-parable] helpful.
+
+To learn how git works, watch Scott Chacon's [talk][link-schacon-git-talk] from RailsConf 2008, and Tom Preston-Werner's "[Mastering Git Basics][link-tpw-git-talk]."  
 
 For tutorials, see [github bootcamp][link-github-help], [gitcasts][link-gitcasts], [Carl Worth's tour][link-cworth-tour], and [git ready][link-git-ready].  Mind best practices for [commits][link-git-commit-messages], [branching][link-git-branching], [rebasing][link-git-rebasing], and [tagging][link-git-tags].
 
@@ -191,9 +193,12 @@ source ~/git-completion.bash  # Git tab completion
 ````
 
 ###### [Syntax note][link-git-revisions]
-There are two commit history operators: the which-parent selector `^` _(caret)_ defaults to `^1`, and is omitted in the ordinary case a commit has only one parent.  The go-back operator `~` _(tilde)_ is read "first parent," or "grassy knoll," and acts like a power function: `A~~~` or `A~3` describes the (leftmost) great-grandparent of `A`.  
 
-The ordering of a commit's parents is taken from the arguments to `merge`.  View them with `show`.  
+There are two commit history operators: the which-parent selector `^` _(caret)_ defaults to `^1`, for the ordinary case a commit has only one parent.  In case of a merge, `^N` indicates which branch to follow.
+
+_The ordering of a commit's parents is taken from the arguments to `merge`.  View them with `show`._
+
+The go-back operator `~` _(tilde)_ is read "first parent," or "grassy knoll," and acts like a power function: `A~~~` or `A~3` describes the (leftmost) great-grandparent of `A`.  
 
 Operators compose left-to-right by walking the tree.
 
@@ -305,6 +310,7 @@ SQLite is available in the debian repositories.
 [link-git-branching]: http://blog.hasmanythrough.com/2008/12/18/agile-git-and-the-story-branch-pattern
 [link-git-commit-messages]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 [link-git-completion]: https://raw.github.com/git/git/master/contrib/completion/git-completion.bash
+[link-git-parable]: http://tom.preston-werner.com/2009/05/19/the-git-parable.html
 [link-git-ready]: http://gitready.com/
 [link-git-rebasing]: http://reinh.com/blog/2009/03/02/a-git-workflow-for-agile-teams.html
 [link-git-revisions]: http://schacon.github.com/git/git-rev-parse.html#_specifying_revisions
@@ -321,4 +327,5 @@ SQLite is available in the debian repositories.
 [link-rvm]: http://beginrescueend.com/rvm/install/ "Ruby enVironment Manager"
 [link-schacon-git-talk]: https://encrypted.google.com/search?q=scott+chacon+git+talk
 [link-snipmate]: http://www.vim.org/scripts/script.php?script_id=2540
+[link-tpw-git-talk]: http://vimeo.com/17118008
 [link-whygitisbetterthanx]: http://whygitisbetterthanx.com/
