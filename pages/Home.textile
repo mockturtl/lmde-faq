@@ -1,6 +1,6 @@
 h2. "The Green Spiral 'Cyclopedia":http://linuxmint.com/  
 
-[[image/debian_Mint_120.png|float|align=right]] This is a wiki for Linux Mint Debian (LMDE(Linux Mint Debian Edition)).
+[[/image/debian_Mint_120.png|float|align=right]] This is a wiki for Linux Mint Debian (LMDE(Linux Mint Debian Edition)).
 
 h3. The GNU/Linux operating system
 
