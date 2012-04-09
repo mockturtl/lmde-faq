@@ -14,7 +14,7 @@ It is a long established fact that a reader will be distracted by the readable c
 
 h3. Frequently Asked Questions
 
-# *Why do some pages say this?* !image/emblem-warn.png(Warning)! _"This software is not from a trusted repository.  Use it at your own risk."_
+# *Why do some pages say this?* !/image/emblem-warn.png(Warning)! _"This software is not from a trusted repository.  Use it at your own risk."_
 
 bq. You can reasonably expect popular open source and free software not to be malicious.  This does not guarantee security, stability, or compatibility with the rest of the operating system.  The software may be "DFSG(Debian Free Software Guidelines)":http://www.debian.org/doc/debian-policy/ch-archive.html#s-dfsg incompatible, that is, neither free nor open source.  Ask the maintainers of your distribution to consider adding this program, or packaging a newer version.
 
