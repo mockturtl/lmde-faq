@@ -1,7 +1,10 @@
-[Thunderbird][anchor-thunderbird]
+[Thunderbird][anchor-thunderbird] | [Evolution][anchor-evolution] | [Kontact][anchor-kontact]
 
 [anchor-thunderbird]: #wiki-thunderbird
+[anchor-evolution]: #wiki-evolution
+[anchor-kontact]: #wiki-kontact
 
+An email program typically includes components to manage an address book (contacts) and calendar (notes, tasks).
 
 <a id="thunderbird"/>
 ## ![][img-thunderbird-logo]  [Thunderbird][homepage-thunderbird] 
@@ -45,14 +48,31 @@ Add-ons are installed through the menu. (_Tools -> Add-ons_)
 [community][community-thunderbird]
 
 
-[anchor-encryption]: Security#wiki-encryption
+<a id="evolution"/>
+## ![][img-evolution] [Evolution][homepage-evolution]
 
+[community][community-evolution]
+
+<a id="kontact"/>
+## ![][img-kontact] ![][emblem-kde] [Kontact][homepage-kontact]
+
+[community][community-kontact]
+
+
+[anchor-encryption]: Security#wiki-encryption
+[community-evolution]: http://community.linuxmint.com/software/view/evolution
+[community-kontact]: http://community.linuxmint.com/software/view/kontact
 [community-thunderbird]: http://community.linuxmint.com/software/view/thunderbird
 
+[emblem-kde]: image/boston.png "KDE"
 [emblem-warn]: image/emblem-warn.png "Warning!"
 
+[homepage-evolution]: http://projects.gnome.org/evolution/ "Evolution"
+[homepage-kontact]: http://userbase.kde.org/Kontact "Kontact"
 [homepage-thunderbird]: http://www.mozilla.org/thunderbird "Mozilla Thunderbird"
 
+[img-evolution]: image/evolution.png "Evolution"
+[img-kontact]: image/kontact.png "Kontact"
 [img-thunderbird-logo]: image/thunderbird.png "Mozilla Thunderbird"
 
 [link-thunderbird-alpha]: http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-earlybird/
