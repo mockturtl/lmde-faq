@@ -1,8 +1,9 @@
-[LibreOffice][anchor-libreoffice] | [Text][anchor-text-editor] | [Notes][anchor-notes]  
+[LibreOffice][anchor-libreoffice] | [Text][anchor-text-editor] | [Notes][anchor-notes] | [PDF][anchor-pdf]
 
 [anchor-libreoffice]: #wiki-libreoffice
 [anchor-text-editor]: #wiki-text-editor
 [anchor-notes]: #wiki-notes
+[anchor-pdf]: #wiki-pdf
 
 <a id="libreoffice"/>
 ## ![][img-libreoffice] [LibreOffice][homepage-libreoffice]
@@ -52,6 +53,20 @@ _Edit -> Preferences -> Synchronization_
 
 [community][community-tomboy]
 
+### See also  
+[[Email]]
+
+<a id="pdf"/>
+## [PDF][link-pdf-viewers]  
+
+### ![][img-evince] [Evince][homepage-okular]
+
+[community][community-evince]
+
+### ![][img-okular] ![][emblem-kde] [Okular][homepage-okular]
+
+[community][community-okular]
+
 [anchor-desktop]: Desktop
 [anchor-graphics]: Images#wiki-graphics
 [anchor-ubuntu-one]: File-sharing#wiki-ubuntu-one
@@ -61,12 +76,18 @@ _Edit -> Preferences -> Synchronization_
 [emblem-mate]: image/emblem-mate.png "MATE"
 [emblem-xfce]: image/emblem-xfce.png "XFCE"
 
-[community-tomboy]: http://community.linuxmint.com/software/view/tomboy
+[community-evince]: http://community.linuxmint.com/software/view/evince
 [community-libreoffice]: http://community.linuxmint.com/software/view/libreoffice
+[community-okular]: http://community.linuxmint.com/software/view/okular
+[community-tomboy]: http://community.linuxmint.com/software/view/tomboy
 
+[homepage-evince]: http://projects.gnome.org/evince/ 
 [homepage-libreoffice]: http://www.libreoffice.org/
+[homepage-okular]: http://okular.kde.org/
 [homepage-tomboy]: http://projects.gnome.org/tomboy/
 
+[img-evince]: image/evince.png "Evince"
+[img-okular]: image/okular.png "Okular"
 [img-libreoffice]: image/libreoffice-main.png "LibreOffice"
 [img-libreoffice-base]: image/libreoffice-base.png "Base"
 [img-libreoffice-calc]: image/libreoffice-calc.png "Calc"
@@ -77,4 +98,5 @@ _Edit -> Preferences -> Synchronization_
 [img-text]: image/accessories-text-editor.png "Text Editor"
 [img-tomboy]: image/tomboy.png "Tomboy"
 
+[link-pdf-viewers]: http://en.wikipedia.org/wiki/List_of_PDF_software#Viewers_3
 [link-tomboy-plugins]: http://live.gnome.org/Tomboy/PluginList
