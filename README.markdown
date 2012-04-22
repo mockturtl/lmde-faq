@@ -1,5 +1,4 @@
 # lmde-faq
-[![Build Status](https://secure.travis-ci.org/mockturtl/lmde-faq.png?branch=master)](http://travis-ci.org/mockturtl/lmde-faq) 
 [![Dependency Status](https://gemnasium.com/mockturtl/lmde-faq.png)](https://gemnasium.com/mockturtl/lmde-faq)
 
 Unofficial wiki for Linux Mint Debian Edition.
