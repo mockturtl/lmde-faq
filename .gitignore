@@ -3,6 +3,7 @@ _site/
 *.sh
 .bundle/
 log/*.log
+bin/
 
 css/
 javascript/
