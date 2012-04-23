@@ -6,7 +6,7 @@
 [anchor-opera]: #wiki-opera
 
 
-<a id="Firefox"/>
+<a name="Firefox"/>
 ## ![][img-firefox] [Firefox][homepage-firefox]
 
 Firefox is installed by default.
@@ -44,7 +44,7 @@ Firefox can update itself via the menu. (_Help -> About Firefox_)
 
 [community][community-firefox]
 
-<a id="Chromium"/>
+<a name="Chromium"/>
 ## ![][img-chromium] [Chromium][homepage-chromium]
 
 #### Setup
@@ -55,7 +55,7 @@ Chromium is available in the debian repositories.
 
 [community][community-chromium]
 
-<a id="google-chrome"/>
+<a name="google-chrome"/>
 ## ![][img-chrome] [Google Chrome][homepage-google-chrome]
 
 ### [Latest][link-chrome-landing]
@@ -76,7 +76,7 @@ Chromium is available in the debian repositories.
 
 Chrome creates an entry for google's repository in **/etc/apt/sources.list.d/**.
 
-<a id="opera"/>
+<a name="opera"/>
 ## ![][img-opera] [Opera][homepage-opera]
 
 #### Setup

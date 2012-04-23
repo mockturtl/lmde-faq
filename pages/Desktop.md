@@ -9,7 +9,7 @@ An [integrated collection][link-desktop-environments] of programs and software l
 
 A core component of a desktop is its **[window manager][link-window-manager]**, the program responsible (in conjunction with the [X Window System][link-window-system]) for drawing the screen.
 
-<a id="gnome"/>
+<a name="gnome"/>
 ## ![][img-gnome] [GNOME][homepage-gnome]
 
 Uses the [GTK+][homepage-gtk] framework.
@@ -50,7 +50,7 @@ Default configuration uses top and bottom panels.
 
 MATE applications will be decorated with the ![][emblem-mate] logo.
 
-<a id="kde"/>
+<a name="kde"/>
 ## ![][img-kde] [KDE][homepage-kde]
 
 3D accelerated.  Uses the [Qt][homepage-qt] framework.  
@@ -65,7 +65,7 @@ Default configuration uses a bottom panel and desktop widgets.
 
 KDE applications will be decorated with the ![][emblem-kde] logo.
 
-<a id="lxde"/>
+<a name="lxde"/>
 ## ![][img-lxde] [LXDE][homepage-lxde] 
 
 Lightweight.  Default configuration uses a bottom panel.
@@ -78,7 +78,7 @@ Lightweight.  Default configuration uses a bottom panel.
 
 LXDE applications will be decorated with the ![][emblem-lxde] logo.
 
-<a id="xfce"/>
+<a name="xfce"/>
 ## ![][img-xfce] [XFCE][homepage-xfce]
 
 Lightweight.  Default configuration uses a bottom panel.

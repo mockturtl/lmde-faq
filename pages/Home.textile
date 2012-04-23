@@ -18,6 +18,6 @@ h3. Frequently Asked Questions
 
 bq. You can reasonably expect popular open source and free software not to be malicious.  This does not guarantee security, stability, or compatibility with the rest of the operating system.  The software may be "DFSG(Debian Free Software Guidelines)":http://www.debian.org/doc/debian-policy/ch-archive.html#s-dfsg incompatible, that is, neither free nor open source.  Ask the maintainers of your distribution to consider adding this program, or packaging a newer version.
 
-<a id="source"/>
+<a name="source"/>
 
 h6. "Source":https://github.com/mockturtl/lmde-faq | [[About]] | [[Changelog]]

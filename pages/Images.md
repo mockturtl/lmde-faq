@@ -3,7 +3,7 @@
 [anchor-photographs]: #wiki-photographs
 [anchor-graphics]: #wiki-graphics
 
-<a id="photographs"/>
+<a name="photographs"/>
 ## Photographs
 
 ### ![][img-shotwell] [Shotwell][homepage-shotwell]
@@ -35,7 +35,7 @@ Picasa is available in the debian repositories.
 
 [community][community-picasa]
 
-<a id="graphics"/>
+<a name="graphics"/>
 ## Graphics
 
 ### ![][img-gimp] [GIMP][homepage-gimp]

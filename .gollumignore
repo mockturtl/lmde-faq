@@ -1,4 +1,6 @@
+bin/
+log/
 *.tmp
 Gemfile*
 README*
-UNLICENSE
+LICENSE

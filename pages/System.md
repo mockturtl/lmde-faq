@@ -7,7 +7,7 @@
 [anchor-updates]: #wiki-updates
 [anchor-users-and-groups]: #wiki-users-and-groups
 
-<a id="terminal"/>
+<a name="terminal"/>
 ## ![][img-terminal] Terminal
 
 ###### `IN THE BEGINNING... WAS THE COMMAND LINE`
@@ -20,7 +20,7 @@ Adapted from the [The 5-Minute Essential Shell Tutorial][link-five-minute-essent
 
 Neal Stephenson, _Cryptonomicon_. 1999.
 
-<a id="filesystem"/>
+<a name="filesystem"/>
 ### Filesystem
 
 * Your home directory is `~`, short for `/home/username/`
@@ -34,7 +34,7 @@ Neal Stephenson, _Cryptonomicon_. 1999.
     * a path with a leading slash is **absolute** (i.e., relative to the filesystem root): `/home/username/some/nested/folder/somefile`
 * Hidden files and directories begin with a dot: `.filename`
 
-<a id="filesystem-commands"/>
+<a name="filesystem-commands"/>
 ### Filesystem commands
 
 ###### Options
@@ -125,7 +125,7 @@ Historically, cassette tapes were used for backups.  _Hyphens `-` are optional f
    * `tar czf output.tar.gz directory/` **c**reate and g**z**ip an archive named `output.tar.gz` from `directory/`
 
 
-<a id="filesystem-permissions"/>
+<a name="filesystem-permissions"/>
 ## File permissions
 
 ###### See also 
@@ -191,7 +191,7 @@ chmod 764 foo  # -rwxrw-r--
 
 
 
-<a id="users-and-groups"/>
+<a name="users-and-groups"/>
 ## Users and groups
 
 ### User commands
@@ -201,7 +201,7 @@ chmod 764 foo  # -rwxrw-r--
 * `cat /etc/passwd`: show all users
 * `cat /etc/group`: show all groups
 
-<a id="updates"/>
+<a name="updates"/>
 ## ![][img-updates] Updates
 
 ### Repositories
@@ -259,7 +259,7 @@ Graphical installer for `.deb` files.
 Command-line tool for installing `.deb` files.
 
 
-<a id="tools"/>
+<a name="tools"/>
 ## ![][img-tools] Tools
 
 ### Pipes 
@@ -369,7 +369,7 @@ tr '[a-z]' '[A-Z]' <<stop
 > stop  # FIRST SECOND THIRD
 ````
 
-<a id="network"/>
+<a name="network"/>
 ## ![][img-network] Network
 
 ### Network commands

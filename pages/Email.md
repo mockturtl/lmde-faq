@@ -6,7 +6,7 @@
 
 An email program typically includes components to manage an address book (contacts) and calendar (notes, tasks).
 
-<a id="thunderbird"/>
+<a name="thunderbird"/>
 ## ![][img-thunderbird-logo]  [Thunderbird][homepage-thunderbird] 
 
 ### Latest
@@ -42,18 +42,18 @@ Add-ons are installed through the menu. (_Tools -> Add-ons_)
  **TODO**
 
 * Lightning: calendar & events
-<a id="enigmail"/>
+<a name="enigmail"/>
 * Enigmail: PGP encryption ([also here][anchor-encryption])
 
 [community][community-thunderbird]
 
 
-<a id="evolution"/>
+<a name="evolution"/>
 ## ![][img-evolution] [Evolution][homepage-evolution]
 
 [community][community-evolution]
 
-<a id="kontact"/>
+<a name="kontact"/>
 ## ![][img-kontact] ![][emblem-kde] [Kontact][homepage-kontact]
 
 [community][community-kontact]

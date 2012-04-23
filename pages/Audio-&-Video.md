@@ -8,7 +8,7 @@
 [anchor-burn-cd]: #wiki-burn-cd
 [anchor-screen-capture]: #wiki-screen-capture
 
-<a id="podcast-mp3"/>
+<a name="podcast-mp3"/>
 ## Podcast and mp3 library
 
 ### ![][img-amarok]![KDE][emblem-kde] [Amarok][homepage-amarok]
@@ -22,7 +22,7 @@ Amarok is available in the debian repositories.
 
 
 
-<a id="banshee"/>
+<a name="banshee"/>
 ### ![][img-banshee] [Banshee][homepage-banshee]  
 
 Banshee is installed by default.  
@@ -69,7 +69,7 @@ Songbird is available in the debian repositories.
 [community][community-songbird]
 
 
-<a id="record-audio"/>
+<a name="record-audio"/>
 ## Record, mix, and transcode audio
 
 ### ![][img-audacity] [Audacity][homepage-audacity]
@@ -96,7 +96,7 @@ Run `timidity -ia` for a graphical interface.
 
 [community][community-timidity]
 
-<a id="voip" />
+<a name="voip" />
 ## VOIP, conferencing, and webcam 
 
 ### ![][img-mumble] [Mumble][homepage-mumble]
@@ -139,7 +139,7 @@ GTK+ UVC Viewer is available in the debian repositories.
 [Skype][anchor-skype]
 
 
-<a id="watch-movies"/>
+<a name="watch-movies"/>
 ## Watch movies
 
 ### ![][img-vlc] [VLC][homepage-vlc]
@@ -166,7 +166,7 @@ Minitube is available in the debian repositories.
 
 [community][community-minitube]
 
-<a id="edit-video"/>
+<a name="edit-video"/>
 ## Edit and transcode video
 
 ### ![][img-openshot] [Openshot][homepage-openshot]
@@ -189,7 +189,7 @@ PiTiVi is available in the debian repositories.
 [community][community-pitivi]
 
 
-<a id="burn-cd"/>
+<a name="burn-cd"/>
 ## Rip, burn to CD and DVD
 
 ### ![][img-brasero] [Brasero][homepage-brasero]
@@ -215,7 +215,7 @@ Acidrip is available from the project homepage.
 [community][community-acidrip]
 
 
-<a id="screen-capture"/>
+<a name="screen-capture"/>
 ## Screen capture, desktop recording
 
 ### ![][img-kazam] [Kazam][homepage-kazam]

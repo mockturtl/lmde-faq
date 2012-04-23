@@ -5,7 +5,7 @@
 [anchor-notes]: #wiki-notes
 [anchor-pdf]: #wiki-pdf
 
-<a id="libreoffice"/>
+<a name="libreoffice"/>
 ## ![][img-libreoffice] [LibreOffice][homepage-libreoffice]
 
 The office suite consists of editors for different kinds of files.
@@ -24,16 +24,16 @@ The office suite consists of editors for different kinds of files.
 
 [community][community-libreoffice]
 
-<a id="text-editor" />
+<a name="text-editor" />
 ## ![][img-text] Text 
 
 The default text editor depends on your [desktop][anchor-desktop].
 
 
-<a id="notes"/>
+<a name="notes"/>
 ## Notes
 
-<a id="tomboy"/>
+<a name="tomboy"/>
 ### ![][img-tomboy] [Tomboy][homepage-tomboy] 
 
 #### Setup
@@ -56,7 +56,7 @@ _Edit -> Preferences -> Synchronization_
 ### See also  
 [[Email]]
 
-<a id="pdf"/>
+<a name="pdf"/>
 ## [PDF][link-pdf-viewers]  
 
 ### ![][img-evince] [Evince][homepage-okular]

@@ -1,3 +1,9 @@
 *.tmp
 _site/
 *.sh
+.bundle/
+log/*.log
+
+css/
+javascript/
+_Layout.html

@@ -7,7 +7,7 @@
 [anchor-source-control]: #wiki-source-control
 
 
-<a id="ide"/>
+<a name="ide"/>
 ## IDE _(Integrated Development Environment)_
 
 ### ![][img-geany] [Geany][homepage-geany]
@@ -75,7 +75,7 @@ set background=dark     # bright colors for a black terminal background
 
 * [gmate][link-gmate]
 
-<a id="virtualization"/>  
+<a name="virtualization"/>  
 ## Virtualization
 
 ### ![][img-virtualbox] [Virtualbox][homepage-virtualbox]
@@ -88,10 +88,10 @@ set background=dark     # bright colors for a black terminal background
 
 ##### Setup
 
-<a id="languages" />
+<a name="languages" />
 ## Languanges
 
-<a id="java" />
+<a name="java" />
 ### ![][img-java] [Java][homepage-java] 
 
 ##### Setup
@@ -110,7 +110,7 @@ export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-i386 # Or openjdk-amd64
 
 * [Play][link-play], a framework for web applications
 
-<a id="python" />
+<a name="python" />
 ### ![][img-python] [Python][homepage-python] 
 
 ##### Setup
@@ -123,7 +123,7 @@ Python is installed by default.  The Python package manager is **pip**.
 
 * [Django][link-django], a framework for web applications
 
-<a id="ruby"/>
+<a name="ruby"/>
 ### ![][img-ruby] [Ruby][homepage-ruby]
 
 Ruby modules are called **gems**.  The Ruby package manager is [**rubygems**][link-rubygems].  
@@ -144,7 +144,7 @@ After installation, your `~/.bashrc` should include the following line:
 
 * [Rails][link-rails], a framework for web applications
 
-<a id="source-control"/>
+<a name="source-control"/>
 ## Version / Revision / Source control
 
 ### ![][img-git] [Git][homepage-git]
@@ -225,7 +225,7 @@ I = F^   = B^3^    = A^^3^
 J = F^2  = B^3^2   = A^^3^2
 ````
 
-<a id="subversion" />
+<a name="subversion" />
 ### ![][img-subversion] [Subversion][homepage-subversion] 
 
 Subversion is available in the debian repositories.
@@ -235,7 +235,7 @@ Subversion is available in the debian repositories.
 
 
 
-<a id="databases"/>
+<a name="databases"/>
 ## Databases
 
 ### ![][img-mysql] [MySQL][homepage-mysql]

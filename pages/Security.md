@@ -6,7 +6,7 @@
 [anchor-https]: #wiki-https
 
 
-<a id="encryption" />
+<a name="encryption" />
 ## File encryption
 
 ### ![][img-gpg] [GnuPG][homepage-gnupg]
@@ -27,7 +27,7 @@ GnuPG is [available][pts-gnupg2] in the debian repositories.  It will be install
 
 A walkthrough is available [here][link-gpg-walkthrough].  The [Enigmail][anchor-enigmail] plugin for Thunderbird also has a nice wizard.
 
-<a id="ssh"/>
+<a name="ssh"/>
 ## ![][img-gnome-terminal] SSH _(Secure Shell)_
 
 Remote login through the terminal.  
@@ -62,7 +62,7 @@ UsePAM no
 
 Your public key also identifies your computer to services built on SSH, like [github][link-github-ssh] (see "Set Up SSH Keys").
 
-<a id="ip-blacklist"/>
+<a name="ip-blacklist"/>
 ## IP blacklist
 
 ### ![][img-mintnanny] /etc/hosts _(hosts file)_
@@ -77,7 +77,7 @@ Links can be redirected to the machine's own address, resulting in a harmless "f
 
 Linux is not vulnerable to Windows malware, but you may still want to blacklist malicious websites.  Append [this list][link-mvps-hosts] to **/etc/hosts**.  Remove the first two entries: _localhost_ is already correctly defined for IPv4 and IPv6.
 
-<a id="peerguardian"/>
+<a name="peerguardian"/>
 ### ![][img-pgl] [PeerGuardian][homepage-pgl] 
 
 Firewall manager.  Uses blacklists to prevent incoming and outgoing connections by IP or port number.
@@ -90,7 +90,7 @@ You will probably find the lists too aggressive: when you seem to have network p
 
 PeerGuardian is available from the project homepage.
 
-<a id="https"/>
+<a name="https"/>
 ## ![][img-ssl] [https://][link-tls]
 
 Encrypting your internet traffic helps you maintain privacy.  

@@ -3,7 +3,7 @@
 [anchor-instant-messaging]: #wiki-instant-messaging
 [anchor-irc]: #wiki-irc
 
-<a id="instant-messaging"/>
+<a name="instant-messaging"/>
 ## Instant messaging
 
 ### ![][img-pidgin] [Pidgin][homepage-pidgin]
@@ -33,14 +33,14 @@ _Accounts -> Manage Accounts -> Modify_
 
 ###### Plugins
 
-<a id="otr-messaging"/>
+<a name="otr-messaging"/>
 
 * [Off-the-Record][link-plugin-otr]  
     * `apt install pidgin-otr`
 
 [community][community-pidgin]
 
-<a id="skype" />
+<a name="skype" />
 ### ![Skype][img-skype] Skype 
 
 Chat, conferencing, and VOIP client.
@@ -80,7 +80,7 @@ Empathy is available in the debian repositories.
 
 [community][community-empathy]
 
-<a id="irc"/>
+<a name="irc"/>
 ## IRC _(Internet Relay Chat)_
 
 ### ![][img-xchat] [XChat][homepage-xchat]

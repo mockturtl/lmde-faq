@@ -2,7 +2,7 @@
 
 [anchor-brother]: #wiki-brother
 
-<a id="brother"/>
+<a name="brother"/>
 ## ![][img-printer] Brother
 
 ### [Printer drivers][brother-drv-lpr]

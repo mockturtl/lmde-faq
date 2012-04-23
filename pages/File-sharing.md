@@ -6,7 +6,7 @@
 [anchor-torrents]: #wiki-torrents
 
 
-<a id="torrents"/>
+<a name="torrents"/>
 ## Torrents
 
 ### ![][img-transmission] [Transmission][homepage-transmission]
@@ -45,7 +45,7 @@ python Tribler/Main/tribler.py
 
 [Peerguardian][anchor-peerguardian]
 
-<a id="cloud-storage"/>
+<a name="cloud-storage"/>
 ## Cloud storage
 
 Backup your files on a remote server and access them from anywhere.
@@ -78,28 +78,28 @@ Meiga is available in the linuxmint repositories.
 
 `apt install meiga`
 
-<a id="ubuntu-one" />
+<a name="ubuntu-one" />
 ### ![][img-ubuntu-one] [Ubuntu One][homepage-ubuntu-one]
 
 Clients are available for Windows, Ubuntu, Android, iOS, and the web.  
 
 Integrates with desktop apps like [Tomboy][anchor-tomboy] and [Banshee][anchor-banshee] for certain kinds of files (notes, music, contacts).
 
-<a id="ftp"/>
+<a name="ftp"/>
 ## FTP
 
 ### ![][img-filezilla] [Filezilla][homepage-filezilla]
 
 [community][community-filezilla]
 
-<a id="local-network"/>
+<a name="local-network"/>
 ## ![][img-network] Local network
 
 ### [Samba][homepage-samba]
 
 #### Setup
 
-<a id="see-also"/>
+<a name="see-also"/>
 ## See also
 * [Opera Unite][anchor-opera]
 * [[Email]]
