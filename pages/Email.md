@@ -12,7 +12,7 @@ An email program typically includes components to manage an address book (contac
 ### Latest
 * [32-bit][link-thunderbird-x86-latest]
 * [64-bit][link-thunderbird-amd64-latest]
-* Beta (these links will go out of date quickly; compare to the highest [version number][link-thunderbird-nightly] available)
+* Beta (these links will go out of date quickly; compare to the highest [version number][link-thunderbird-tracking] available)
     * [32-bit][link-thunderbird-x86-beta]
     * [64-bit][link-thunderbird-amd64-beta] 
 * [Earlybird][link-thunderbird-alpha] (alpha)
@@ -81,3 +81,4 @@ Add-ons are installed through the menu. (_Tools -> Add-ons_)
 [link-thunderbird-x86-latest]: http://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/latest/linux-i686/en-US/
 [link-thunderbird-amd64-latest]: http://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/latest/linux-x86_64/en-US/
 [link-thunderbird-nightly]: http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/
+[link-thunderbird-tracking]: https://wiki.mozilla.org/Features/Thunderbird_Release_Tracking

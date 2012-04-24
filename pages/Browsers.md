@@ -19,7 +19,7 @@ TODO: instructions for adding Mint CSE's (links are empty php files?)
 
 * [32-bit][link-firefox-x86-latest]
 * [64-bit][link-firefox-amd64-latest]
-* Beta (these links will go out of date quickly; compare to the highest [version number][link-firefox-releases] available) 
+* Beta (these links will go out of date quickly; compare to the highest [version number][link-firefox-tracking] available) 
     * [32-bit][link-firefox-x86-beta]
     * [64-bit][link-firefox-x86-beta]
 * [Aurora][link-firefox-aurora] (alpha)
@@ -101,6 +101,7 @@ Opera is available in the linuxmint repositories.
 [link-firefox-amd64-beta]: ftp://ftp.mozilla.org/pub/firefox/releases/11.0b5/linux-x86_64/en-US/ "Firefox beta"
 [link-firefox-aurora]: http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla-aurora/ "Firefox Aurora"
 [link-firefox-releases]: ftp://ftp.mozilla.org/pub/firefox/releases/
+[link-firefox-tracking]: https://wiki.mozilla.org/Features/Release_Tracking
 
 [community-chromium]: http://community.linuxmint.com/software/view/chromium-browser
 [community-firefox]: http://community.linuxmint.com/software/view/firefox
