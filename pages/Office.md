@@ -29,6 +29,10 @@ The office suite consists of editors for different kinds of files.
 
 The default text editor depends on your [desktop][anchor-desktop].
 
+###### plugins
+
+
+* [Gedit][homepage-gedit-plugins] `apt install gedit-plugins`
 
 <a name="notes"/>
 ## Notes
@@ -82,6 +86,7 @@ _Edit -> Preferences -> Synchronization_
 [community-tomboy]: http://community.linuxmint.com/software/view/tomboy
 
 [homepage-evince]: http://projects.gnome.org/evince/ 
+[homepage-gedit-plugins]: http://live.gnome.org/Gedit/Plugins
 [homepage-libreoffice]: http://www.libreoffice.org/
 [homepage-okular]: http://okular.kde.org/
 [homepage-tomboy]: http://projects.gnome.org/tomboy/
